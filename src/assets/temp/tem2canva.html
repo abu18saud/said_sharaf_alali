@@ -1,0 +1,937 @@
+
+
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أشرف أحمد العلي - السيرة الذاتية</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 30px rgba(0,0,0,0.1);
+        }
+
+        /* Header */
+        .header {
+            background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+            position: relative;
+        }
+
+        .profile-img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            background: #3498db;
+            margin: 0 auto 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            border: 5px solid white;
+        }
+
+        .header h1 {
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+
+        .job-titles {
+            font-size: 1.1rem;
+            opacity: 0.9;
+            max-width: 800px;
+            margin: 0 auto;
+            animation: fadeInOut 8s infinite;
+        }
+
+        @keyframes fadeInOut {
+            0%, 20% { opacity: 1; }
+            25%, 95% { opacity: 0.7; }
+            100% { opacity: 1; }
+        }
+
+        /* Language Toggle */
+        .lang-toggle {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            background: rgba(255,255,255,0.2);
+            border: 2px solid white;
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .lang-toggle:hover {
+            background: white;
+            color: #2c3e50;
+        }
+
+        /* Navigation */
+        .nav {
+            background: #34495e;
+            padding: 1rem 0;
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+
+        .nav ul {
+            list-style: none;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 2rem;
+            padding: 0 2rem;
+        }
+
+        .nav a {
+            color: white;
+            text-decoration: none;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            transition: all 0.3s ease;
+            font-weight: 500;
+        }
+
+        .nav a:hover, .nav a.active {
+            background: #3498db;
+            transform: translateY(-2px);
+        }
+
+        /* Sections */
+        .section {
+            padding: 3rem 2rem;
+            border-bottom: 1px solid #eee;
+        }
+
+        .section:last-child {
+            border-bottom: none;
+        }
+
+        .section h2 {
+            font-size: 2rem;
+            color: #2c3e50;
+            margin-bottom: 2rem;
+            text-align: center;
+            position: relative;
+        }
+
+        .section h2::after {
+            content: '';
+            width: 50px;
+            height: 3px;
+            background: #3498db;
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+        }
+
+        /* About Section */
+        .about-content {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .job-rotation {
+            font-size: 1.2rem;
+            color: #3498db;
+            font-weight: 600;
+            margin-bottom: 2rem;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .description {
+            font-size: 1.1rem;
+            line-height: 1.8;
+            color: #555;
+        }
+
+        .highlight-points {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+        }
+
+        .highlight-point {
+            background: #f8f9fa;
+            padding: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #3498db;
+            transition: transform 0.3s ease;
+        }
+
+        .highlight-point:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        /* Experience Section */
+        .experience-item {
+            background: #f8f9fa;
+            padding: 2rem;
+            margin-bottom: 1.5rem;
+            border-radius: 10px;
+            border-left: 4px solid #e74c3c;
+        }
+
+        /* Education Section */
+        .education-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+            margin-top: 2rem;
+        }
+
+        .education-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid #27ae60;
+            transition: transform 0.3s ease;
+        }
+
+        .education-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .education-card h3 {
+            color: #27ae60;
+            margin-bottom: 1rem;
+        }
+
+        .education-details {
+            color: #666;
+            font-size: 0.9rem;
+        }
+
+        /* Gallery Section */
+        .gallery-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .filter-btn {
+            background: #ecf0f1;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 25px;
+            cursor: pointer;
+            transition: all 0.3s ease;
+        }
+
+        .filter-btn.active, .filter-btn:hover {
+            background: #3498db;
+            color: white;
+        }
+
+        .gallery-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 1rem;
+        }
+
+        .gallery-item {
+            aspect-ratio: 1;
+            background: #ecf0f1;
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            transition: transform 0.3s ease;
+            cursor: pointer;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+        }
+
+        /* Achievements Section */
+        .achievements-filters {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 2rem;
+        }
+
+        .achievements-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 2rem;
+        }
+
+        .achievement-card {
+            background: #f8f9fa;
+            padding: 2rem;
+            border-radius: 10px;
+            border-left: 4px solid #f39c12;
+            transition: transform 0.3s ease;
+        }
+
+        .achievement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+        }
+
+        .achievement-icon {
+            width: 60px;
+            height: 60px;
+            background: #f39c12;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 1.5rem;
+            margin-bottom: 1rem;
+        }
+
+        .achievement-card h4 {
+            color: #f39c12;
+            margin-bottom: 0.5rem;
+        }
+
+        .achievement-date {
+            color: #666;
+            font-size: 0.9rem;
+            font-style: italic;
+        }
+
+        .view-details {
+            background: #3498db;
+            color: white;
+            border: none;
+            padding: 0.5rem 1rem;
+            border-radius: 5px;
+            cursor: pointer;
+            margin-top: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .view-details:hover {
+            background: #2980b9;
+        }
+
+        /* Footer */
+        .footer {
+            background: #2c3e50;
+            color: white;
+            text-align: center;
+            padding: 2rem;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .nav ul {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+            
+            .header h1 {
+                font-size: 2rem;
+            }
+            
+            .section {
+                padding: 2rem 1rem;
+            }
+            
+            .lang-toggle {
+                position: static;
+                margin-bottom: 1rem;
+            }
+        }
+
+        /* Hidden class for language switching */
+        .hidden {
+            display: none;
+        }
+
+        /* English styles */
+        body.en {
+            direction: ltr;
+        }
+
+        body.en .lang-toggle {
+            left: auto;
+            right: 20px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <button class="lang-toggle" onclick="toggleLanguage()">
+                <span class="ar-text">English</span>
+                <span class="en-text hidden">العربية</span>
+            </button>
+            
+            <div class="profile-img">👤</div>
+            
+            <h1>
+                <span class="ar-text">أشرف أحمد العلي</span>
+                <span class="en-text hidden">Ashraf Ahmed Al-Ali</span>
+            </h1>
+            
+            <div class="job-titles">
+                <span class="ar-text">العلاقات العامة والتواصل المؤسسي • متخصص التسويق والاستثمار الرياضي • ممثل العلاقات العامة لدى شركة الأحساء للسياحة والترفيه • عضو مجلس إدارة جمعية سند للمسؤولية الاجتماعية • مدير العلاقات العامة والتواصل المؤسسي في جمعية سند</span>
+                <span class="en-text hidden">Public Relations & Corporate Communication • Sports Marketing & Investment Specialist • Public Relations Representative at Al-Ahsa Tourism & Entertainment Company • Board Member of Sanad Social Responsibility Association • Public Relations & Corporate Communication Manager at Sanad Association</span>
+            </div>
+        </header>
+
+        <!-- Navigation -->
+        <nav class="nav">
+            <ul>
+                <li><a href="#about" class="nav-link active">
+                    <span class="ar-text">عني</span>
+                    <span class="en-text hidden">About</span>
+                </a></li>
+                <li><a href="#experience" class="nav-link">
+                    <span class="ar-text">الخبرات العملية</span>
+                    <span class="en-text hidden">Experience</span>
+                </a></li>
+                <li><a href="#education" class="nav-link">
+                    <span class="ar-text">التعليم</span>
+                    <span class="en-text hidden">Education</span>
+                </a></li>
+                <li><a href="#gallery" class="nav-link">
+                    <span class="ar-text">الصور والفيديوهات</span>
+                    <span class="en-text hidden">Gallery</span>
+                </a></li>
+                <li><a href="#achievements" class="nav-link">
+                    <span class="ar-text">الإنجازات والشهادات</span>
+                    <span class="en-text hidden">Achievements</span>
+                </a></li>
+            </ul>
+        </nav>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2>
+                <span class="ar-text">عني</span>
+                <span class="en-text hidden">About Me</span>
+            </h2>
+            
+            <div class="about-content">
+                <div class="job-rotation" id="jobRotation">
+                    <span class="ar-text">العلاقات العامة والتواصل المؤسسي</span>
+                    <span class="en-text hidden">Public Relations & Corporate Communication</span>
+                </div>
+                
+                <div class="description">
+                    <p class="ar-text">
+                        أشرف أحمد العلي، شخصية بارزة في مجال العلاقات العامة والتواصل المؤسسي، يتمتع بخبرة واسعة في التسويق والاستثمار الرياضي. يشغل حالياً منصب ممثل العلاقات العامة لدى شركة الأحساء للسياحة والترفيه، بالإضافة إلى كونه عضو مجلس إدارة ومدير العلاقات العامة والتواصل المؤسسي في جمعية سند للمسؤولية الاجتماعية.
+                    </p>
+                    <p class="en-text hidden">
+                        Ashraf Ahmed Al-Ali is a prominent figure in public relations and corporate communication, with extensive experience in sports marketing and investment. He currently serves as Public Relations Representative at Al-Ahsa Tourism & Entertainment Company, in addition to being a board member and Public Relations & Corporate Communication Manager at Sanad Social Responsibility Association.
+                    </p>
+                </div>
+
+                <div class="highlight-points">
+                    <div class="highlight-point">
+                        <h4 class="ar-text">🏔️ مشروع جبل القارة (أرض الحضارات)</h4>
+                        <h4 class="en-text hidden">🏔️ Al-Qara Mountain Project (Land of Civilizations)</h4>
+                        <p class="ar-text">مشروع سياحي رائد يهدف إلى تطوير المنطقة التراثية</p>
+                        <p class="en-text hidden">A pioneering tourism project aimed at developing the heritage area</p>
+                    </div>
+                    
+                    <div class="highlight-point">
+                        <h4 class="ar-text">🌳 منتزه الشيباني (مشروع المشقر السياحي)</h4>
+                        <h4 class="en-text hidden">🌳 Al-Shaibani Park (Al-Mashqar Tourism Project)</h4>
+                        <p class="ar-text">تطوير وإدارة المشاريع السياحية المتميزة</p>
+                        <p class="en-text hidden">Development and management of distinguished tourism projects</p>
+                    </div>
+                    
+                    <div class="highlight-point">
+                        <h4 class="ar-text">🤝 جمعية سند للمسؤولية الاجتماعية</h4>
+                        <h4 class="en-text hidden">🤝 Sanad Social Responsibility Association</h4>
+                        <p class="ar-text">قيادة المبادرات المجتمعية والمسؤولية الاجتماعية</p>
+                        <p class="en-text hidden">Leading community initiatives and social responsibility</p>
+                    </div>
+                    
+                    <div class="highlight-point">
+                        <h4 class="ar-text">📢 العلاقات العامة والتواصل المؤسسي</h4>
+                        <h4 class="en-text hidden">📢 Public Relations & Corporate Communication</h4>
+                        <p class="ar-text">خبرة متميزة في بناء العلاقات وإدارة التواصل</p>
+                        <p class="en-text hidden">Distinguished experience in relationship building and communication management</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Experience Section -->
+        <section id="experience" class="section">
+            <h2>
+                <span class="ar-text">الخبرات العملية</span>
+                <span class="en-text hidden">Professional Experience</span>
+            </h2>
+            
+            <div class="experience-item">
+                <h3 class="ar-text">🤖 مجالات العمل مع إبداع الذكاء الاصطناعي</h3>
+                <h3 class="en-text hidden">🤖 Working Fields with AI Innovation</h3>
+                <p class="ar-text">
+                    استخدام التقنيات الحديثة والذكاء الاصطناعي في تطوير استراتيجيات العلاقات العامة والتواصل المؤسسي، مع التركيز على الابتكار في مجالات التسويق الرياضي والسياحي.
+                </p>
+                <p class="en-text hidden">
+                    Utilizing modern technologies and artificial intelligence in developing public relations and corporate communication strategies, focusing on innovation in sports and tourism marketing fields.
+                </p>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2>
+                <span class="ar-text">التعليم</span>
+                <span class="en-text hidden">Education</span>
+            </h2>
+            
+            <div class="education-grid">
+                <div class="education-card">
+                    <h3 class="ar-text">🎓 التعليم الثانوي - مدرسة الأقصى</h3>
+                    <h3 class="en-text hidden">🎓 Secondary Education - Al-Aqsa School</h3>
+                    <div class="education-details">
+                        <p class="ar-text"><strong>المعدل التراكمي:</strong> 98%</p>
+                        <p class="en-text hidden"><strong>GPA:</strong> 98%</p>
+                        <p class="ar-text"><strong>تاريخ البدء:</strong> [التاريخ الهجري] / [التاريخ الميلادي]</p>
+                        <p class="en-text hidden"><strong>Start Date:</strong> [Hijri Date] / [Gregorian Date]</p>
+                        <p class="ar-text"><strong>تاريخ الانتهاء:</strong> [التاريخ الهجري] / [التاريخ الميلادي]</p>
+                        <p class="en-text hidden"><strong>End Date:</strong> [Hijri Date] / [Gregorian Date]</p>
+                    </div>
+                </div>
+                
+                <div class="education-card">
+                    <h3 class="ar-text">🏛️ بكالوريوس - جامعة الملك فيصل</h3>
+                    <h3 class="en-text hidden">🏛️ Bachelor's Degree - King Faisal University</h3>
+                    <div class="education-details">
+                        <p class="ar-text"><strong>الحالة:</strong> يدرس حالياً</p>
+                        <p class="en-text hidden"><strong>Status:</strong> Currently Studying</p>
+                        <p class="ar-text"><strong>تاريخ البدء:</strong> [التاريخ الهجري] / [التاريخ الميلادي]</p>
+                        <p class="en-text hidden"><strong>Start Date:</strong> [Hijri Date] / [Gregorian Date]</p>
+                        <p class="ar-text"><strong>التاريخ المتوقع للتخرج:</strong> [التاريخ الهجري] / [التاريخ الميلادي]</p>
+                        <p class="en-text hidden"><strong>Expected Graduation:</strong> [Hijri Date] / [Gregorian Date]</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Gallery Section -->
+        <section id="gallery" class="section">
+            <h2>
+                <span class="ar-text">الصور والفيديوهات</span>
+                <span class="en-text hidden">Photos & Videos</span>
+            </h2>
+            
+            <div class="gallery-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <span class="ar-text">الكل</span>
+                    <span class="en-text hidden">All</span>
+                </button>
+                <button class="filter-btn" data-filter="public-relations">
+                    <span class="ar-text">العلاقات العامة</span>
+                    <span class="en-text hidden">Public Relations</span>
+                </button>
+                <button class="filter-btn" data-filter="sports-marketing">
+                    <span class="ar-text">التسويق الرياضي</span>
+                    <span class="en-text hidden">Sports Marketing</span>
+                </button>
+                <button class="filter-btn" data-filter="tourism">
+                    <span class="ar-text">السياحة والترفيه</span>
+                    <span class="en-text hidden">Tourism & Entertainment</span>
+                </button>
+                <button class="filter-btn" data-filter="awards">
+                    <span class="ar-text">الأوسمة والاستحقاقات</span>
+                    <span class="en-text hidden">Awards & Honors</span>
+                </button>
+                <button class="filter-btn" data-filter="equestrian">
+                    <span class="ar-text">الفروسية والإنجازات</span>
+                    <span class="en-text hidden">Equestrian & Achievements</span>
+                </button>
+                <button class="filter-btn" data-filter="sports-activities">
+                    <span class="ar-text">الأنشطة الرياضية</span>
+                    <span class="en-text hidden">Sports Activities</span>
+                </button>
+                <button class="filter-btn" data-filter="cultural">
+                    <span class="ar-text">البرامج الثقافية</span>
+                    <span class="en-text hidden">Cultural Programs</span>
+                </button>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="public-relations">📸</div>
+                <div class="gallery-item" data-category="sports-marketing">⚽</div>
+                <div class="gallery-item" data-category="tourism">🏛️</div>
+                <div class="gallery-item" data-category="awards">🏆</div>
+                <div class="gallery-item" data-category="equestrian">🐎</div>
+                <div class="gallery-item" data-category="sports-activities">🏃</div>
+                <div class="gallery-item" data-category="cultural">🎭</div>
+                <div class="gallery-item" data-category="public-relations">📷</div>
+                <div class="gallery-item" data-category="sports-marketing">🥅</div>
+                <div class="gallery-item" data-category="tourism">🌴</div>
+                <div class="gallery-item" data-category="awards">🥇</div>
+                <div class="gallery-item" data-category="equestrian">🏇</div>
+            </div>
+        </section>
+
+        <!-- Achievements Section -->
+        <section id="achievements" class="section">
+            <h2>
+                <span class="ar-text">الإنجازات والشهادات</span>
+                <span class="en-text hidden">Achievements & Certificates</span>
+            </h2>
+            
+            <div class="achievements-filters">
+                <button class="filter-btn active" data-filter="all">
+                    <span class="ar-text">الكل</span>
+                    <span class="en-text hidden">All</span>
+                </button>
+                <button class="filter-btn" data-filter="football">
+                    <span class="ar-text">مشاركات كرة القدم</span>
+                    <span class="en-text hidden">Football Participation</span>
+                </button>
+                <button class="filter-btn" data-filter="equestrian">
+                    <span class="ar-text">مشاركات الفروسية</span>
+                    <span class="en-text hidden">Equestrian Participation</span>
+                </button>
+                <button class="filter-btn" data-filter="tourism">
+                    <span class="ar-text">القطاع السياحي</span>
+                    <span class="en-text hidden">Tourism Sector</span>
+                </button>
+                <button class="filter-btn" data-filter="medals">
+                    <span class="ar-text">الأوسمة والأنواط</span>
+                    <span class="en-text hidden">Medals & Decorations</span>
+                </button>
+            </div>
+            
+            <div class="achievements-grid">
+                <!-- Football Achievements -->
+                <div class="achievement-card" data-category="football">
+                    <div class="achievement-icon">⚽</div>
+                    <h4 class="ar-text">عضو العلاقات العامة بنادي الاتفاق</h4>
+                    <h4 class="en-text hidden">Public Relations Member at Al-Ettifaq Club</h4>
+                    <p class="ar-text">عضو العلاقات العامة بنادي الاتفاق من عام 1424 هـ لعام 1426هـ</p>
+                    <p class="en-text hidden">Public Relations Member at Al-Ettifaq Club from 1424H to 1426H</p>
+                    <div class="achievement-date">1424-1426 هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <div class="achievement-card" data-category="football">
+                    <div class="achievement-icon">🏆</div>
+                    <h4 class="ar-text">رئيس اللجنة المنظمة لدورات الأمير فيصل بن فهد</h4>
+                    <h4 class="en-text hidden">Chairman of Prince Faisal bin Fahd Tournaments</h4>
+                    <p class="ar-text">رئيس اللجنة المنظمة لدورات سمو الأمير فيصل بن فهد رحمه الله لفرق الحواري بالأحساء</p>
+                    <p class="en-text hidden">Chairman of the organizing committee for Prince Faisal bin Fahd tournaments for neighborhood teams in Al-Ahsa</p>
+                    <div class="achievement-date">1429 هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <div class="achievement-card" data-category="football">
+                    <div class="achievement-icon">🎯</div>
+                    <h4 class="ar-text">مشرف منظم في دوري عبداللطيف جميل</h4>
+                    <h4 class="en-text hidden">Organizing Supervisor in Abdul Latif Jameel League</h4>
+                    <p class="ar-text">مشرف منظم في دوري عبداللطيف جميل في المنطقة الشرقية من قِبل شركة 360 التجارية</p>
+                    <p class="en-text hidden">Organizing supervisor in Abdul Latif Jameel League in the Eastern Province by 360 Commercial Company</p>
+                    <div class="achievement-date">1433-1434 هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <!-- Equestrian Achievements -->
+                <div class="achievement-card" data-category="equestrian">
+                    <div class="achievement-icon">🐎</div>
+                    <h4 class="ar-text">رئيس لجنة العلاقات العامة بميدان الفروسية</h4>
+                    <h4 class="en-text hidden">Chairman of Public Relations Committee at Equestrian Field</h4>
+                    <p class="ar-text">رئيس لجنة العلاقات العامة والحكومية للاستثمار والدعم بميدان الفروسية بالأحساء</p>
+                    <p class="en-text hidden">Chairman of Public Relations and Government Committee for Investment and Support at Al-Ahsa Equestrian Field</p>
+                    <div class="achievement-date">1432-1438 هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <div class="achievement-card" data-category="equestrian">
+                    <div class="achievement-icon">🏇</div>
+                    <h4 class="ar-text">عضو ممثل إدارة ميدان الفروسية</h4>
+                    <h4 class="en-text hidden">Representative Member of Equestrian Field Management</h4>
+                    <p class="ar-text">عضو ممثل إدارة ميدان الفروسية بالأحساء في دورة كأس عز الخيل بمنتجع نوفا بالرياض</p>
+                    <p class="en-text hidden">Representative member of Al-Ahsa Equestrian Field management in Ezz Al-Khail Cup at Nova Resort in Riyadh</p>
+                    <div class="achievement-date">1432-1438 هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <!-- Tourism Achievements -->
+                <div class="achievement-card" data-category="tourism">
+                    <div class="achievement-icon">🏨</div>
+                    <h4 class="ar-text">ورشة تطوير مهارات موظفي الاستقبال</h4>
+                    <h4 class="en-text hidden">Reception Staff Skills Development Workshop</h4>
+                    <p class="ar-text">ورشة التدريب (تطوير مهارات موظفي الاستقبال في الإيواء السياحي)</p>
+                    <p class="en-text hidden">Training workshop (Developing reception staff skills in tourist accommodation)</p>
+                    <div class="achievement-date">07/08/2018م</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <div class="achievement-card" data-category="tourism">
+                    <div class="achievement-icon">🛡️</div>
+                    <h4 class="ar-text">دورة الأمن والسلامة في القطاع السياحي</h4>
+                    <h4 class="en-text hidden">Security and Safety Course in Tourism Sector</h4>
+                    <p class="ar-text">دورة تدريب الأمن والسلامة في القطاع السياحي</p>
+                    <p class="en-text hidden">Security and safety training course in the tourism sector</p>
+                    <div class="achievement-date">18/09/2018م</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <!-- Medals and Decorations -->
+                <div class="achievement-card" data-category="medals">
+                    <div class="achievement-icon">🏅</div>
+                    <h4 class="ar-text">وسام تحرير دولة الكويت</h4>
+                    <h4 class="en-text hidden">Kuwait Liberation Medal</h4>
+                    <p class="ar-text">وسام تحرير دولة الكويت من الدرجة الرابعة من أمير دولة الكويت</p>
+                    <p class="en-text hidden">Kuwait Liberation Medal of the Fourth Class from the Emir of Kuwait</p>
+                    <div class="achievement-date">02/11/1413 هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <div class="achievement-card" data-category="medals">
+                    <div class="achievement-icon">🎖️</div>
+                    <h4 class="ar-text">نوط الذكرى المئوية الأولى</h4>
+                    <h4 class="en-text hidden">First Centennial Commemoration Medal</h4>
+                    <p class="ar-text">نوط الذكرى المئوية الأولى لتأسيس المملكة من وزارة الدفاع</p>
+                    <p class="en-text hidden">First Centennial Commemoration Medal for the founding of the Kingdom from the Ministry of Defense</p>
+                    <div class="achievement-date">وزارة الدفاع</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <div class="achievement-card" data-category="medals">
+                    <div class="achievement-icon">⭐</div>
+                    <h4 class="ar-text">نوط الخدمة العسكرية - المرة الأولى</h4>
+                    <h4 class="en-text hidden">Military Service Medal - First Time</h4>
+                    <p class="ar-text">نوط الخدمة العسكرية للمرة الأولى من وزارة الدفاع لمدة عشر سنوات</p>
+                    <p class="en-text hidden">Military Service Medal for the first time from the Ministry of Defense for ten years</p>
+                    <div class="achievement-date">30/07/1411هـ-30/07/1421هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+
+                <div class="achievement-card" data-category="medals">
+                    <div class="achievement-icon">🌟</div>
+                    <h4 class="ar-text">نوط الخدمة العسكرية - المرة الثانية</h4>
+                    <h4 class="en-text hidden">Military Service Medal - Second Time</h4>
+                    <p class="ar-text">نوط الخدمة العسكرية للمرة الثانية من وزارة الدفاع لمدة خمسة عشر سنة متواصلة</p>
+                    <p class="en-text hidden">Military Service Medal for the second time from the Ministry of Defense for fifteen consecutive years</p>
+                    <div class="achievement-date">30/07/1411هـ-30/07/1426هـ</div>
+                    <button class="view-details">
+                        <span class="ar-text">عرض التفاصيل</span>
+                        <span class="en-text hidden">View Details</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <p class="ar-text">&copy; 2024 أشرف أحمد العلي - جميع الحقوق محفوظة</p>
+            <p class="en-text hidden">&copy; 2024 Ashraf Ahmed Al-Ali - All Rights Reserved</p>
+        </footer>
+    </div>
+
+    <script>
+        // Job titles rotation
+        const jobTitles = {
+            ar: [
+                'العلاقات العامة والتواصل المؤسسي',
+                'متخصص التسويق والاستثمار الرياضي',
+                'ممثل العلاقات العامة لدى شركة الأحساء للسياحة والترفيه',
+                'عضو مجلس إدارة جمعية سند للمسؤولية الاجتماعية',
+                'مدير العلاقات العامة والتواصل المؤسسي في جمعية سند'
+            ],
+            en: [
+                'Public Relations & Corporate Communication',
+                'Sports Marketing & Investment Specialist',
+                'Public Relations Representative at Al-Ahsa Tourism & Entertainment Company',
+                'Board Member of Sanad Social Responsibility Association',
+                'Public Relations & Corporate Communication Manager at Sanad Association'
+            ]
+        };
+
+        let currentJobIndex = 0;
+        let currentLang = 'ar';
+
+        function rotateJobTitles() {
+            const jobRotationElement = document.getElementById('jobRotation');
+            const arText = jobRotationElement.querySelector('.ar-text');
+            const enText = jobRotationElement.querySelector('.en-text');
+            
+            if (currentLang === 'ar') {
+                arText.textContent = jobTitles.ar[currentJobIndex];
+            } else {
+                enText.textContent = jobTitles.en[currentJobIndex];
+            }
+            
+            currentJobIndex = (currentJobIndex + 1) % jobTitles.ar.length;
+        }
+
+        // Start job title rotation
+        setInterval(rotateJobTitles, 3000);
+
+        // Language toggle
+        function toggleLanguage() {
+            const body = document.body;
+            const html = document.documentElement;
+            
+            if (currentLang === 'ar') {
+                body.classList.add('en');
+                html.setAttribute('lang', 'en');
+                html.setAttribute('dir', 'ltr');
+                currentLang = 'en';
+            } else {
+                body.classList.remove('en');
+                html.setAttribute('lang', 'ar');
+                html.setAttribute('dir', 'rtl');
+                currentLang = 'ar';
+            }
+            
+            // Toggle text visibility
+            const arTexts = document.querySelectorAll('.ar-text');
+            const enTexts = document.querySelectorAll('.en-text');
+            
+            arTexts.forEach(text => {
+                text.classList.toggle('hidden');
+            });
+            
+            enTexts.forEach(text => {
+                text.classList.toggle('hidden');
+            });
+        }
+
+        // Smooth scrolling for navigation
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', function(e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                const targetSection = document.querySelector(targetId);
+                
+                // Remove active class from all links
+                document.querySelectorAll('.nav-link').forEach(l => l.classList.remove('active'));
+                // Add active class to clicked link
+                this.classList.add('active');
+                
+                // Smooth scroll to target
+                targetSection.scrollIntoView({
+                    behavior: 'smooth',
+                    block: 'start'
+                });
+            });
+        });
+
+        // Gallery filtering
+        document.querySelectorAll('.gallery-filters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                
+                // Update active button
+                document.querySelectorAll('.gallery-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Filter gallery items
+                document.querySelectorAll('.gallery-item').forEach(item => {
+                    if (filter === 'all' || item.getAttribute('data-category') === filter) {
+                        item.style.display = 'flex';
+                    } else {
+                        item.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // Achievements filtering
+        document.querySelectorAll('.achievements-filters .filter-btn').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const filter = this.getAttribute('data-filter');
+                
+                // Update active button
+                document.querySelectorAll('.achievements-filters .filter-btn').forEach(b => b.classList.remove('active'));
+                this.classList.add('active');
+                
+                // Filter achievement cards
+                document.querySelectorAll('.achievement-card').forEach(card => {
+                    if (filter === 'all' || card.getAttribute('data-category') === filter) {
+                        card.style.display = 'block';
+                    } else {
+                        card.style.display = 'none';
+                    }
+                });
+            });
+        });
+
+        // View details buttons
+        document.querySelectorAll('.view-details').forEach(btn => {
+            btn.addEventListener('click', function() {
+                const card = this.closest('.achievement-card');
+                const title = card.querySelector('h4').textContent;
+                alert('عرض تفاصيل: ' + title + '\n\nسيتم عرض شهادة التكريم والتفاصيل الكاملة.');
+            });
+        });
+
+        // Initialize job rotation
+        rotateJobTitles();
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'95d38d0e872c88e3',t:'MTc1MjE4NzEwMi4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
