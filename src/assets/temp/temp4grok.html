@@ -1,0 +1,2293 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>أشرف بن أحمد محمد العلي - السيرة الذاتية</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+
+    <style>
+        /* إعدادات أساسية */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* تبديل اللغة */
+.language-toggle {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 1000;
+    background: #007bff;
+    border-radius: 25px;
+    padding: 5px;
+}
+
+.language-toggle input[type="checkbox"] {
+    display: none;
+}
+
+.language-toggle label {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    background: white;
+    border-radius: 20px;
+    padding: 8px 15px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #007bff;
+    transition: all 0.3s ease;
+}
+
+.language-toggle label:hover {
+    background: #e9ecef;
+}
+
+/* إخفاء وإظهار النصوص حسب اللغة */
+.ar { display: inline; }
+.en { display: none; }
+
+#language-switch:checked ~ * .ar { display: none; }
+#language-switch:checked ~ * .en { display: inline; }
+
+/* تغيير اتجاه النص عند التبديل للإنجليزية */
+#language-switch:checked ~ body {
+    direction: ltr;
+}
+
+/* الهيدر */
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.logo h1 {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav ul {
+    display: flex;
+    list-style: none;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+}
+
+.nav a:hover {
+    background: rgba(255,255,255,0.2);
+    transform: translateY(-2px);
+}
+
+/* الأقسام */
+.section {
+    padding: 4rem 0;
+    margin-bottom: 2rem;
+}
+
+.section:nth-child(even) {
+    background: white;
+}
+
+.section-title {
+    text-align: center;
+    font-size: 2.5rem;
+    margin-bottom: 3rem;
+    color: #2c3e50;
+    position: relative;
+}
+
+.section-title::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(90deg, #667eea, #764ba2);
+}
+
+/* قسم عني */
+.about-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 3rem;
+    align-items: start;
+}
+
+.profile-image {
+    text-align: center;
+}
+
+.profile-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.profile-image img:hover {
+    transform: scale(1.05);
+}
+
+.about-text h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.3rem;
+}
+
+.job-titles {
+    margin-bottom: 2rem;
+}
+
+.title-carousel {
+    background: #f8f9fa;
+    border-radius: 10px;
+    padding: 1rem;
+    position: relative;
+    overflow: hidden;
+}
+
+.title-item {
+    padding: 0.5rem 0;
+    font-weight: 500;
+    color: #495057;
+    animation: titleSlide 15s infinite;
+}
+
+@keyframes titleSlide {
+    0%, 20% { opacity: 1; transform: translateY(0); }
+    25%, 95% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+}
+
+.title-item:nth-child(2) { animation-delay: 3s; }
+.title-item:nth-child(3) { animation-delay: 6s; }
+.title-item:nth-child(4) { animation-delay: 9s; }
+.title-item:nth-child(5) { animation-delay: 12s; }
+
+.biography {
+    margin-bottom: 2rem;
+}
+
+.biography p {
+    margin-bottom: 1rem;
+    text-align: justify;
+    line-height: 1.8;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.social-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s ease;
+    font-size: 1.2rem;
+}
+
+.social-link:nth-child(1) { background: #1da1f2; }
+.social-link:nth-child(2) { background: #e4405f; }
+.social-link:nth-child(3) { background: #0077b5; }
+.social-link:nth-child(4) { background: #1877f2; }
+.social-link:nth-child(5) { background: #ff0000; }
+
+.social-link:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* قسم الخبرات */
+.experience-content {
+    display: grid;
+    gap: 2rem;
+}
+
+.experience-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.experience-icon {
+    font-size: 3rem;
+    color: #667eea;
+    margin-bottom: 1rem;
+}
+
+.experience-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.experience-item p {
+    color: #6c757d;
+    line-height: 1.6;
+}
+
+/* قسم التعليم */
+.education-content {
+    display: grid;
+    gap: 2rem;
+}
+
+.education-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+}
+
+.education-icon {
+    font-size: 3rem;
+    color: #28a745;
+    min-width: 80px;
+}
+
+.education-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.education-details p {
+    color: #6c757d;
+    margin-bottom: 0.5rem;
+}
+
+/* قسم الصور والفيديوهات */
+.gallery-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.gallery-filters input[type="radio"] {
+    display: none;
+}
+
+.gallery-filters label {
+    padding: 0.5rem 1rem;
+    background: #e9ecef;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.gallery-filters input[type="radio"]:checked + label {
+    background: #007bff;
+    color: white;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 1rem;
+}
+
+.gallery-item {
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: translateY(-5px);
+}
+
+.gallery-item img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+/* فلترة الصور */
+#all:checked ~ .gallery-grid .gallery-item { display: block; }
+#pr:checked ~ .gallery-grid .gallery-item { display: none; }
+#pr:checked ~ .gallery-grid .gallery-item[data-category="pr"] { display: block; }
+#sports:checked ~ .gallery-grid .gallery-item { display: none; }
+#sports:checked ~ .gallery-grid .gallery-item[data-category="sports"] { display: block; }
+#tourism:checked ~ .gallery-grid .gallery-item { display: none; }
+#tourism:checked ~ .gallery-grid .gallery-item[data-category="tourism"] { display: block; }
+#awards:checked ~ .gallery-grid .gallery-item { display: none; }
+#awards:checked ~ .gallery-grid .gallery-item[data-category="awards"] { display: block; }
+#equestrian:checked ~ .gallery-grid .gallery-item { display: none; }
+#equestrian:checked ~ .gallery-grid .gallery-item[data-category="equestrian"] { display: block; }
+#activities:checked ~ .gallery-grid .gallery-item { display: none; }
+#activities:checked ~ .gallery-grid .gallery-item[data-category="activities"] { display: block; }
+#cultural:checked ~ .gallery-grid .gallery-item { display: none; }
+#cultural:checked ~ .gallery-grid .gallery-item[data-category="cultural"] { display: block; }
+
+/* قسم الإنجازات */
+.achievements-filters {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.achievements-filters input[type="radio"] {
+    display: none;
+}
+
+.achievements-filters label {
+    padding: 0.5rem 1rem;
+    background: #e9ecef;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.achievements-filters input[type="radio"]:checked + label {
+    background: #28a745;
+    color: white;
+}
+
+.achievements-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    gap: 2rem;
+}
+
+.achievement-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.achievement-item:hover {
+    transform: translateY(-5px);
+}
+
+.achievement-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.achievement-item[data-category="football"] .achievement-icon {
+    color: #28a745;
+}
+
+.achievement-item[data-category="equestrian-achievements"] .achievement-icon {
+    color: #8B4513;
+}
+
+.achievement-item[data-category="tourism-achievements"] .achievement-icon {
+    color: #17a2b8;
+}
+
+.achievement-item[data-category="medals"] .achievement-icon {
+    color: #ffc107;
+}
+
+.achievement-item[data-category="certificates"] .achievement-icon {
+    color: #6f42c1;
+}
+
+.achievement-item[data-category="training"] .achievement-icon {
+    color: #fd7e14;
+}
+
+.achievement-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.achievement-item p {
+    color: #6c757d;
+    margin-bottom: 1rem;
+}
+
+/* تفاصيل الإنجازات */
+.achievement-item details {
+    text-align: right;
+}
+
+.achievement-item summary {
+    background: #f8f9fa;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    list-style: none;
+}
+
+.achievement-item summary:hover {
+    background: #e9ecef;
+}
+
+.achievement-item details[open] summary {
+    margin-bottom: 1rem;
+}
+
+.achievement-item details p {
+    padding: 1rem;
+    background: #f8f9fa;
+    border-radius: 5px;
+    margin-top: 0.5rem;
+    text-align: justify;
+}
+
+/* فلترة الإنجازات */
+#all-achievements:checked ~ .achievements-grid .achievement-item { display: block; }
+#football:checked ~ .achievements-grid .achievement-item { display: none; }
+#football:checked ~ .achievements-grid .achievement-item[data-category="football"] { display: block; }
+#equestrian-achievements:checked ~ .achievements-grid .achievement-item { display: none; }
+#equestrian-achievements:checked ~ .achievements-grid .achievement-item[data-category="equestrian-achievements"] { display: block; }
+#tourism-achievements:checked ~ .achievements-grid .achievement-item { display: none; }
+#tourism-achievements:checked ~ .achievements-grid .achievement-item[data-category="tourism-achievements"] { display: block; }
+#medals:checked ~ .achievements-grid .achievement-item { display: none; }
+#medals:checked ~ .achievements-grid .achievement-item[data-category="medals"] { display: block; }
+#certificates:checked ~ .achievements-grid .achievement-item { display: none; }
+#certificates:checked ~ .achievements-grid .achievement-item[data-category="certificates"] { display: block; }
+#training:checked ~ .achievements-grid .achievement-item { display: none; }
+#training:checked ~ .achievements-grid .achievement-item[data-category="training"] { display: block; }
+
+/* قسم المشاريع */
+.projects-content {
+    display: grid;
+    gap: 2rem;
+}
+
+.project-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+}
+
+.project-icon {
+    font-size: 3rem;
+    color: #dc3545;
+    margin-bottom: 1rem;
+}
+
+.project-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.project-item p {
+    color: #6c757d;
+    line-height: 1.6;
+    text-align: justify;
+}
+
+/* قسم الهوايات */
+.hobbies-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+}
+
+.hobby-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    text-align: center;
+    transition: transform 0.3s ease;
+}
+
+.hobby-item:hover {
+    transform: translateY(-5px);
+}
+
+.hobby-icon {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hobby-item:nth-child(1) .hobby-icon {
+    color: #28a745;
+}
+
+.hobby-item:nth-child(2) .hobby-icon {
+    color: #8B4513;
+}
+
+.hobby-item:nth-child(3) .hobby-icon {
+    color: #17a2b8;
+}
+
+.hobby-item h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+.hobby-item p {
+    color: #6c757d;
+}
+
+/* قسم التواصل */
+.contact-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+
+.contact-item {
+    background: white;
+    padding: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-item i {
+    font-size: 2rem;
+    color: #007bff;
+    min-width: 50px;
+}
+
+.contact-item h4 {
+    color: #2c3e50;
+    margin-bottom: 0.5rem;
+}
+
+.contact-item p {
+    color: #6c757d;
+    margin: 0;
+}
+
+/* الذيل */
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+}
+
+.developer-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.developer-info a {
+    color: #667eea;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.developer-info a:hover {
+    color: #764ba2;
+}
+
+/* تصميم متجاوب */
+@media (max-width: 768px) {
+    .header .container {
+        flex-direction: column;
+        gap: 1rem;
+    }
+    
+    .nav ul {
+        flex-direction: column;
+        gap: 0.5rem;
+        width: 100%;
+    }
+    
+    .nav a {
+        text-align: center;
+    }
+    
+    .about-content {
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+    
+    .education-item {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .section-title {
+        font-size: 2rem;
+    }
+    
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .achievements-grid {
+        grid-template-columns: 1fr;
+    }
+    
+    .contact-content {
+        grid-template-columns: 1fr;
+    }
+    
+    .footer-content {
+        flex-direction: column;
+        text-align: center;
+    }
+    
+    .language-toggle {
+        top: 10px;
+        right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 0 15px;
+    }
+    
+    .section {
+        padding: 2rem 0;
+    }
+    
+    .section-title {
+        font-size: 1.5rem;
+    }
+    
+    .gallery-filters {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .achievements-filters {
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .hobbies-content {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* تأثيرات الحركة */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.section {
+    animation: fadeInUp 0.6s ease-out;
+}
+
+/* تأثيرات التمرير السلس */
+html {
+    scroll-behavior: smooth;
+}
+
+/* تحسينات إضافية */
+.section:target {
+    scroll-margin-top: 100px;
+}
+
+/* تحسين الألوان للوضع الليلي */
+@media (prefers-color-scheme: dark) {
+    body {
+        background-color: #1a1a1a;
+        color: #e0e0e0;
+    }
+    
+    .section:nth-child(even) {
+        background: #2d2d2d;
+    }
+    
+    .achievement-item,
+    .education-item,
+    .experience-item,
+    .project-item,
+    .hobby-item,
+    .contact-item {
+        background: #2d2d2d;
+        color: #e0e0e0;
+    }
+    
+    .achievement-item h3,
+    .education-item h3,
+    .experience-item h3,
+    .project-item h3,
+    .hobby-item h3,
+    .contact-item h4 {
+        color: #ffffff;
+    }
+}
+
+/* تأثيرات خاصة للعناصر التفاعلية */
+.achievement-item:hover,
+.education-item:hover,
+.experience-item:hover,
+.project-item:hover,
+.hobby-item:hover,
+.contact-item:hover {
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+
+/* تحسين شكل الأزرار */
+.achievements-filters label:hover,
+.gallery-filters label:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 3px 10px rgba(0,0,0,0.2);
+}
+
+/* تحسين عرض التفاصيل */
+.achievement-item details summary::marker {
+    display: none;
+}
+
+.achievement-item details summary::before {
+    content: "▼";
+    margin-left: 10px;
+    transition: transform 0.3s ease;
+}
+
+.achievement-item details[open] summary::before {
+    transform: rotate(180deg);
+}
+
+/* تأثيرات خاصة للروابط */
+a {
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* تحسين شكل النماذج */
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #007bff;
+}
+
+/* تحسين التباعد */
+.section + .section {
+    margin-top: 0;
+}
+
+/* تحسين الطباعة */
+@media print {
+    .language-toggle,
+    .nav {
+        display: none;
+    }
+    
+    .section {
+        break-inside: avoid;
+        page-break-inside: avoid;
+    }
+    
+    body {
+        font-size: 12pt;
+        line-height: 1.4;
+    }
+}
+    </style>
+</head>
+<body>
+    <!-- تبديل اللغة -->
+    <div class="language-toggle">
+        <input type="checkbox" id="language-switch">
+        <label for="language-switch">
+            <span class="lang-ar">العربية</span>
+            <span class="lang-en">English</span>
+        </label>
+    </div>
+
+    <!-- الهيدر -->
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>
+                    <span class="ar">أشرف بن أحمد محمد العلي</span>
+                    <span class="en">Ashraf bin Ahmed Mohammed Al-Ali</span>
+                </h1>
+            </div>
+            <nav class="nav">
+                <ul>
+                    <li><a href="#about">
+                        <span class="ar">عني</span>
+                        <span class="en">About</span>
+                    </a></li>
+                    <li><a href="#experience">
+                        <span class="ar">الخبرات العلمية</span>
+                        <span class="en">Experience</span>
+                    </a></li>
+                    <li><a href="#education">
+                        <span class="ar">التعليم</span>
+                        <span class="en">Education</span>
+                    </a></li>
+                    <li><a href="#gallery">
+                        <span class="ar">الصور والفيديوهات</span>
+                        <span class="en">Gallery</span>
+                    </a></li>
+                    <li><a href="#achievements">
+                        <span class="ar">الإنجازات</span>
+                        <span class="en">Achievements</span>
+                    </a></li>
+                    <li><a href="#projects">
+                        <span class="ar">المشاريع</span>
+                        <span class="en">Projects</span>
+                    </a></li>
+                    <li><a href="#hobbies">
+                        <span class="ar">الهوايات</span>
+                        <span class="en">Hobbies</span>
+                    </a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- قسم عني -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">عني</span>
+                <span class="en">About Me</span>
+            </h2>
+            
+            <div class="about-content">
+                <div class="profile-image">
+                    <img src="https://via.placeholder.com/300x300" alt="أشرف بن أحمد محمد العلي">
+                </div>
+                
+                <div class="about-text">
+                    <div class="job-titles">
+                        <h3>
+                            <span class="ar">المسميات الوظيفية</span>
+                            <span class="en">Job Titles</span>
+                        </h3>
+                        <div class="title-carousel">
+                            <div class="title-item">
+                                <span class="ar">العلاقات العامة والتواصل المؤسسي</span>
+                                <span class="en">Public Relations & Corporate Communications</span>
+                            </div>
+                            <div class="title-item">
+                                <span class="ar">متخصص التسويق والاستثمار الرياضي</span>
+                                <span class="en">Sports Marketing & Investment Specialist</span>
+                            </div>
+                            <div class="title-item">
+                                <span class="ar">ممثل العلاقات العامة لدى شركة الأحساء للسياحة والترفيه</span>
+                                <span class="en">PR Representative - Al-Ahsa Tourism & Entertainment Company</span>
+                            </div>
+                            <div class="title-item">
+                                <span class="ar">عضو مجلس إدارة جمعية سند للمسؤولية الاجتماعية</span>
+                                <span class="en">Board Member - Sanad Social Responsibility Association</span>
+                            </div>
+                            <div class="title-item">
+                                <span class="ar">مدير العلاقات العامة والتواصل المؤسسي في جمعية سند</span>
+                                <span class="en">PR & Corporate Communications Manager - Sanad Association</span>
+                            </div>
+                        </div>
+                    </div>
+                    
+                    <div class="biography">
+                        <h3>
+                            <span class="ar">نبذة عن المسيرة</span>
+                            <span class="en">Career Overview</span>
+                        </h3>
+                        <p class="ar">
+                            خبير في العلاقات العامة والتواصل المؤسسي مع مسيرة حافلة بالإنجازات في مجال التسويق والاستثمار الرياضي. 
+                            شارك في تطوير وإدارة مشاريع رائدة منها مشروع جبل القارة (أرض الحضارات) ومنتزه الشيباني (مشروع المشقر السياحي). 
+                            يتولى حالياً مسؤولية عضوية مجلس إدارة جمعية سند للمسؤولية الاجتماعية وإدارة العلاقات العامة والتواصل المؤسسي في الجمعية.
+                        </p>
+                        <p class="en">
+                            Expert in public relations and corporate communications with a distinguished career in sports marketing and investment. 
+                            Participated in developing and managing pioneering projects including Jabal Al-Qara Project (Land of Civilizations) and Al-Shaibani Park (Al-Mashqar Tourism Project). 
+                            Currently serves as a Board Member of Sanad Social Responsibility Association and manages PR & Corporate Communications at the association.
+                        </p>
+                    </div>
+                    
+                    <div class="social-media">
+                        <h3>
+                            <span class="ar">وسائل التواصل الاجتماعي</span>
+                            <span class="en">Social Media</span>
+                        </h3>
+                        <div class="social-links">
+                            <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-linkedin"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-facebook"></i></a>
+                            <a href="#" class="social-link"><i class="fab fa-youtube"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الخبرات العلمية -->
+    <section id="experience" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">الخبرات العلمية</span>
+                <span class="en">Professional Experience</span>
+            </h2>
+            <div class="experience-content">
+                <div class="experience-item">
+                    <div class="experience-icon">
+                        <i class="fas fa-brain"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">مجالات العمل مع إبداع الذكاء الاصطناعي</span>
+                        <span class="en">Work Fields with AI Innovation</span>
+                    </h3>
+                    <p class="ar">
+                        خبرة واسعة في تطبيق تقنيات الذكاء الاصطناعي في مجال العلاقات العامة والتسويق الرياضي، 
+                        مع التركيز على الحلول الإبداعية والمبتكرة في تطوير الاستراتيجيات التسويقية والتواصل المؤسسي.
+                    </p>
+                    <p class="en">
+                        Extensive experience in applying AI technologies in public relations and sports marketing, 
+                        focusing on creative and innovative solutions in developing marketing strategies and corporate communications.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم التعليم -->
+    <section id="education" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">التعليم</span>
+                <span class="en">Education</span>
+            </h2>
+            <div class="education-content">
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">التعليم الثانوي - مدرسة الأقصى</span>
+                        <span class="en">High School - Al-Aqsa School</span>
+                    </h3>
+                    <div class="education-details">
+                        <p class="ar">المعدل التراكمي: 98%</p>
+                        <p class="en">GPA: 98%</p>
+                        <p class="ar">تاريخ البدء: [تاريخ البدء بالهجري والميلادي]</p>
+                        <p class="en">Start Date: [Start date in Hijri and Gregorian]</p>
+                        <p class="ar">تاريخ النهاية: [تاريخ النهاية بالهجري والميلادي]</p>
+                        <p class="en">End Date: [End date in Hijri and Gregorian]</p>
+                    </div>
+                </div>
+                
+                <div class="education-item">
+                    <div class="education-icon">
+                        <i class="fas fa-university"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">بكالوريوس - جامعة الملك فيصل (يدرس حالياً)</span>
+                        <span class="en">Bachelor's Degree - King Faisal University (Currently Studying)</span>
+                    </h3>
+                    <div class="education-details">
+                        <p class="ar">تاريخ البدء: [تاريخ البدء بالهجري والميلادي]</p>
+                        <p class="en">Start Date: [Start date in Hijri and Gregorian]</p>
+                        <p class="ar">الحالة: طالب حالي</p>
+                        <p class="en">Status: Current Student</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الصور والفيديوهات -->
+    <section id="gallery" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">الصور والفيديوهات</span>
+                <span class="en">Photos & Videos</span>
+            </h2>
+            <div class="gallery-filters">
+                <input type="radio" name="gallery-filter" id="all" checked>
+                <label for="all">
+                    <span class="ar">الكل</span>
+                    <span class="en">All</span>
+                </label>
+                
+                <input type="radio" name="gallery-filter" id="pr">
+                <label for="pr">
+                    <span class="ar">العلاقات العامة</span>
+                    <span class="en">Public Relations</span>
+                </label>
+                
+                <input type="radio" name="gallery-filter" id="sports">
+                <label for="sports">
+                    <span class="ar">التسويق الرياضي</span>
+                    <span class="en">Sports Marketing</span>
+                </label>
+                
+                <input type="radio" name="gallery-filter" id="tourism">
+                <label for="tourism">
+                    <span class="ar">السياحة والترفيه</span>
+                    <span class="en">Tourism</span>
+                </label>
+                
+                <input type="radio" name="gallery-filter" id="awards">
+                <label for="awards">
+                    <span class="ar">الأوسمة</span>
+                    <span class="en">Awards</span>
+                </label>
+                
+                <input type="radio" name="gallery-filter" id="equestrian">
+                <label for="equestrian">
+                    <span class="ar">الفروسية</span>
+                    <span class="en">Equestrian</span>
+                </label>
+                
+                <input type="radio" name="gallery-filter" id="activities">
+                <label for="activities">
+                    <span class="ar">الأنشطة الرياضية</span>
+                    <span class="en">Sports Activities</span>
+                </label>
+                
+                <input type="radio" name="gallery-filter" id="cultural">
+                <label for="cultural">
+                    <span class="ar">البرامج الثقافية</span>
+                    <span class="en">Cultural Programs</span>
+                </label>
+            </div>
+            
+            <div class="gallery-grid">
+                <div class="gallery-item" data-category="pr">
+                    <img src="https://via.placeholder.com/300x200" alt="العلاقات العامة">
+                </div>
+                <div class="gallery-item" data-category="sports">
+                    <img src="https://via.placeholder.com/300x200" alt="التسويق الرياضي">
+                </div>
+                <div class="gallery-item" data-category="tourism">
+                    <img src="https://via.placeholder.com/300x200" alt="السياحة والترفيه">
+                </div>
+                <div class="gallery-item" data-category="awards">
+                    <img src="https://via.placeholder.com/300x200" alt="الأوسمة">
+                </div>
+                <div class="gallery-item" data-category="equestrian">
+                    <img src="https://via.placeholder.com/300x200" alt="الفروسية">
+                </div>
+                <div class="gallery-item" data-category="activities">
+                    <img src="https://via.placeholder.com/300x200" alt="الأنشطة الرياضية">
+                </div>
+                <div class="gallery-item" data-category="cultural">
+                    <img src="https://via.placeholder.com/300x200" alt="البرامج الثقافية">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الإنجازات والشهادات -->
+    <section id="achievements" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">الإنجازات والشهادات</span>
+                <span class="en">Achievements & Certificates</span>
+            </h2>
+            
+            <div class="achievements-filters">
+                <input type="radio" name="achievements-filter" id="all-achievements" checked>
+                <label for="all-achievements">
+                    <span class="ar">الكل</span>
+                    <span class="en">All</span>
+                </label>
+                
+                <input type="radio" name="achievements-filter" id="football">
+                <label for="football">
+                    <span class="ar">كرة القدم</span>
+                    <span class="en">Football</span>
+                </label>
+                
+                <input type="radio" name="achievements-filter" id="equestrian-achievements">
+                <label for="equestrian-achievements">
+                    <span class="ar">الفروسية</span>
+                    <span class="en">Equestrian</span>
+                </label>
+                
+                <input type="radio" name="achievements-filter" id="tourism-achievements">
+                <label for="tourism-achievements">
+                    <span class="ar">السياحة</span>
+                    <span class="en">Tourism</span>
+                </label>
+                
+                <input type="radio" name="achievements-filter" id="medals">
+                <label for="medals">
+                    <span class="ar">الأوسمة</span>
+                    <span class="en">Medals</span>
+                </label>
+                
+                <input type="radio" name="achievements-filter" id="certificates">
+                <label for="certificates">
+                    <span class="ar">الشهادات</span>
+                    <span class="en">Certificates</span>
+                </label>
+                
+                <input type="radio" name="achievements-filter" id="training">
+                <label for="training">
+                    <span class="ar">التدريب</span>
+                    <span class="en">Training</span>
+                </label>
+            </div>
+
+            <div class="achievements-grid">
+                <!-- مشاركات كرة القدم -->
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">عضو العلاقات العامة بنادي الاتفاق</span>
+                        <span class="en">PR Member - Al-Ettifaq Club</span>
+                    </h3>
+                    <p class="ar">من عام 1424 هـ لعام 1426هـ</p>
+                    <p class="en">From 1424 H to 1426 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تفاصيل العضوية في نادي الاتفاق وأهم الإنجازات المحققة خلال هذه الفترة.</p>
+                        <p class="en">Details of membership in Al-Ettifaq Club and major achievements during this period.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">رئيس اللجنة المنظمة لدورات سمو الأمير فيصل بن فهد</span>
+                        <span class="en">Chairman of Prince Faisal bin Fahd Tournament Committee</span>
+                    </h3>
+                    <p class="ar">لعام 1429هـ</p>
+                    <p class="en">For year 1429 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تنظيم دورات كرة القدم للفرق الحواري بالأحساء تحت رعاية سمو الأمير فيصل بن فهد رحمه الله.</p>
+                        <p class="en">Organizing football tournaments for neighborhood teams in Al-Ahsa under the patronage of Prince Faisal bin Fahd.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">رئيس اللجنة المنظمة لدورات نادي الاتفاق</span>
+                        <span class="en">Chairman of Al-Ettifaq Club Tournament Committee</span>
+                    </h3>
+                    <p class="ar">لعام 1433هـ</p>
+                    <p class="en">For year 1433 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تنظيم دورات نادي الاتفاق لفرق حواري الأحساء تحت شعار "حسانا أجمل".</p>
+                        <p class="en">Organizing Al-Ettifaq Club tournaments for Al-Ahsa neighborhood teams under the slogan "Hassana Ajmal".</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-stadium"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">عضو اللجنة التنظيمية بملعب الأمير عبدالله بن جلوي</span>
+                        <span class="en">Organizing Committee Member - Prince Abdullah bin Jalawi Stadium</span>
+                    </h3>
+                    <p class="ar">لعام 1432هـ</p>
+                    <p class="en">For year 1432 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">مشرف المقصورة الرئيسية بملعب مدينة الأمير عبدالله بن جلوي الرياضية بالأحساء.</p>
+                        <p class="en">Supervisor of the main stand at Prince Abdullah bin Jalawi Sports City Stadium in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">عضو اللجنة التنظيمية بنادي الفتح</span>
+                        <span class="en">Organizing Committee Member - Al-Fateh Club</span>
+                    </h3>
+                    <p class="ar">من عام 1432 - 1435هـ</p>
+                    <p class="en">From 1432 - 1435 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">المشاركة في تنظيم دوري أبطال آسيا بمدينة الأمير عبدالله بن جلوي الرياضية بالأحساء.</p>
+                        <p class="en">Participation in organizing AFC Champions League at Prince Abdullah bin Jalawi Sports City in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-whistle"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">مشرف منظم في دوري عبداللطيف جميل</span>
+                        <span class="en">Organizing Supervisor - Abdul Latif Jameel League</span>
+                    </h3>
+                    <p class="ar">للموسم الرياضي 1433 - 1434هـ</p>
+                    <p class="en">For the 1433 - 1434 H season</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">الإشراف على تنظيم المباريات في المنطقة الشرقية من قبل شركة 360 التجارية.</p>
+                        <p class="en">Supervising match organization in the Eastern Region by 360 Commercial Company.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">مشرف إسناد الأمير محمد بن فهد</span>
+                        <span class="en">Support Supervisor - Prince Mohammed bin Fahd</span>
+                    </h3>
+                    <p class="ar">من عام 1435 - 1437هـ</p>
+                    <p class="en">From 1435 - 1437 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                                                </summary>
+                        <p class="ar">الإشراف على التنظيم في الدمام خلال الفترة المذكورة.</p>
+                        <p class="en">Supervising organization in Dammam during the mentioned period.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chair"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">مشرف المقصورة الرئيسية بمدينة الأمير سعود بن جلوي</span>
+                        <span class="en">Main Stand Supervisor - Prince Saud bin Jalawi Sports City</span>
+                    </h3>
+                    <p class="ar">من عام 1436 - 1440هـ</p>
+                    <p class="en">From 1436 - 1440 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تنظيم المقصورة الرئيسية في مدينة الأمير سعود بن جلوي الرياضية بالخبر.</p>
+                        <p class="en">Organizing the main stand at Prince Saud bin Jalawi Sports City in Khobar.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">رئيس لجنة العلاقات العامة لرابطة فرق الأحياء</span>
+                        <span class="en">Chairman of PR Committee - Neighborhood Teams Association</span>
+                    </h3>
+                    <p class="ar">من عام 1437 - 1439هـ</p>
+                    <p class="en">From 1437 - 1439 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">الإشراف على العلاقات العامة بالمجلس الاستشاري لرابطة فرق الأحياء بمحافظة الأحساء.</p>
+                        <p class="en">Supervising public relations for the advisory council of the Neighborhood Teams Association in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-flag-checkered"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">المشرف العام على كرنفال بطولة الأجيال الرمضانية</span>
+                        <span class="en">General Supervisor - Ramadan Al-Ajyal Tournament Carnival</span>
+                    </h3>
+                    <p class="ar">لعام 1439هـ</p>
+                    <p class="en">For year 1439 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">الإشراف على إقامة كرنفال بطولة فريق الأجيال الرمضانية بالمبرز على أرض الحضارات (جبل القارة).</p>
+                        <p class="en">Supervising the organization of the Ramadan Al-Ajyal Team Tournament Carnival in Al-Mubarraz at Land of Civilizations (Jabal Al-Qara).</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="football">
+                    <div class="achievement-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">التطوع في إدارة الفعاليات الرياضية</span>
+                        <span class="en">Volunteering in Sports Event Management</span>
+                    </h3>
+                    <p class="ar">27/08/1439هـ - 13/05/2018م</p>
+                    <p class="en">27/08/1439 H - 13/05/2018</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">المشاركة التطوعية في إدارة وتنظيم الفعاليات الرياضية بمعهد إعداد القادة بمدينة الرياض.</p>
+                        <p class="en">Volunteer participation in managing and organizing sports events at the Leadership Preparation Institute in Riyadh.</p>
+                    </details>
+                </div>
+
+                <!-- مشاركات الفروسية -->
+                <div class="achievement-item" data-category="equestrian-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-horse"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">رئيس لجنة العلاقات العامة والحكومية بميدان الفروسية</span>
+                        <span class="en">Chairman of PR & Government Relations - Equestrian Field</span>
+                    </h3>
+                    <p class="ar">من عام 1432-1438هـ</p>
+                    <p class="en">From 1432-1438 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">إدارة العلاقات العامة والحكومية للاستثمار والدعم بميدان الفروسية بالأحساء.</p>
+                        <p class="en">Managing public and government relations for investment and support at Al-Ahsa Equestrian Field.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="equestrian-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-horse-head"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">عضو ممثل إدارة ميدان الفروسية</span>
+                        <span class="en">Representative Member of Equestrian Field Management</span>
+                    </h3>
+                    <p class="ar">من عام 1432-1438هـ</p>
+                    <p class="en">From 1432-1438 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">المشاركة في دورة كأس عز الخيل بمنتجع نوفا بالرياض.</p>
+                        <p class="en">Participation in Ezz Al-Khail Cup tournament at Nova Resort in Riyadh.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="equestrian-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-gavel"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">مندوب إدارة ميدان الفروسية</span>
+                        <span class="en">Delegate of Equestrian Field Management</span>
+                    </h3>
+                    <p class="ar">حتى عام 1438هـ</p>
+                    <p class="en">Until 1438 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">ضمن اللجنة المشكلة من إمارة محافظة الأحساء للوقوف على التعديات والمخالفات بميدان الفروسية بالأحساء.</p>
+                        <p class="en">Part of the committee formed by the Al-Ahsa Governorate Emirate to address encroachments and violations at Al-Ahsa Equestrian Field.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="equestrian-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-file-alt"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">المساهمة في تصنيف ميدان الفروسية</span>
+                        <span class="en">Contribution to Equestrian Field Classification</span>
+                    </h3>
+                    <p class="ar">من عام 1436-1439هـ</p>
+                    <p class="en">From 1436-1439 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">المساهمة في استخراج صك ميدان الفروسية بالأحساء وتصنيفه للفئة (أ) لثلاث سنوات متتالية.</p>
+                        <p class="en">Contributing to the issuance of the deed for Al-Ahsa Equestrian Field and its classification as Category (A) for three consecutive years.</p>
+                    </details>
+                </div>
+
+                <!-- المشاركات في القطاع السياحي -->
+                <div class="achievement-item" data-category="tourism-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-map-marked-alt"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">ورشة تطوير مهارات الإيواء السياحي</span>
+                        <span class="en">Tourism Accommodation Skills Development Workshop</span>
+                    </h3>
+                    <p class="ar">07/08/2018م</p>
+                    <p class="en">07/08/2018</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تطوير مهارات موظفي الاستقبال في الإيواء السياحي بالأحساء.</p>
+                        <p class="en">Developing reception staff skills in tourism accommodation in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="tourism-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-shield-alt"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">دورة الأمن والسلامة في القطاع السياحي</span>
+                        <span class="en">Safety and Security Course in Tourism Sector</span>
+                    </h3>
+                    <p class="ar">18/09/2018م</p>
+                    <p class="en">18/09/2018</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تدريب متخصص في أمن وسلامة المرافق السياحية.</p>
+                        <p class="en">Specialized training in tourism facilities security and safety.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="tourism-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">دورة العلاقات العامة والمراسيم (البروتوكول)</span>
+                        <span class="en">Public Relations and Protocol Course</span>
+                    </h3>
+                    <p class="ar">23/10/2018م</p>
+                    <p class="en">23/10/2018</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تدريب في مجال العلاقات العامة والمراسيم في القطاع السياحي.</p>
+                        <p class="en">Training in public relations and protocol in the tourism sector.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="tourism-achievements">
+                    <div class="achievement-icon">
+                        <i class="fas fa-bullhorn"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">دورة تطوير مهارات التسويق السياحي</span>
+                        <span class="en">Tourism Marketing Skills Development Course</span>
+                    </h3>
+                    <p class="ar">17/11/2018م</p>
+                    <p class="en">17/11/2018</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تطوير قدرات ومهارات العاملين في التسويق السياحي.</p>
+                        <p class="en">Enhancing capabilities and skills of tourism marketing professionals.</p>
+                    </details>
+                </div>
+
+                <!-- الأوسمة والأنواط -->
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">وسام تحرير دولة الكويت</span>
+                        <span class="en">Kuwait Liberation Medal</span>
+                    </h3>
+                    <p class="ar">من الدرجة الرابعة - 02/11/1413هـ</p>
+                    <p class="en">Fourth Class - 02/11/1413 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">منح من أمير دولة الكويت تقديراً للجهود المبذولة في تحرير الكويت.</p>
+                        <p class="en">Awarded by the Emir of Kuwait in recognition of efforts in Kuwait's liberation.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-crown"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط الذكرى المئوية الأولى لتأسيس المملكة</span>
+                        <span class="en">Saudi Arabia Centennial Medal</span>
+                    </h3>
+                    <p class="ar">من وزارة الدفاع</p>
+                    <p class="en">From Ministry of Defense</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">نوط تذكاري للاحتفاء بالذكرى المئوية الأولى لتأسيس المملكة العربية السعودية.</p>
+                        <p class="en">Commemorative medal for the first centennial of the Kingdom of Saudi Arabia.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط الخدمة العسكرية (الأول)</span>
+                        <span class="en">Military Service Medal (First)</span>
+                    </h3>
+                    <p class="ar">من 30/07/1411هـ إلى 30/07/1421هـ</p>
+                    <p class="en">From 30/07/1411 H to 30/07/1421 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من وزارة الدفاع لمدة عشر سنوات من الخدمة العسكرية.</p>
+                        <p class="en">From the Ministry of Defense for ten years of military service.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط الخدمة العسكرية (الثاني)</span>
+                        <span class="en">Military Service Medal (Second)</span>
+                    </h3>
+                    <p class="ar">من 30/07/1411هـ إلى 30/07/1426هـ</p>
+                    <p class="en">From 30/07/1411 H to 30/07/1426 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من وزارة الدفاع لمدة خمسة عشر عامًا من الخدمة العسكرية المتواصلة.</p>
+                        <p class="en">From the Ministry of Defense for fifteen consecutive years of military service.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط الخدمة العسكرية (الثالث)</span>
+                        <span class="en">Military Service Medal (Third)</span>
+                    </h3>
+                    <p class="ar">من 30/07/1411هـ إلى 30/07/1431هـ</p>
+                    <p class="en">From 30/07/1411 H to 30/07/1431 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من وزارة الدفاع لمدة خمسة عشر عامًا من الخدمة العسكرية المتواصلة.</p>
+                        <p class="en">From the Ministry of Defense for fifteen consecutive years of military service.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط الخدمة العسكرية (الرابع)</span>
+                        <span class="en">Military Service Medal (Fourth)</span>
+                    </h3>
+                    <p class="ar">من 30/07/1411هـ إلى 30/07/1436هـ</p>
+                    <p class="en">From 30/07/1411 H to 30/07/1436 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من وزارة الدفاع لمدة خمسة عشر عامًا من الخدمة العسكرية المتواصلة.</p>
+                        <p class="en">From the Ministry of Defense for fifteen consecutive years of military service.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-sword"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط تمرين سيف عبدالله</span>
+                        <span class="en">Sword of Abdullah Exercise Medal</span>
+                    </h3>
+                    <p class="ar">من 15/06/1435هـ إلى 29/06/1435هـ</p>
+                    <p class="en">From 15/06/1435 H to 29/06/1435 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من وزارة الدفاع تقديراً للمشاركة في تمرين سيف عبدالله.</p>
+                        <p class="en">From the Ministry of Defense in appreciation of participation in the Sword of Abdullah exercise.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط الإدارة العسكرية</span>
+                        <span class="en">Military Administration Medal</span>
+                    </h3>
+                    <p class="ar">لعام 1435هـ</p>
+                    <p class="en">For year 1435 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من وزارة الدفاع تقديراً للإنجازات الإدارية العسكرية.</p>
+                        <p class="en">From the Ministry of Defense in appreciation of military administrative achievements.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="medals">
+                    <div class="achievement-icon">
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نوط الإتقان</span>
+                        <span class="en">Proficiency Medal</span>
+                    </h3>
+                    <p class="ar">لعام 1435هـ</p>
+                    <p class="en">For year 1435 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من وزارة الدفاع تق                        ديرًا للإتقان في الأداء العسكري.</p>
+                        <p class="en">From the Ministry of Defense in appreciation of proficiency in military performance.</p>
+                    </details>
+                </div>
+
+                <!-- شهادات الشكر والتقدير -->
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">شهادة شكر من الهيئة العامة للرياضة</span>
+                        <span class="en">Certificate of Appreciation from Sports Authority</span>
+                    </h3>
+                    <p class="ar">للأعوام 1420-1421هـ</p>
+                    <p class="en">For years 1420-1421 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">للمشاركة الفعالة في الأنشطة الثقافية ومهرجان الطفل.</p>
+                        <p class="en">For active participation in cultural activities and children's festival.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">شهادة شكر من قائد مجموعة الإسناد الهندسي</span>
+                        <span class="en">Certificate of Appreciation from Engineering Support Group Commander</span>
+                    </h3>
+                    <p class="ar">لعام 1423هـ</p>
+                    <p class="en">For year 1423 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية.</p>
+                        <p class="en">From His Excellency the Commander of the Seventh Engineering Support Group in the Eastern Region.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">شهادة شكر من قائد مجموعة الإسناد الهندسي</span>
+                        <span class="en">Certificate of Appreciation from Engineering Support Group Commander</span>
+                    </h3>
+                    <p class="ar">لعام 1429هـ</p>
+                    <p class="en">For year 1429 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية.</p>
+                        <p class="en">From His Excellency the Commander of the Seventh Engineering Support Group in the Eastern Region.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-handshake"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">شهادة شكر وتقدير من مدير الشؤون الصحية</span>
+                        <span class="en">Certificate of Appreciation from Health Affairs Director</span>
+                    </h3>
+                    <p class="ar">11/02/1431هـ</p>
+                    <p class="en">11/02/1431 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">للمشاركة في لقاء الصفوة بمحافظة الأحساء.</p>
+                        <p class="en">For participating in the Elite Meeting in Al-Ahsa Governorate.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">خطاب شكر من قائد مجموعة الإسناد الهندسي</span>
+                        <span class="en">Letter of Appreciation from Engineering Support Group Commander</span>
+                    </h3>
+                    <p class="ar">لعام 1432هـ</p>
+                    <p class="en">For year 1432 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية.</p>
+                        <p class="en">From His Excellency the Commander of the Seventh Engineering Support Group in the Eastern Region.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">شهادة شكر وتقدير من مدير الشؤون الصحية</span>
+                        <span class="en">Certificate of Appreciation from Health Affairs Director</span>
+                    </h3>
+                    <p class="ar">10/06/1433هـ</p>
+                    <p class="en">10/06/1433 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">للمشاركة في اللقاء المفتوح مع مسؤولي صحة الأحساء والشخصيات الفاعلة.</p>
+                        <p class="en">For participating in the open meeting with Al-Ahsa health officials and influential figures.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-thumbs-up"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">شهادة شكر من قائد مجموعة الإسناد الهندسي</span>
+                        <span class="en">Certificate of Appreciation from Engineering Support Group Commander</span>
+                    </h3>
+                    <p class="ar">لعام 1436هـ</p>
+                    <p class="en">For year 1436 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من سعادة قائد مجموعة الإسناد الهندسي السابعة المكلف بالشرقية.</p>
+                        <p class="en">From His Excellency the Acting Commander of the Seventh Engineering Support Group in the Eastern Region.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-envelope"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">خطاب شكر من قائد سرية القيادة</span>
+                        <span class="en">Letter of Appreciation from Command Company Commander</span>
+                    </h3>
+                    <p class="ar">لعام 1437هـ</p>
+                    <p class="en">For year 1437 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">من سعادة قائد سرية القيادة بمجموعة الإسناد الهندسي السابعة بالشرقية.</p>
+                        <p class="en">From His Excellency the Commander of the Command Company in the Seventh Engineering Support Group in the Eastern Region.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-city"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">شهادة شكر من المجلس البلدي</span>
+                        <span class="en">Certificate of Appreciation from Municipal Council</span>
+                    </h3>
+                    <p class="ar">لعام 1439هـ</p>
+                    <p class="en">For year 1439 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">للمشاركة في إقامة الفعاليات الرياضية.</p>
+                        <p class="en">For participating in organizing sports events.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="certificates">
+                    <div class="achievement-icon">
+                        <i class="fas fa-hospital"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">نائب رئيس لجنة أصدقاء الصحة</span>
+                        <span class="en">Vice Chairman of Friends of Health Committee</span>
+                    </h3>
+                    <p class="ar">مركز صحي الفضول</p>
+                    <p class="en">Al-Fudul Health Center</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">نائب رئيس لجنة أصدقاء الصحة بمديرية الشؤون الصحية بالأحساء.</p>
+                        <p class="en">Vice Chairman of the Friends of Health Committee at the Directorate of Health Affairs in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <!-- التدريب والدورات -->
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-heartbeat"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">دورة الإسعافات الأولية</span>
+                        <span class="en">First Aid Course</span>
+                    </h3>
+                    <p class="ar">مستشفى الجفر العام - 1432هـ</p>
+                    <p class="en">Al-Jafr General Hospital - 1432 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تدريب متخصص في برامج الإسعافات الأولية.</p>
+                        <p class="en">Specialized training in first aid programs.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-ambulance"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">دورة إسعافات أولية وإنعاش قلبي رئوي</span>
+                        <span class="en">First Aid and CPR Course</span>
+                    </h3>
+                    <p class="ar">مستشفى الموسى - 12/10/2018م</p>
+                    <p class="en">Al-Mousa Hospital - 12/10/2018</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">تدريب بعنوان (الكل مسعف) بمديرية الشؤون الصحية بالأحساء.</p>
+                        <p class="en">Training titled (Everyone is a Paramedic) at the Directorate of Health Affairs in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-language"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">دورة اللغة الإنجليزية</span>
+                        <span class="en">English Language Course</span>
+                    </h3>
+                    <p class="ar">معهد إشراقة النور - 1435هـ</p>
+                    <p class="en">Ishraqat Al-Noor Institute - 1435 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">المستوى الأساسي في اللغة الإنجليزية من 10/07/1435هـ إلى 15/08/1435هـ.</p>
+                        <p class="en">Basic level English from 10/07/1435 H to 15/08/1435 H.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">ملتقى الأنظمة العقارية</span>
+                        <span class="en">Real Estate Systems Forum</span>
+                    </h3>
+                    <p class="ar">لعام 1436هـ</p>
+                    <p class="en">For year 1436 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">شهادة حضور ملتقى الأنظمة العقارية بالغرفة التجارية بالأحساء.</p>
+                        <p class="en">Certificate of attendance at the Real Estate Systems Forum at the Chamber of Commerce in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-horse"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">ورشة عمل عن أمراض الخيل</span>
+                        <span class="en">Workshop on Horse Diseases</span>
+                    </h3>
+                    <p class="ar">لعام 1437هـ</p>
+                    <p class="en">For year 1437 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">عضو اللجنة المنظمة لورشة عمل عن الأمراض المتعلقة بشؤون الخيل بمديرية الزراعة بالأحساء.</p>
+                        <p class="en">Member of the organizing committee for a workshop on horse-related diseases at the Directorate of Agriculture in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-shield-virus"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">ورشة عمل للدفاع المدني</span>
+                        <span class="en">Civil Defense Workshop</span>
+                    </h3>
+                    <p class="ar">22-23/01/1440هـ (02-03/10/2018م)</p>
+                    <p class="en">22-23/01/1440 H (02-03/10/2018)</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">ورشة بعنوان (التشغيل الجزئي لمعرض مراكز الدفاع المدني) بالأحساء.</p>
+                        <p class="en">Workshop titled (Partial Operation of Civil Defense Centers Exhibition) in Al-Ahsa.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-car-side"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">تنظيم فعاليات بيت المعرفة</span>
+                        <span class="en">Organizing House of Knowledge Events</span>
+                    </h3>
+                    <p class="ar">04-13/10/2018م (40 ساعة تطوعية)</p>
+                    <p class="en">04-13/10/2018 (40 volunteer hours)</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">المشاركة في تنظيم فعاليات (قيادة آمنة - بيت السلامة المرورية) بمحافظة الأحساء مع آرامكو السعودية.</p>
+                        <p class="en">Participation in organizing (Safe Driving - Traffic Safety House) events in Al-Ahsa with Saudi Aramco.</p>
+                    </details>
+                </div>
+
+                <div class="achievement-item" data-category="training">
+                    <div class="achievement-icon">
+                        <i class="fas fa-leaf"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">فعالية أحساؤنا جميلة (2)</span>
+                        <span class="en">Ahsaona Jamila (2) Event</span>
+                    </h3>
+                    <p class="ar">لعام 1439هـ</p>
+                    <p class="en">For year 1439 H</p>
+                    <details>
+                        <summary>
+                            <span class="ar">عرض التفاصيل</span>
+                            <span class="en">View Details</span>
+                        </summary>
+                        <p class="ar">المشاركة مع مديرية الزراعة بالأحساء في إنجاح الفعالية.</p>
+                        <p class="en">Participation with the Directorate of Agriculture in Al-Ahsa to ensure the success of the event.</p>
+                    </details>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم المشاريع -->
+    <section id="projects" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">المشاريع</span>
+                <span class="en">Projects</span>
+            </h2>
+            <div class="projects-content">
+                <div class="project-item">
+                    <div class="project-icon">
+                        <i class="fas fa-robot"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">مشاريع إبداعية بتقنيات الذكاء الاصطناعي</span>
+                        <span class="en">Creative Projects with AI Technologies</span>
+                    </h3>
+                    <p class="ar">
+                        تطوير وتنفيذ مشاريع إبداعية متقدمة باستخدام تقنيات الذكاء الاصطناعي في مجالات العلاقات العامة والتسويق الرياضي والسياحي.
+                    </p>
+                    <p class="en">
+                        Development and implementation of advanced creative projects using AI technologies in public relations, sports marketing, and tourism sectors.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم الهوايات -->
+    <section id="hobbies" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">الهوايات</span>
+                <span class="en">Hobbies</span>
+            </h2>
+            <div class="hobbies-content">
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-futbol"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">كرة القدم</span>
+                        <span class="en">Football</span>
+                    </h3>
+                    <p class="ar">شغف بكرة القدم والأنشطة الرياضية</p>
+                    <p class="en">Passion for football and sports activities</p>
+                </div>
+                
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-horse"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">الفروسية</span>
+                        <span class="en">Equestrian</span>
+                    </h3>
+                    <p class="ar">حب الخيل والفروسية والرياضات التراثية</p>
+                    <p class="en">Love for horses, equestrian and traditional sports</p>
+                </div>
+                
+                <div class="hobby-item">
+                    <div class="hobby-icon">
+                        <i class="fas fa-hands-helping"></i>
+                    </div>
+                    <h3>
+                        <span class="ar">الخدمات الاجتماعية</span>
+                        <span class="en">Social Services</span>
+                    </h3>
+                    <p class="ar">الاهتمام بالعمل الاجتماعي والخيري</p>
+                    <p class="en">Interest in social and charitable work</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- قسم معلومات التواصل -->
+    <section id="contact" class="section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="ar">معلومات التواصل</span>
+                <span class="en">Contact Information</span>
+            </h2>
+            <div class="contact-content">
+                <div class="contact-item">
+                    <i class="fas fa-mobile-alt"></i>
+                    <div>
+                        <h4>
+                            <span class="ar">رقم الجوال</span>
+                            <span class="en">Mobile</span>
+                        </h4>
+                        <p>+966547007111</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-phone"></i>
+                    <div>
+                        <h4>
+                            <span class="ar">الهواتف</span>
+                            <span class="en">Phones</span>
+                        </h4>
+                        <p>+966135982888 - +966135982999</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-fax"></i>
+                    <div>
+                        <h4>
+                            <span class="ar">الفاكس</span>
+                            <span class="en">Fax</span>
+                        </h4>
+                        <p>+966135982555</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-envelope"></i>
+                    <div>
+                        <h4>
+                            <span class="ar">البريد الإلكتروني</span>
+                            <span class="en">Email</span>
+                        </h4>
+                        <p>sh.ali@ahsana.com</p>
+                    </div>
+                </div>
+                
+                <div class="contact-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <div>
+                        <h4>
+                            <span class="ar">العنوان</span>
+                            <span class="en">Address</span>
+                        </h4>
+                        <p class="ar">صندوق البريد: 1715 الأحساء - المملكة العربية السعودية</p>
+                        <p class="en">P.O. Box: 1715 Al-Ahsa - Saudi Arabia</p>
+                        <p class="ar">رمز البريد: 31982</p>
+                        <p class="en">Postal Code: 31982</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- الذيل -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <p>
+                    <span class="ar">© 2024 جميع الحقوق محفوظة لأشرف بن أحمد محمد العلي</span>
+                    <span class="en">© 2024 All Rights Reserved to Ashraf bin Ahmed Mohammed Al-Ali</span>
+                </p>
+                <div class="developer-info">
+                    <p>
+                        <span class="ar">المطوّر: م. عبدالله السالم</span>
+                        <span class="en">Developer: Eng. Abdullah Al-Salem</span>
+                    </p>
+                    <a href="https://abdullah-alsalem-cv.netlify.app" target="_blank">
+                        <span class="ar">موقع المطور</span>
+                        <span class="en">Developer Website</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
