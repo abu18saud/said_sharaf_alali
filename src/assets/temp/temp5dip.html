@@ -1,4 +1,109 @@
-<div [dir]="lang === 'ar'? 'rtl':'ltr'">
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>سيرة شرف العلي الذاتية</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+
+        body {
+            font-family: 'Tajawal', sans-serif;
+            scroll-behavior: smooth;
+        }
+
+        .job-title {
+            animation: slide 15s infinite;
+            opacity: 0;
+        }
+
+        .job-title:nth-child(1) {
+            animation-delay: 0s;
+        }
+
+        .job-title:nth-child(2) {
+            animation-delay: 3s;
+        }
+
+        .job-title:nth-child(3) {
+            animation-delay: 6s;
+        }
+
+        .job-title:nth-child(4) {
+            animation-delay: 9s;
+        }
+
+        .job-title:nth-child(5) {
+            animation-delay: 12s;
+        }
+
+        @keyframes slide {
+            0% {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+
+            5% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            20% {
+                opacity: 1;
+                transform: translateY(0);
+            }
+
+            25% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+
+            100% {
+                opacity: 0;
+                transform: translateY(-20px);
+            }
+        }
+
+        .gallery-item {
+            transition: all 0.3s ease;
+        }
+
+        .gallery-item:hover {
+            transform: scale(1.05);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+        }
+
+        .achievement-card {
+            transition: all 0.3s ease;
+        }
+
+        .achievement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        .section {
+            scroll-margin-top: 100px;
+        }
+
+        .active-nav {
+            color: #3b82f6;
+            font-weight: bold;
+            border-bottom: 2px solid #3b82f6;
+        }
+
+        .hobby-icon {
+            font-size: 2.5rem;
+            color: #3b82f6;
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+
+<body class="bg-gray-50 text-gray-800">
     <!-- Header -->
     <header class="bg-white shadow-md sticky top-0 z-50">
         <div class="container mx-auto px-4 py-4 flex justify-between items-center">
@@ -735,4 +840,38 @@
             </div>
         </div>
     </footer>
-</div>
+
+    <script>
+        // Simple script to handle mobile menu toggle and active nav links
+        document.getElementById('menu-toggle').addEventListener('click', function () {
+            const menu = document.getElementById('mobile-menu');
+            menu.classList.toggle('hidden');
+        });
+
+        // Highlight active nav link based on scroll position
+        const sections = document.querySelectorAll('.section');
+        const navLinks = document.querySelectorAll('.nav-link, #mobile-menu a');
+
+        window.addEventListener('scroll', function () {
+            let current = '';
+
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop;
+                const sectionHeight = section.clientHeight;
+
+                if (pageYOffset >= (sectionTop - 150)) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('active-nav');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('active-nav');
+                }
+            });
+        });
+    </script>
+</body>
+
+</html>

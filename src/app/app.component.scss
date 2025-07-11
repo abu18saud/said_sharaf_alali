@@ -1,0 +1,85 @@
+.job-title {
+    animation: slide 15s infinite;
+    opacity: 0;
+}
+
+.job-title:nth-child(1) {
+    animation-delay: 0s;
+}
+
+.job-title:nth-child(2) {
+    animation-delay: 3s;
+}
+
+.job-title:nth-child(3) {
+    animation-delay: 6s;
+}
+
+.job-title:nth-child(4) {
+    animation-delay: 9s;
+}
+
+.job-title:nth-child(5) {
+    animation-delay: 12s;
+}
+
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+
+    5% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    20% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+
+    25% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+}
+
+.gallery-item {
+    transition: all 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+.achievement-card {
+    transition: all 0.3s ease;
+}
+
+.achievement-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.section {
+    scroll-margin-top: 100px;
+}
+
+.active-nav {
+    color: #3b82f6;
+    font-weight: bold;
+    border-bottom: 2px solid #3b82f6;
+}
+
+.hobby-icon {
+    font-size: 2.5rem;
+    color: #3b82f6;
+    margin-bottom: 1rem;
+}
