@@ -1,6 +1,6 @@
 {
-    "ar_name": "شرف بن أحمد محمد العلي",
-    "en_name": "Sharaf Ahmed Al-Ali",
+    "name_ar": "شرف بن أحمد محمد العلي",
+    "name_en": "Sharaf Ahmed Al-Ali",
     "profile_picture": "assets/img/pic.jpeg",
     "resume_file": "",
     "bio_ar": "نبذة تعريفية باللغة العربية",
@@ -22,32 +22,32 @@
     "en_address": "P.O. Box: 1715 <br> Al-Ahsa – Kingdom of Saudi Arabia <br> Postal Code: 31982",
     "job_titles": [
         {
-            "ar_name": "العلاقات العامة والتواصل المؤسسي",
-            "en_name": "Public Relations and Corporate Communication"
+            "name_ar": "العلاقات العامة والتواصل المؤسسي",
+            "name_en": "Public Relations and Corporate Communication"
         },
         {
-            "ar_name": "العلاقات العامة والتواصل المؤسسي",
-            "en_name": "Sports Marketing and Investment Specialist"
+            "name_ar": "العلاقات العامة والتواصل المؤسسي",
+            "name_en": "Sports Marketing and Investment Specialist"
         },
         {
-            "ar_name": "ممثل العلاقات العامة لدى شركة الأحساء للسياحية والترفيه",
-            "en_name": "Public Relations Representative at Al-Ahsa Tourism and Entertainment Company"
+            "name_ar": "ممثل العلاقات العامة لدى شركة الأحساء للسياحية والترفيه",
+            "name_en": "Public Relations Representative at Al-Ahsa Tourism and Entertainment Company"
         },
         {
-            "ar_name": "عضو مجلس إدارة جمعية سند للمسؤولية الاجتماعية",
-            "en_name": "Board Member of Sanad Association for Social Responsibility"
+            "name_ar": "عضو مجلس إدارة جمعية سند للمسؤولية الاجتماعية",
+            "name_en": "Board Member of Sanad Association for Social Responsibility"
         },
         {
-            "ar_name": "مدير العلاقات العامة والتواصل المؤسسي في جمعية سند",
-            "en_name": "Director of Public Relations and Corporate Communication at Sanad Association"
+            "name_ar": "مدير العلاقات العامة والتواصل المؤسسي في جمعية سند",
+            "name_en": "Director of Public Relations and Corporate Communication at Sanad Association"
         }
     ],
     "experiences": [
         {
             "title_ar": "مدير علاقات عامة",
             "title_en": "PR Manager",
-            "description_ar": "إدارة التواصل المؤسسي",
-            "description_en": "Managing corporate communication",
+            "ar_description": "إدارة التواصل المؤسسي",
+            "en_description": "Managing corporate communication",
             "icon": "pr_icon.png"
         }
     ],
@@ -81,12 +81,12 @@
     ],
     "certificates": [
         {
-            "name_ar": "شهادة القيادة",
-            "name_en": "Leadership Certificate",
-            "description_ar": "شهادة اجتياز دورة القيادة",
-            "description_en": "Certificate of completing leadership course",
-            "category": "تطوير شخصي",
-            "icon": "cert_icon.png",
+            "name_ar": "عضو العلاقات العامة بنادي الاتفاق من عام 1424 هـ لعام 1426هـ",
+            "name_en": "Public Relations Member at Al-Ettifaq Club from 1424 AH to 1426 AH",
+            "description_ar": "شغلتُ منصب عضو في قسم العلاقات العامة بنادي الاتفاق الرياضي خلال الفترة من عام 1424 هـ حتى عام 1426 هـ، حيث ساهمت في تنظيم الفعاليات الإعلامية والتواصل مع الجماهير والمؤسسات، إضافةً إلى دعم الحملات الترويجية للنادي وتعزيز صورته لدى المجتمع الرياضي",
+            "description_en": "I served as a Public Relations Member at Al-Ettifaq Sports Club from 1424 AH to 1426 AH. During this period, I contributed to organizing media events, engaging with fans and institutions, and supporting the club’s promotional campaigns to enhance its image within the sports community.",
+            "category": "FOOTBALL_PARTICIPATIONS",
+            "icon": "fas fa-robot",
             "file": "cert.pdf"
         }
     ],

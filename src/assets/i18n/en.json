@@ -1,0 +1,12 @@
+{
+    "MAIN_MENU": {
+        "ABOUT": "About Me",
+        "EXPERIENCE": "Experience",
+        "EDUCATION": "Education",
+        "GALLERY": "Gallery",
+        "ACHIEVEMENTS": "Achievements",
+        "PROJECTS": "Projects",
+        "HOBBIES": "Hobbies",
+        "CONTACT": "Contact"
+    }
+}

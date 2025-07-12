@@ -1,25 +1,12 @@
 {
-    "MY_NAME": "عبدالله علي السالم",
-    "ADDRESS": "الأحساء - قرية الفضول",
-    "DESIRE": {
-        "SOFTWARE_ENGINEER": "مهندس برمجيات",
-        "UI_UX_DESIGNER": "أعمل أن أكون مصمم UI / UX",
-        "FRONT_END_DEVELOPER": "أعمل على تطوير الواجهة الأمامية",
-        "FULL_STACK_DEVELOPER": "مطور مكدس كامل",
-        "SPA": "أطور تطبيقات الصفحة الواحدة (SPA)",
-        "AGILE_METHODOLOGIES": "أعمل على المنهجيات الرشيقة",
-        "SOFTWARE_DEVELOPMENT": "أعمل على تطوير البرمجيات"
-    },
-    "BUTTONS": {
-        "HIRE_ME": "وظفني",
-        "DOWNLOAD_MY_CV": "تنزيل السيرة",
-        "MY_BLOG": "مدونتي",
-        "ARABIC": "العربية",
-        "ENGLISH": "English",
-        "VIEW_ALL_PLAYLISTS": "الاطلاع على كافة قوائم التشغيل",
-        "SUBMIT": "ارسال",
-        "CREATE_A_SIMILAR_RESUME": "اطلب مني إنشاء سيرة ذاتية مشابهة لك",
-        "AGREE": "أوافق على جميع الشروط",
-        "CLOSE": "إغلاق"
+    "MAIN_MENU": {
+        "ABOUT": "عني",
+        "EXPERIENCE": "الخبرات",
+        "EDUCATION": "التعليم",
+        "GALLERY": "معرض الوسائط",
+        "ACHIEVEMENTS": "معرض الوسائط",
+        "PROJECTS": "المشاريع",
+        "HOBBIES": "الهوايات",
+        "CONTACT": "التواصل"
     }
 }
