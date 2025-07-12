@@ -1,0 +1,145 @@
+{
+    "ar_name": "شرف بن أحمد محمد العلي",
+    "en_name": "Sharaf Ahmed Al-Ali",
+    "profile_picture": "assets/img/pic.jpeg",
+    "resume_file": "",
+    "bio_ar": "نبذة تعريفية باللغة العربية",
+    "bio_en": "Short bio in English",
+    "phones": [
+        "+966135982888",
+        "+966135982999"
+    ],
+    "mobiles": [
+        "+966547007111"
+    ],
+    "faxes": [
+        "+966135982555"
+    ],
+    "emails": [
+        "sh.ali@ahsana.com"
+    ],
+    "ar_address": "صندوق البريد: 1715 <br> الأحساء - المملكة العربية السعودية <br> الرمز البريدي: 31982",
+    "en_address": "P.O. Box: 1715 <br> Al-Ahsa – Kingdom of Saudi Arabia <br> Postal Code: 31982",
+    "job_titles": [
+        {
+            "ar_name": "العلاقات العامة والتواصل المؤسسي",
+            "en_name": "Public Relations and Corporate Communication"
+        },
+        {
+            "ar_name": "العلاقات العامة والتواصل المؤسسي",
+            "en_name": "Sports Marketing and Investment Specialist"
+        },
+        {
+            "ar_name": "ممثل العلاقات العامة لدى شركة الأحساء للسياحية والترفيه",
+            "en_name": "Public Relations Representative at Al-Ahsa Tourism and Entertainment Company"
+        },
+        {
+            "ar_name": "عضو مجلس إدارة جمعية سند للمسؤولية الاجتماعية",
+            "en_name": "Board Member of Sanad Association for Social Responsibility"
+        },
+        {
+            "ar_name": "مدير العلاقات العامة والتواصل المؤسسي في جمعية سند",
+            "en_name": "Director of Public Relations and Corporate Communication at Sanad Association"
+        }
+    ],
+    "experiences": [
+        {
+            "title_ar": "مدير علاقات عامة",
+            "title_en": "PR Manager",
+            "description_ar": "إدارة التواصل المؤسسي",
+            "description_en": "Managing corporate communication",
+            "icon": "pr_icon.png"
+        }
+    ],
+    "education": [
+        {
+            "degree_type": "بكالوريوس",
+            "university_ar": "جامعة الملك سعود",
+            "university_en": "King Saud University",
+            "gpa": 3.75,
+            "start_date": "2012-09-01",
+            "graduation_date": "2016-06-01",
+            "join_year": 2012,
+            "icon": "university_icon.png"
+        }
+    ],
+    "projects": [
+        {
+            "name_ar": "مشروع سياحي",
+            "name_en": "Tourism Project",
+            "description_ar": "مشروع يهدف لتنشيط السياحة",
+            "description_en": "A project aimed at promoting tourism",
+            "icon": "project_icon.png",
+            "image": "project.jpg",
+            "file": "project_doc.pdf",
+            "is_featured": true,
+            "categories": [
+                "سياحة",
+                "ترفيه"
+            ]
+        }
+    ],
+    "certificates": [
+        {
+            "name_ar": "شهادة القيادة",
+            "name_en": "Leadership Certificate",
+            "description_ar": "شهادة اجتياز دورة القيادة",
+            "description_en": "Certificate of completing leadership course",
+            "category": "تطوير شخصي",
+            "icon": "cert_icon.png",
+            "file": "cert.pdf"
+        }
+    ],
+    "media_gallery": [
+        {
+            "description_ar": "مشاركة في مؤتمر",
+            "description_en": "Participation in a conference",
+            "category": "مؤتمرات",
+            "image": "event.jpg",
+            "video": "event.mp4"
+        }
+    ],
+    "hobbies": [
+        {
+            "name_ar": "القراءة",
+            "name_en": "Reading",
+            "description_ar": "قراءة كتب التنمية البشرية",
+            "description_en": "Reading personal development books",
+            "icon": "book_icon.png",
+            "image": "reading.jpg"
+        }
+    ],
+    "social_links": [
+        {
+            "name_ar": "تويتر",
+            "name_en": "Twitter",
+            "url": "https://twitter.com/username",
+            "icon": "twitter_icon.png",
+            "username": "username"
+        }
+    ],
+    "skills": [
+        {
+            "name_ar": "التسويق الرقمي",
+            "name_en": "Digital Marketing",
+            "level": "متقدم"
+        }
+    ],
+    "languages": [
+        {
+            "language_name": "الإنجليزية",
+            "proficiency_level": "متقدم",
+            "certificate": "IELTS"
+        }
+    ],
+    "references": [
+        {
+            "ref_name": "أحمد العبدالله",
+            "position": "مدير قسم",
+            "organization": "شركة كبرى",
+            "phone": "+966501234567",
+            "email": "ref@example.com"
+        }
+    ],
+    "contact_link": "https://myprofile.com/contact"
+}
