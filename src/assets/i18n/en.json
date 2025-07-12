@@ -8,5 +8,13 @@
         "PROJECTS": "Projects",
         "HOBBIES": "Hobbies",
         "CONTACT": "Contact"
+    },
+    "BUTTONS": {
+        "CONTACT_ME": "Contact Me",
+        "MY_ACHIEVEMENTS": "My Achievements",
+        "DOWNLOAD_CV": "Download CV"
+    },
+    "LABELS": {
+        "PROFESSIONAL_EXPERIENCE": "Professional Experience"
     }
 }

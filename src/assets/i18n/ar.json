@@ -4,9 +4,17 @@
         "EXPERIENCE": "الخبرات",
         "EDUCATION": "التعليم",
         "GALLERY": "معرض الوسائط",
-        "ACHIEVEMENTS": "معرض الوسائط",
+        "ACHIEVEMENTS": "الإنجازات",
         "PROJECTS": "المشاريع",
         "HOBBIES": "الهوايات",
         "CONTACT": "التواصل"
+    },
+    "BUTTONS": {
+        "CONTACT_ME": "تواصل معي",
+        "MY_ACHIEVEMENTS": "إنجازاتي",
+        "DOWNLOAD_CV": "تنزيل السيرة"
+    },
+    "LABELS": {
+        "PROFESSIONAL_EXPERIENCE": "مسيرتي المهنية"
     }
 }

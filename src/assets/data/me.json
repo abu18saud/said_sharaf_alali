@@ -3,8 +3,8 @@
     "name_en": "Sharaf Ahmed Al-Ali",
     "profile_picture": "assets/img/pic.jpeg",
     "resume_file": "",
-    "bio_ar": "نبذة تعريفية باللغة العربية",
-    "bio_en": "Short bio in English",
+    "bio_ar": "<p class='text-gray-700 mb-6 leading-relaxed'> محترف في مجال العلاقات العامة والتواصل المؤسسي مع خبرة واسعة في إدارة المشاريع السياحية والترفيهية. قمت بإدارة وتنفيذ العديد من المشاريع البارزة مثل مشروع جبل القارة (أرض الحضارات) ومنتزه الشيباني (مشروع المشقر السياحي) والتي ساهمت في تعزيز السياحة في منطقة الأحساء. </p> <p class='text-gray-700 mb-6 leading-relaxed'> كعضو في مجلس إدارة جمعية سند للمسؤولية الاجتماعية ومدير العلاقات العامة والتواصل المؤسسي في الجمعية، قمت بتعزيز حضور الجمعية وزيادة تأثيرها في المجتمع من خلال مبادرات نوعية وشراكات استراتيجية. </p>",
+    "bio_en": "<p class='text-gray-700 mb-6 leading-relaxed'> A professional in the field of public relations and corporate communication, with extensive experience in managing tourism and entertainment projects. I have led and executed several notable projects such as the Jabal Al-Qarah (Land of Civilizations) and Al-Shaibani Park (Al-Mashqar Tourism Project), which significantly contributed to promoting tourism in the Al-Ahsa region. </p> <p class='text-gray-700 mb-6 leading-relaxed'> As a Board Member of Sand Association for Social Responsibility and Director of Public Relations and Corporate Communication at the association, I have worked to enhance the organization's presence and increase its impact within the community through quality initiatives and strategic partnerships. </p>",
     "phones": [
         "+966135982888",
         "+966135982999"
@@ -26,7 +26,7 @@
             "name_en": "Public Relations and Corporate Communication"
         },
         {
-            "name_ar": "العلاقات العامة والتواصل المؤسسي",
+            "name_ar": "متخصص التسويق والاستثمار الرياضي",
             "name_en": "Sports Marketing and Investment Specialist"
         },
         {
@@ -111,11 +111,46 @@
     ],
     "social_links": [
         {
-            "name_ar": "تويتر",
-            "name_en": "Twitter",
-            "url": "https://twitter.com/username",
-            "icon": "twitter_icon.png",
-            "username": "username"
+            "name_ar": "سناب شات",
+            "name_en": "Snapchat",
+            "url": "https://www.snapchat.com/add/sharaf2020",
+            "icon": "fab fa-snapchat text-xl",
+            "username": "sharaf2020"
+        },
+        {
+            "name_ar": "واتسآب",
+            "name_en": "WhatsApp",
+            "url": "https://api.whatsapp.com/send?phone=966547007111",
+            "icon": "fab fa-whatsapp text-xl",
+            "username": "+966547007111"
+        },
+        {
+            "name_ar": "تيك توك",
+            "name_en": "TikTok",
+            "url": "https://www.tiktok.com/@sharafalali4",
+            "icon": "fab fa-tiktok text-xl",
+            "username": "sharafalali4"
+        },
+        {
+            "name_ar": "إنستغرام",
+            "name_en": "Instagram",
+            "url": "https://www.instagram.com/sharaf_alali",
+            "icon": "fab fa-instagram text-xl",
+            "username": "sharaf_alali"
+        },
+        {
+            "name_ar": "X",
+            "name_en": "X",
+            "url": "https://x.com/waldalali204979",
+            "icon": "fab fa-x-twitter text-xl",
+            "username": "waldalali204979"
+        },
+        {
+            "name_ar": "تيليجرام",
+            "name_en": "Telegram",
+            "url": "https://t.me/sharaf_alali",
+            "icon": "fab fa-telegram text-xl",
+            "username": "sharaf_alali"
         }
     ],
     "skills": [

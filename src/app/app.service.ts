@@ -1,17 +1,18 @@
 import { HttpClient } from '@angular/common/http';
 import { Injectable } from '@angular/core';
+import { Observable } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
 export class AppService {
-  constructor(public http: HttpClient,
+  public url = '/assets/data/';
 
+  constructor(public http: HttpClient) { }
 
-  ) { }
-
-
-
+  public getMe(): Observable<any> {
+    return this.http.get<any>(this.url + 'me.json');
+  }
 
   public sortData(sort: string, data: any[]) {
     if (sort) {
