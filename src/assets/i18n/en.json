@@ -2,6 +2,7 @@
     "MAIN_MENU": {
         "ABOUT": "About Me",
         "EXPERIENCE": "Experience",
+        "PROFESSIONAL_EXPERIENCE": "Professional Experience",
         "EDUCATION": "Education",
         "GALLERY": "Gallery",
         "ACHIEVEMENTS": "Achievements",
@@ -16,7 +17,12 @@
         "DOWNLOAD_CV": "Download CV"
     },
     "LABELS": {
-        "PROFESSIONAL_EXPERIENCE": "Professional Experience"
+        "PROFESSIONAL_EXPERIENCE": "Professional Experience",
+        "GPA": "GPA",
+        "START_DATE": "Start Date",
+        "END_DATE": "End Date",
+        "JOINING_YEAR": "Joining Year",
+        "SPECIALIZATION": "Specialization"
     },
     "CATEGORIES": {
         "SPORTS_FACILITIES": "Sports Facilities",

@@ -2,6 +2,7 @@
     "MAIN_MENU": {
         "ABOUT": "عني",
         "EXPERIENCE": "الخبرات",
+        "PROFESSIONAL_EXPERIENCE": "الخبرات العلمية",
         "EDUCATION": "التعليم",
         "GALLERY": "معرض الوسائط",
         "ACHIEVEMENTS": "الإنجازات",
@@ -16,7 +17,12 @@
         "DOWNLOAD_CV": "تنزيل السيرة"
     },
     "LABELS": {
-        "PROFESSIONAL_EXPERIENCE": "مسيرتي المهنية"
+        "PROFESSIONAL_EXPERIENCE": "مسيرتي المهنية",
+        "GPA": "المعدل التراكمي",
+        "START_DATE": "تاريخ البدء",
+        "END_DATE": "تاريخ التخرج",
+        "JOINING_YEAR": "سنة الانضمام",
+        "SPECIALIZATION": "التخصص"
     },
     "CATEGORIES": {
         "SPORTS_FACILITIES": "خدمة المرافق الرياضية",

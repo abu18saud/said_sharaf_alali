@@ -10,13 +10,15 @@ import { TranslateService } from '@ngx-translate/core';
 export class AppComponent {
   lang = 'ar';
   me: any = {};
+  featureds: any[] = [];
 
   constructor(private appService: AppService,
     private translateService: TranslateService
   ) {
     this.appService.getMe().subscribe(res => {
       this.me = res;
-    })
+      this.featureds = res.projects.filter((item: any) => item.is_featured === true);
+    });
   }
 
   public switchLanguage(event: any) {
@@ -26,7 +28,7 @@ export class AppComponent {
       this.lang = event;
     } else {
       this.translateService.use(event);
-      this.lang = event;      
+      this.lang = event;
     }
   }
 }
