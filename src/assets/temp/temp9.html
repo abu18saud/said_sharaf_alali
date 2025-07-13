@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيرة الذاتية</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&display=swap');
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: 'Cairo', sans-serif;
+            background: #f5f5f5;
+            color: #333;
+            line-height: 1.4;
+        }
+        
+        .container {
+            width: 210mm;
+            height: 297mm;
+            background: white;
+            margin: 0 auto;
+            display: flex;
+            position: relative;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        
+        .left-section {
+            width: 35%;
+            background: linear-gradient(135deg, #2c5aa0 0%, #1a4480 100%);
+            color: white;
+            padding: 30px 20px;
+            position: relative;
+        }
+        
+        .right-section {
+            width: 65%;
+            padding: 30px 25px;
+            background: #f8f9fa;
+        }
+        
+        .profile-photo {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 0 auto 20px;
+            border: 4px solid white;
+            background: #ddd;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 14px;
+            color: #666;
+            background-image: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="%23666"><path d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"/></svg>');
+            background-size: 60px;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+        
+        .name {
+            font-size: 22px;
+            font-weight: 700;
+            text-align: center;
+            margin-bottom: 8px;
+        }
+        
+        .title {
+            font-size: 14px;
+            text-align: center;
+            margin-bottom: 10px;
+            opacity: 0.9;
+        }
+        
+        .subtitle {
+            font-size: 12px;
+            text-align: center;
+            margin-bottom: 25px;
+            opacity: 0.8;
+        }
+        
+        .contact-section {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .contact-section h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            text-align: center;
+            background: rgba(255,255,255,0.2);
+            padding: 8px;
+            border-radius: 5px;
+        }
+        
+        .contact-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .contact-icon {
+            width: 20px;
+            height: 20px;
+            margin-left: 8px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2c5aa0;
+            font-weight: bold;
+        }
+        
+        .achievements-section {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+        }
+        
+        .achievements-section h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            text-align: center;
+            background: rgba(255,255,255,0.2);
+            padding: 8px;
+            border-radius: 5px;
+        }
+        
+        .achievement-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .achievement-icon {
+            width: 20px;
+            height: 20px;
+            margin-left: 8px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2c5aa0;
+            font-weight: bold;
+        }
+        
+        .languages-section {
+            background: rgba(255,255,255,0.1);
+            padding: 15px;
+            border-radius: 8px;
+        }
+        
+        .languages-section h3 {
+            font-size: 16px;
+            margin-bottom: 12px;
+            text-align: center;
+            background: rgba(255,255,255,0.2);
+            padding: 8px;
+            border-radius: 5px;
+        }
+        
+        .language-item {
+            display: flex;
+            align-items: center;
+            margin-bottom: 8px;
+            font-size: 12px;
+        }
+        
+        .language-icon {
+            width: 20px;
+            height: 20px;
+            margin-left: 8px;
+            background: white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #2c5aa0;
+            font-weight: bold;
+        }
+        
+        .about-section {
+            background: #e8f4f8;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-right: 4px solid #2c5aa0;
+        }
+        
+        .about-section h2 {
+            font-size: 18px;
+            color: #2c5aa0;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .about-section h2::before {
+            content: "👤";
+            margin-left: 8px;
+        }
+        
+        .about-section p {
+            font-size: 13px;
+            line-height: 1.6;
+            color: #555;
+        }
+        
+        .education-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-right: 4px solid #2c5aa0;
+        }
+        
+        .education-section h2 {
+            font-size: 18px;
+            color: #2c5aa0;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .education-section h2::before {
+            content: "🎓";
+            margin-left: 8px;
+        }
+        
+        .education-item {
+            position: relative;
+            padding-right: 20px;
+            margin-bottom: 15px;
+            border-right: 2px solid #ddd;
+        }
+        
+        .education-item::before {
+            content: "";
+            position: absolute;
+            right: -5px;
+            top: 5px;
+            width: 8px;
+            height: 8px;
+            background: #2c5aa0;
+            border-radius: 50%;
+        }
+        
+        .education-year {
+            background: #2c5aa0;
+            color: white;
+            padding: 3px 8px;
+            border-radius: 12px;
+            font-size: 11px;
+            font-weight: bold;
+            display: inline-block;
+            margin-bottom: 5px;
+        }
+        
+        .education-degree {
+            font-weight: 600;
+            font-size: 13px;
+            margin-bottom: 3px;
+        }
+        
+        .education-institution {
+            font-size: 12px;
+            color: #666;
+            margin-bottom: 2px;
+        }
+        
+        .education-grade {
+            font-size: 11px;
+            color: #888;
+        }
+        
+        .projects-section {
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border-right: 4px solid #2c5aa0;
+        }
+        
+        .projects-section h2 {
+            font-size: 18px;
+            color: #2c5aa0;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .projects-section h2::before {
+            content: "🚀";
+            margin-left: 8px;
+        }
+        
+        .project-item {
+            margin-bottom: 12px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 5px;
+            border-right: 3px solid #2c5aa0;
+        }
+        
+        .project-item h4 {
+            font-size: 12px;
+            color: #2c5aa0;
+            margin-bottom: 5px;
+        }
+        
+        .project-item p {
+            font-size: 11px;
+            color: #666;
+            line-height: 1.5;
+        }
+        
+        .stats-section {
+            background: white;
+            padding: 5px;
+            border-radius: 8px;
+            border-right: 4px solid #2c5aa0;
+        }
+        
+        .stats-section h2 {
+            font-size: 18px;
+            color: #2c5aa0;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+        }
+        
+        .stats-section h2::before {
+            content: "📊";
+            margin-left: 8px;
+        }
+        
+        .stats-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 15px;
+        }
+        
+        .stat-item {
+            text-align: center;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        
+        .stat-number {
+            font-size: 24px;
+            font-weight: bold;
+            color: #2c5aa0;
+        }
+        
+        .stat-label {
+            font-size: 12px;
+            color: #666;
+            margin-top: 5px;
+        }
+        
+        .stat-icon {
+            font-size: 20px;
+            margin-bottom: 5px;
+        }
+        
+        @media print {
+            body {
+                background: white;
+            }
+            
+            .container {
+                box-shadow: none;
+                margin: 0;
+            }
+            
+            @page {
+                size: A4;
+                margin: 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="left-section">
+            <div class="profile-photo"></div>
+            <div class="name">شرف بن أحمد محمد العلي</div>
+            <div class="title">العلاقات العامة والتواصل المؤسسي</div>
+            <div class="subtitle">ومتخصص التسويق والاستثمار الرياضي</div>
+            
+            <div class="contact-section">
+                <h3>ملف شخصي</h3>
+                <div class="contact-item">
+                    <div class="contact-icon">📱</div>
+                    <span>+966547007111</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📧</div>
+                    <span>sh.ali@ahsana.com</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📍</div>
+                    <span>السعودية - الأحساء</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">🌐</div>
+                    <span>متزوج</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">📅</div>
+                    <span>سنة الميلاد 1391هـ</span>
+                </div>
+                <div class="contact-item">
+                    <div class="contact-icon">👻</div>
+                    <span>sharaf2020</span>
+                </div>
+            </div>
+            
+            <div class="achievements-section">
+                <h3>أبرز المساهمات</h3>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✅</div>
+                    <span>المساهمة في تطوير مشروع حلبة الطائرة الآمن (المتقدمة)</span>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✅</div>
+                    <span>المساهمة في تطوير متحف الشيباني لمشروع المشفر السياحي</span>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✅</div>
+                    <span>عضو مجلس إدارة جمعية سند للمسؤولية الاجتماعية</span>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✅</div>
+                    <span>مدير العلاقات العامة والتواصل المؤسسي في جمعية سند</span>
+                </div>
+                <div class="achievement-item">
+                    <div class="achievement-icon">✅</div>
+                    <span>إدارة العلاقات العامة بميدان فروسية الأحساء</span>
+                </div>
+            </div>
+            
+            <div class="languages-section">
+                <h3>اللغات</h3>
+                <div class="language-item">
+                    <div class="language-icon">🇸🇦</div>
+                    <span>العربية (اللغة الأم)</span>
+                </div>
+                <div class="language-item">
+                    <div class="language-icon">🇺🇸</div>
+                    <span>الإنجليزية أجيد</span>
+                </div>
+            </div>
+        </div>
+        
+        <div class="right-section">
+            <div class="about-section">
+                <h2>عني</h2>
+                <p>محترف في العلاقات العامة والتواصل المؤسسي بخبرة في المشاريع السياحية والرياضية، أسهم في تطوير ميدان فروسية الأحساء وتصنيفه فئة (أ)، وتنظيم بطولات وفعاليات كبرى، عضو في جمعية سند، ساهم في تعزيز أثرها المجتمعي عبر شراكات ومبادرات نوعية.</p>
+            </div>
+            
+            <div class="education-section">
+                <h2>المؤهلات</h2>
+                <div class="education-item">
+                    <div class="education-year">2012</div>
+                    <div class="education-degree">التعليم الثانوي</div>
+                    <div class="education-institution">الثانوية - مدرسة الشرق الأولى</div>
+                    <div class="education-grade">التراكمي: 92.77% - ممتاز</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-year">2014</div>
+                    <div class="education-degree">مناهل الجزيرة الأهلية الليلية - السعودية</div>
+                    <div class="education-institution">الآداب</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-year">2020</div>
+                    <div class="education-degree">بكالوريوس - مدرسة الشرق الأولى</div>
+                    <div class="education-grade">التراكمي: 4.80 - ممتاز</div>
+                </div>
+                <div class="education-item">
+                    <div class="education-year">2025</div>
+                    <div class="education-degree">جامعة الملك فيصل - السعودية</div>
+                </div>
+            </div>
+            
+            <div class="projects-section">
+                <h2>المشاريع البارزة</h2>
+                <div class="project-item">
+                    <h4>المساهمة في دوكمة ميدان فروسية الأحساء</h4>
+                    <p>وزيادة الدعم من 150 ألف إلى 750 ألف ريال لعام 1438هـ.</p>
+                </div>
+                <div class="project-item">
+                    <h4>مشروع إنهاء إجراءات جميع التصاريح الرسمية</h4>
+                    <p>لمتنزه الشيباني (المشفر السياحي) لعام 1444هـ</p>
+                </div>
+                <div class="project-item">
+                    <h4>المساهمة في عملية إنجاز بحيرة المشفر الصناعية</h4>
+                    <p>بمساحة 26 ألف متر مربع لعام 1447هـ</p>
+                </div>
+                <div class="project-item">
+                    <h4>مشروع إقامة معسكر رياضي لكرة القدم لفريق</h4>
+                    <p>الأجيال بالعجوز في الرياض ومقابلة نادي الهلال السعودية لفئة الناشئين لعام 2025م</p>
+                </div>
+            </div>
+            
+            <div class="stats-section">
+                <h2>الإحصائيات</h2>
+                <!-- <div class="stats-grid">
+                    <div class="stat-item">
+                        <div class="stat-icon">🚀</div>
+                        <div class="stat-number">15</div>
+                        <div class="stat-label">مشروعاً</div>
+                    </div>
+                    <div class="stat-item">
+                        <div class="stat-icon">🏆</div>
+                        <div class="stat-number">42</div>
+                        <div class="stat-label">إنجازاً</div>
+                    </div>
+                </div> -->
+                <div style="text-align: center; margin-top: 15px; font-size: 12px; color: #666;">
+                    يرجى زيارة موقع الويب الخاص بي لمعرفة مشاريعي وإنجازاتي
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

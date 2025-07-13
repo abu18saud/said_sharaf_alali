@@ -1,0 +1,504 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>السيرة الذاتية - شرف العلي</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <script src="https://cdn.rawgit.com/davidshimjs/qrcodejs/gh-pages/qrcode.min.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap');
+        body {
+            font-family: 'Tajawal', sans-serif;
+        }
+        .print-area {
+            width: 210mm;
+            min-height: 297mm;
+            margin: 0 auto;
+            background: white;
+            box-shadow: 0 0 10px rgba(0,0,0,0.1);
+        }
+        @media print {
+            body * {
+                visibility: hidden;
+            }
+            .print-area, .print-area * {
+                visibility: visible;
+            }
+            .print-area {
+                width: 100%;
+                height: auto;
+                margin: 0;
+                padding: 0;
+                box-shadow: none;
+            }
+            .no-print {
+                display: none !important;
+            }
+            .page-break {
+                page-break-after: always;
+            }
+        }
+        .category-badge {
+            transition: all 0.3s ease;
+        }
+        .category-badge:hover {
+            transform: translateY(-2px);
+        }
+        .achievement-card {
+            transition: all 0.3s ease;
+        }
+        .achievement-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        .hobby-icon {
+            transition: all 0.3s ease;
+        }
+        .hobby-icon:hover {
+            transform: scale(1.1);
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <div class="container mx-auto py-8 px-4">
+        <div class="flex justify-between items-center mb-6 no-print">
+            <h1 class="text-2xl font-bold text-gray-800">السيرة الذاتية - شرف العلي</h1>
+            <div class="flex space-x-4">
+                <button onclick="window.print()" class="bg-blue-600 hover:bg-blue-700 text-white px-4 py-2 rounded-lg flex items-center">
+                    <i class="fas fa-print mr-2"></i> طباعة السيرة الذاتية
+                </button>
+                <button onclick="downloadPDF()" class="bg-green-600 hover:bg-green-700 text-white px-4 py-2 rounded-lg flex items-center">
+                    <i class="fas fa-file-pdf mr-2"></i> تحميل PDF
+                </button>
+            </div>
+        </div>
+
+        <div class="print-area bg-white rounded-lg overflow-hidden">
+            <!-- Header Section -->
+            <div class="bg-gradient-to-r from-blue-800 to-blue-600 text-white p-8">
+                <div class="flex flex-col md:flex-row justify-between items-center">
+                    <div class="flex-1">
+                        <h1 class="text-4xl font-bold mb-2">شرف العلي</h1>
+                        <p class="text-xl mb-4">خبير في العلاقات العامة والتواصل المؤسسي</p>
+                        <div class="flex flex-wrap gap-2">
+                            <span class="bg-blue-700 px-3 py-1 rounded-full text-sm">إدارة المشاريع</span>
+                            <span class="bg-blue-700 px-3 py-1 rounded-full text-sm">التواصل المؤسسي</span>
+                            <span class="bg-blue-700 px-3 py-1 rounded-full text-sm">السياحة والترفيه</span>
+                            <span class="bg-blue-700 px-3 py-1 rounded-full text-sm">المسؤولية الاجتماعية</span>
+                        </div>
+                    </div>
+                    <div class="mt-6 md:mt-0 relative">
+                        <div class="w-32 h-32 bg-white rounded-full overflow-hidden border-4 border-white shadow-lg">
+                            <img id="profileImage" src="https://via.placeholder.com/150" alt="صورة شرف العلي" class="w-full h-full object-cover">
+                            <input type="file" id="imageUpload" class="hidden" accept="image/*">
+                        </div>
+                        <button onclick="document.getElementById('imageUpload').click()" class="absolute bottom-0 right-0 bg-blue-500 text-white rounded-full p-2 hover:bg-blue-600 transition no-print">
+                            <i class="fas fa-camera"></i>
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- QR Code Section -->
+            <div class="bg-gray-50 p-4 flex justify-center border-b">
+                <div id="qrcode" class="p-2 bg-white rounded-lg shadow"></div>
+            </div>
+
+            <!-- Main Content -->
+            <div class="p-8">
+                <!-- About Me Section -->
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-blue-800 border-b-2 border-blue-800 pb-2 mb-6">عني</h2>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            محترف في مجال العلاقات العامة والتواصل المؤسسي مع خبرة واسعة في إدارة المشاريع السياحية والترفيهية. قمت بإدارة وتنفيذ العديد من المشاريع البارزة مثل مشروع جبل القارة (أرض الحضارات) ومنتزه الشيباني (مشروع المشقر السياحي) والتي ساهمت في تعزيز السياحة في منطقة الأحساء.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            كعضو في مجلس إدارة جمعية سند للمسؤولية الاجتماعية ومدير العلاقات العامة والتواصل المؤسسي في الجمعية، قمت بتعزيز حضور الجمعية وزيادة تأثيرها في المجتمع من خلال مبادرات نوعية وشراكات استراتيجية.
+                        </p>
+                        <p class="text-gray-700 leading-relaxed mb-6">
+                            لدي خبرة تمتد لأكثر من 4 سنوات في إدارة العلاقات العامة بميدان فروسية الأحساء، أسهمت خلالها في تسريع وتيرة تطوير الميدان، مما أدى إلى تصنيفه ضمن الفئة (أ)، بالإضافة إلى استخراج الصك الرسمي للميدان.
+                        </p>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4 mt-6">
+                            <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
+                                <h3 class="font-bold text-blue-700 mb-2">مشروع جبل القارة</h3>
+                                <p class="text-gray-600">(أرض الحضارات)</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
+                                <h3 class="font-bold text-blue-700 mb-2">منتزه الشيباني</h3>
+                                <p class="text-gray-600">(مشروع المشقر السياحي)</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
+                                <h3 class="font-bold text-blue-700 mb-2">عضو مجلس إدارة</h3>
+                                <p class="text-gray-600">جمعية سند للمسؤولية الاجتماعية</p>
+                            </div>
+                            <div class="bg-white p-4 rounded-lg border border-gray-200 shadow-sm">
+                                <h3 class="font-bold text-blue-700 mb-2">مدير العلاقات العامة</h3>
+                                <p class="text-gray-600">جمعية سند</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Experience Section -->
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-blue-800 border-b-2 border-blue-800 pb-2 mb-6">الخبرات العلمية</h2>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <div class="flex items-start mb-4">
+                            <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                <i class="fas fa-brain text-blue-600 text-xl"></i>
+                            </div>
+                            <div>
+                                <h3 class="font-bold text-lg text-gray-800">مجالات العمل مع إبداع الذكاء الاصطناعي</h3>
+                                <p class="text-gray-600">تطبيق تقنيات الذكاء الاصطناعي في تحسين عمليات العلاقات العامة والتواصل المؤسسي</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Education Section -->
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-blue-800 border-b-2 border-blue-800 pb-2 mb-6">التعليم</h2>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                        <i class="fas fa-school text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold text-lg text-gray-800">التعليم الثانوي</h3>
+                                        <p class="text-gray-600 mb-1">مدرسة الأقصى</p>
+                                        <p class="text-gray-600 mb-1">النسبة: 98%</p>
+                                        <p class="text-gray-600 mb-1">تاريخ البدء: 1420هـ / 1999م</p>
+                                        <p class="text-gray-600 mb-1">تاريخ التخرج: 1423هـ / 2002م</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex items-start">
+                                    <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                        <i class="fas fa-university text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold text-lg text-gray-800">بكالوريوس</h3>
+                                        <p class="text-gray-600 mb-1">جامعة الملك فيصل (يدرس حالياً)</p>
+                                        <p class="text-gray-600 mb-1">تاريخ البدء: 1440هـ / 2019م</p>
+                                        <p class="text-gray-600">التخصص: العلاقات العامة والتواصل المؤسسي</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Achievements Section -->
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-blue-800 border-b-2 border-blue-800 pb-2 mb-6">الإنجازات والشهادات</h2>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-wrap gap-4 mb-6">
+                            <button class="category-badge bg-blue-600 text-white px-4 py-2 rounded-full">الكل</button>
+                            <button class="category-badge bg-gray-200 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full">مشاركات كرة القدم</button>
+                            <button class="category-badge bg-gray-200 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full">مشاركات الفروسية</button>
+                            <button class="category-badge bg-gray-200 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full">القطاع السياحي</button>
+                            <button class="category-badge bg-gray-200 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full">الأوسمة والأنواط</button>
+                            <button class="category-badge bg-gray-200 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full">شهادات الشكر</button>
+                            <button class="category-badge bg-gray-200 hover:bg-blue-600 hover:text-white px-4 py-2 rounded-full">التدريب والدورات</button>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <!-- Achievement Card 1 -->
+                            <div class="achievement-card bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex justify-between items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full">
+                                        <i class="fas fa-trophy text-blue-600"></i>
+                                    </div>
+                                    <span class="bg-green-100 text-green-800 text-xs px-2 py-1 rounded">مشاركات كرة القدم</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-gray-800 mb-2">عضو العلاقات العامة بنادي الاتفاق</h3>
+                                <p class="text-gray-600 mb-3">من عام 1424 هـ لعام 1426هـ</p>
+                                <button class="text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
+                                    عرض التفاصيل <i class="fas fa-chevron-left mr-1"></i>
+                                </button>
+                            </div>
+                            
+                            <!-- Achievement Card 2 -->
+                            <div class="achievement-card bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex justify-between items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full">
+                                        <i class="fas fa-medal text-blue-600"></i>
+                                    </div>
+                                    <span class="bg-purple-100 text-purple-800 text-xs px-2 py-1 rounded">الأوسمة والأنواط</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-gray-800 mb-2">وسام تحرير دولة الكويت</h3>
+                                <p class="text-gray-600 mb-3">من الدرجة الرابعة من أمير دولة الكويت بتاريخ 02/11/1413هـ</p>
+                                <button class="text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
+                                    عرض التفاصيل <i class="fas fa-chevron-left mr-1"></i>
+                                </button>
+                            </div>
+                            
+                            <!-- Achievement Card 3 -->
+                            <div class="achievement-card bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex justify-between items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full">
+                                        <i class="fas fa-certificate text-blue-600"></i>
+                                    </div>
+                                    <span class="bg-yellow-100 text-yellow-800 text-xs px-2 py-1 rounded">التدريب والدورات</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-gray-800 mb-2">دورة برامج إسعافات أولية</h3>
+                                <p class="text-gray-600 mb-3">مستشفى الجفر العام بمديرية الشؤون الصحية بالأحساء لعام 1432هـ</p>
+                                <button class="text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
+                                    عرض التفاصيل <i class="fas fa-chevron-left mr-1"></i>
+                                </button>
+                            </div>
+                            
+                            <!-- Achievement Card 4 -->
+                            <div class="achievement-card bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex justify-between items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full">
+                                        <i class="fas fa-horse text-blue-600"></i>
+                                    </div>
+                                    <span class="bg-red-100 text-red-800 text-xs px-2 py-1 rounded">مشاركات الفروسية</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-gray-800 mb-2">رئيس لجنة العلاقات العامة بميدان الفروسية</h3>
+                                <p class="text-gray-600 mb-3">في الفترة من عام 1432-1438هـ</p>
+                                <button class="text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
+                                    عرض التفاصيل <i class="fas fa-chevron-left mr-1"></i>
+                                </button>
+                            </div>
+                            
+                            <!-- Achievement Card 5 -->
+                            <div class="achievement-card bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex justify-between items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full">
+                                        <i class="fas fa-umbrella-beach text-blue-600"></i>
+                                    </div>
+                                    <span class="bg-indigo-100 text-indigo-800 text-xs px-2 py-1 rounded">القطاع السياحي</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-gray-800 mb-2">ورشة تطوير مهارات موظفي الاستقبال</h3>
+                                <p class="text-gray-600 mb-3">في الإيواء السياحي بالأحساء بتاريخ 07/08/2018م</p>
+                                <button class="text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
+                                    عرض التفاصيل <i class="fas fa-chevron-left mr-1"></i>
+                                </button>
+                            </div>
+                            
+                            <!-- Achievement Card 6 -->
+                            <div class="achievement-card bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex justify-between items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full">
+                                        <i class="fas fa-handshake text-blue-600"></i>
+                                    </div>
+                                    <span class="bg-pink-100 text-pink-800 text-xs px-2 py-1 rounded">شهادات الشكر</span>
+                                </div>
+                                <h3 class="font-bold text-lg text-gray-800 mb-2">شهادة شكر من قائد مجموعة الإسناد الهندسي</h3>
+                                <p class="text-gray-600 mb-3">السابعة بالشرقية لعام 1423هـ</p>
+                                <button class="text-blue-600 hover:text-blue-800 text-sm font-medium flex items-center">
+                                    عرض التفاصيل <i class="fas fa-chevron-left mr-1"></i>
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Projects Section -->
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-blue-800 border-b-2 border-blue-800 pb-2 mb-6">المشاريع</h2>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                        <i class="fas fa-horse-head text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold text-lg text-gray-800">تطوير ساحة العرض النهائي</h3>
+                                        <p class="text-gray-600">في ميدان الفروسية بالاحساء</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                        <i class="fas fa-file-signature text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold text-lg text-gray-800">المساهمة في استخراج صك الميدان</h3>
+                                        <p class="text-gray-600">ميدان الفروسية بالاحساء</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                        <i class="fas fa-mountain text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold text-lg text-gray-800">قاعة خارجية في جبل القارة</h3>
+                                        <p class="text-gray-600">مشروع ارض الحضارات السياحي</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="bg-white p-5 rounded-lg shadow-sm border border-gray-200">
+                                <div class="flex items-start mb-3">
+                                    <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                        <i class="fas fa-lake text-blue-600"></i>
+                                    </div>
+                                    <div>
+                                        <h3 class="font-bold text-lg text-gray-800">بحيرة المشقر الصناعية</h3>
+                                        <p class="text-gray-600">بمساحة 26 الف متر مربع</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Hobbies Section -->
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-blue-800 border-b-2 border-blue-800 pb-2 mb-6">الهوايات</h2>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <div class="flex flex-wrap justify-center gap-8">
+                            <div class="hobby-icon text-center">
+                                <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-2">
+                                    <i class="fas fa-futbol text-blue-600 text-3xl"></i>
+                                </div>
+                                <span class="font-medium text-gray-800">كرة القدم</span>
+                            </div>
+                            <div class="hobby-icon text-center">
+                                <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-2">
+                                    <i class="fas fa-horse text-blue-600 text-3xl"></i>
+                                </div>
+                                <span class="font-medium text-gray-800">الفروسية</span>
+                            </div>
+                            <div class="hobby-icon text-center">
+                                <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-2">
+                                    <i class="fas fa-hands-helping text-blue-600 text-3xl"></i>
+                                </div>
+                                <span class="font-medium text-gray-800">الخدمات الاجتماعية</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Contact Section -->
+                <div class="mb-12">
+                    <h2 class="text-2xl font-bold text-blue-800 border-b-2 border-blue-800 pb-2 mb-6">معلومات التواصل</h2>
+                    <div class="bg-gray-50 p-6 rounded-lg border border-gray-200">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-mobile-alt text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">رقم الجوال</h3>
+                                    <p class="text-gray-600">+966547007111</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-phone text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">الهواتف</h3>
+                                    <p class="text-gray-600">+966135982888 - +966135982999</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-fax text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">الفاكس</h3>
+                                    <p class="text-gray-600">+966135982555</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-envelope text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">البريد الإلكتروني</h3>
+                                    <p class="text-gray-600">sh.ali@ahsana.com</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-mail-bulk text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">رمز البريد</h3>
+                                    <p class="text-gray-600">31982</p>
+                                </div>
+                            </div>
+                            <div class="flex items-center">
+                                <div class="bg-blue-100 p-3 rounded-full mr-4">
+                                    <i class="fas fa-box text-blue-600"></i>
+                                </div>
+                                <div>
+                                    <h3 class="font-bold text-gray-800">صندوق البريد</h3>
+                                    <p class="text-gray-600">1715 الأحساء - المملكة العربية السعودية</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Footer -->
+            <div class="bg-gray-800 text-white p-4 text-center text-sm">
+                <p>المطوّر: م. عبدالله السالم | الموقع الإلكتروني: <a href="https://abdullah-alsalem-cv.netlify.app" class="text-blue-300 hover:underline">abdullah-alsalem-cv.netlify.app</a></p>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Generate QR Code
+        document.addEventListener('DOMContentLoaded', function() {
+            const qrcode = new QRCode(document.getElementById("qrcode"), {
+                text: "https://linkedin.com/in/shref-ali",
+                width: 120,
+                height: 120,
+                colorDark : "#000000",
+                colorLight : "#ffffff",
+                correctLevel : QRCode.CorrectLevel.H
+            });
+        });
+
+        // Image Upload Functionality
+        document.getElementById('imageUpload').addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    document.getElementById('profileImage').src = e.target.result;
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        // Simulate PDF download (would need a proper PDF library in a real implementation)
+        function downloadPDF() {
+            alert("في التطبيق الحقيقي، سيتم تنزيل ملف PDF. هذه مجرد محاكاة.");
+        }
+
+        // Filter functionality for achievements and gallery
+        document.querySelectorAll('.category-badge').forEach(button => {
+            button.addEventListener('click', function() {
+                // Remove active class from all buttons
+                document.querySelectorAll('.category-badge').forEach(btn => {
+                    btn.classList.remove('bg-blue-600', 'text-white');
+                    btn.classList.add('bg-gray-200', 'hover:bg-blue-600', 'hover:text-white');
+                });
+                
+                // Add active class to clicked button
+                this.classList.remove('bg-gray-200', 'hover:bg-blue-600', 'hover:text-white');
+                this.classList.add('bg-blue-600', 'text-white');
+                
+                // In a real implementation, you would filter the content here
+            });
+        });
+    </script>
+</body>
+</html>
