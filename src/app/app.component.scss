@@ -1,3 +1,18 @@
+.language-switcher {
+    position: fixed;
+    bottom: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.language-switcher-ar {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+}
+
+
 .job-title {
     animation: slide 15s infinite;
     opacity: 0;

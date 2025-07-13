@@ -6,6 +6,7 @@
         "GALLERY": "Gallery",
         "ACHIEVEMENTS": "Achievements",
         "PROJECTS": "Projects",
+        "FEATURED_PROJECTS": "Featured Projects",
         "HOBBIES": "Hobbies",
         "CONTACT": "Contact"
     },
@@ -16,5 +17,20 @@
     },
     "LABELS": {
         "PROFESSIONAL_EXPERIENCE": "Professional Experience"
+    },
+    "CATEGORIES": {
+        "HONORING_CHAMPIONS": "Honoring Champions",
+        "SPORTS_CHAMPIONSHIPS": "Sports Championships",
+        "SPORTS_INITIATIVES": "Sports Initiatives",
+        "CORPORATE_TOURNAMENTS": "Corporate Tournaments",
+        "COMMUNITY_INITIATIVES": "Community Initiatives",
+        "NATIONAL_EVENTS": "National Events",
+        "YOUTH_ACTIVITIES": "Youth Activities",
+        "COMMUNITY_EVENTS": "Community events",
+        "YOUTH_EMPOWERMENT": "Youth Empowerment",
+        "RAMADAN_ACTIVITIES": "Ramadan Activities",
+        "RAMADAN_TOURNAMENTS": "Ramadan Tournaments",
+        "LINKING_SPORTS_TO_HERITAGE": "Linking sports to heritage",
+        "SOCIAL_RESPONSIBILITY_ACTIVITIES": "Social Responsibility Activities"
     }
 }

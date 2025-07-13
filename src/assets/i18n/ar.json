@@ -6,6 +6,7 @@
         "GALLERY": "معرض الوسائط",
         "ACHIEVEMENTS": "الإنجازات",
         "PROJECTS": "المشاريع",
+        "FEATURED_PROJECTS": "المشاريع البارزة",
         "HOBBIES": "الهوايات",
         "CONTACT": "التواصل"
     },
@@ -16,5 +17,20 @@
     },
     "LABELS": {
         "PROFESSIONAL_EXPERIENCE": "مسيرتي المهنية"
+    },
+    "CATEGORIES": {
+        "HONORING_CHAMPIONS":"تكريم الأبطال",
+        "SPORTS_CHAMPIONSHIPS": "بطولات رياضية",
+        "SPORTS_INITIATIVES": "مبادرات رياضية",
+        "CORPORATE_TOURNAMENTS": "بطولات مؤسسية",
+        "COMMUNITY_INITIATIVES": "مبادرات مجتمعية",
+        "NATIONAL_EVENTS": "فعاليات وطنية",
+        "YOUTH_ACTIVITIES": "فعاليات شبابية",
+        "COMMUNITY_EVENTS": "فعاليات مجتمعية",
+        "YOUTH_EMPOWERMENT": "تمكين الشباب",
+        "RAMADAN_ACTIVITIES": "فعاليات رمضانية",
+        "RAMADAN_TOURNAMENTS":"بطولات رمضانية",
+        "LINKING_SPORTS_TO_HERITAGE": "ربط الرياضة بالتراث",
+        "SOCIAL_RESPONSIBILITY_ACTIVITIES":"أنشطة المسؤولية الاجتماعية"
     }
 }

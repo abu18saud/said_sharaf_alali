@@ -4,7 +4,7 @@
     "profile_picture": "assets/img/pic.jpeg",
     "resume_file": "",
     "bio_ar": "<p class='text-gray-700 mb-6 leading-relaxed'> محترف في مجال العلاقات العامة والتواصل المؤسسي مع خبرة واسعة في إدارة المشاريع السياحية والترفيهية. قمت بإدارة وتنفيذ العديد من المشاريع البارزة مثل مشروع جبل القارة (أرض الحضارات) ومنتزه الشيباني (مشروع المشقر السياحي) والتي ساهمت في تعزيز السياحة في منطقة الأحساء. </p> <p class='text-gray-700 mb-6 leading-relaxed'> كعضو في مجلس إدارة جمعية سند للمسؤولية الاجتماعية ومدير العلاقات العامة والتواصل المؤسسي في الجمعية، قمت بتعزيز حضور الجمعية وزيادة تأثيرها في المجتمع من خلال مبادرات نوعية وشراكات استراتيجية. </p>",
-    "bio_en": "<p class='text-gray-700 mb-6 leading-relaxed'> A professional in the field of public relations and corporate communication, with extensive experience in managing tourism and entertainment projects. I have led and executed several notable projects such as the Jabal Al-Qarah (Land of Civilizations) and Al-Shaibani Park (Al-Mashqar Tourism Project), which significantly contributed to promoting tourism in the Al-Ahsa region. </p> <p class='text-gray-700 mb-6 leading-relaxed'> As a Board Member of Sand Association for Social Responsibility and Director of Public Relations and Corporate Communication at the association, I have worked to enhance the organization's presence and increase its impact within the community through quality initiatives and strategic partnerships. </p>",
+    "bio_en": "<p class='text-gray-700 mb-6 leading-relaxed'> A professional in the field of public relations and corporate communication, with extensive experience in managing tourism and entertainment projects. I have led and executed several notable projects such as the Jabal Al-Qarah (Land of Civilizations) and Al-Shaibani Park (Al-Mashqar Tourism Project), which significantly contributed to promoting tourism in the Al-Ahsa region. </p> <p class='text-gray-700 mb-6 leading-relaxed'> As a Board Member of Sanad Association for Social Responsibility and Director of Public Relations and Corporate Communication at the association, I have worked to enhance the organization's presence and increase its impact within the community through quality initiatives and strategic partnerships. </p>",
     "phones": [
         "+966135982888",
         "+966135982999"
@@ -65,18 +65,86 @@
     ],
     "projects": [
         {
-            "name_ar": "مشروع سياحي",
-            "name_en": "Tourism Project",
-            "description_ar": "مشروع يهدف لتنشيط السياحة",
-            "description_en": "A project aimed at promoting tourism",
-            "icon": "project_icon.png",
+            "name_ar": "مشروع إقامة بطولة صاحب السمو الملكي الأمير خالد بن طلال بن بدر آل سعود",
+            "name_en": "Project for Organizing the Championship of His Royal Highness Prince Khalid bin Talal bin Badr Al Saud",
+            "description_ar": "تمثّل هذا المشروع في التخطيط والتنظيم والإشراف على إقامة بطولة رياضية تحمل اسم صاحب السمو الملكي الأمير خالد بن طلال بن بدر آل سعود، وشملت البطولة عدة فعاليات رياضية واجتماعية تهدف إلى دعم المواهب الشابة وتعزيز الحضور الرياضي والثقافي في المنطقة",
+            "description_en": "This project involved planning, organizing, and overseeing a sports championship named after His Royal Highness Prince Khalid bin Talal bin Badr Al Saud. The event included various athletic and social activities aimed at supporting young talent and enhancing the region’s sports and cultural presence",
+            "icon": "fas fa-award text-xl",
             "image": "project.jpg",
             "file": "project_doc.pdf",
-            "is_featured": true,
+            "is_featured": false,
             "categories": [
-                "سياحة",
-                "ترفيه"
+                "SPORTS_CHAMPIONSHIPS",
+                "COMMUNITY_INITIATIVES",
+                "NATIONAL_EVENTS"
             ]
+        },
+        {
+            "name_ar": "مشروع إقامة بطولة صاحب السمو الملكي الأمير عبدالله بن سعود بن ثنيان آل سعود",
+            "name_en": "Project for Organizing the Championship of His Royal Highness Prince Abdullah bin Saud bin Thunayan Al Saud",
+            "description_ar": "تم تنفيذ هذا المشروع بهدف إقامة بطولة رياضية تحمل اسم صاحب السمو الملكي الأمير عبدالله بن سعود بن ثنيان آل سعود، وشملت البطولة فعاليات رياضية ومجتمعية وثقافية، تهدف إلى دعم الكفاءات الشابة وتعزيز الحراك الرياضي في المملكة بروح من التنافس الشريف والانتماء الوطني.",
+            "description_en": "This project was carried out to organize a sports championship named after His Royal Highness Prince Abdullah bin Saud bin Thunayan Al Saud. The event featured athletic, community, and cultural activities aimed at supporting young talents and promoting the sports movement in the Kingdom through fair competition and national pride.",
+            "icon": "fas fa-award text-xl",
+            "image": "project.jpg",
+            "file": "project_doc.pdf",
+            "categories": [
+                "SPORTS_CHAMPIONSHIPS",
+                "NATIONAL_EVENTS",
+                "YOUTH_ACTIVITIES"
+            ],
+            "is_featured": false
+        },
+        {
+            "name_ar": "مشروع إقامة بطولة صاحب السمو الأمير عبدالعزيز بن بدر بن جلوي آل سعود",
+            "name_en": "Project for Organizing the Championship of His Highness Prince Abdulaziz bin Badr bin Jiluwi Al Saud",
+            "description_ar": "تم إطلاق هذا المشروع بتنظيم بطولة رياضية تحمل اسم صاحب السمو الأمير عبدالعزيز بن بدر بن جلوي آل سعود، وتهدف إلى تنمية المواهب الرياضية لدى الشباب، وتعزيز مفهوم التنافس الإيجابي والانتماء الوطني، من خلال فعاليات رياضية واجتماعية شارك فيها عدد كبير من الفرق والمهتمين بالشأن الرياضي.",
+            "description_en": "This project was launched to organize a sports championship named after His Highness Prince Abdulaziz bin Badr bin Jiluwi Al Saud. The initiative aimed to nurture young athletic talents, promote healthy competition and national identity through sports and social events with wide participation from teams and sports enthusiasts.",
+            "icon": "fas fa-medal text-xl",
+            "categories": [
+                "SPORTS_CHAMPIONSHIPS",
+                "COMMUNITY_EVENTS",
+                "YOUTH_EMPOWERMENT"
+            ],
+            "is_featured": false
+        },
+        {
+            "name_ar": "مشروع فكرة وتنفيذ إقامة قرعة بطولة الأجيال الرمضانية الرياضية لكرة القدم في جبل القارة (مشروع أرض الحضارات)",
+            "name_en": "Concept and Execution of the Generations Ramadan Football Tournament Draw at Jabal Al-Qarah (Land of Civilizations Project)",
+            "description_ar": "تمثلت فكرة المشروع في ابتكار وتنفيذ فعالية قرعة بطولة الأجيال الرمضانية لكرة القدم، والتي أُقيمت داخل أحد أبرز المعالم الطبيعية والتاريخية في الأحساء – جبل القارة ضمن مشروع أرض الحضارات. هدفت الفعالية إلى الدمج بين الرياضة والتراث وتعزيز روح التنافس والشغف الرياضي في أجواء رمضانية مميزة، بمشاركة فرق محلية وتنظيم احترافي عالي المستوى.",
+            "description_en": "This project involved the concept creation and execution of the draw ceremony for the Generations Ramadan Football Tournament, held at one of Al-Ahsa’s most iconic natural and cultural landmarks – Jabal Al-Qarah, as part of the Land of Civilizations Project. The event combined sports and heritage, promoting community engagement and competitive spirit in a unique Ramadan atmosphere, with the participation of local teams and a professionally managed setup.",
+            "icon": "fas fa-futbol text-xl",
+            "categories": [
+                "RAMADAN_ACTIVITIES",
+                "SPORTS_CHAMPIONSHIPS",
+                "LINKING_SPORTS_TO_HERITAGE"
+            ],
+            "is_featured": false
+        },
+        {
+            "name_ar": "مشروع فكرة وتنفيذ إقامة بطولة سند الرياضية لكرة القدم للشركات",
+            "name_en": "Concept and Execution of the Sanad Corporate Football Tournament",
+            "description_ar": "تم ابتكار وتنفيذ بطولة سند الرياضية لكرة القدم المخصصة لقطاع الشركات، بهدف تعزيز التواصل المؤسسي وبناء علاقات إيجابية بين منسوبي الشركات في أجواء رياضية تنافسية. تميز المشروع بتنظيم احترافي، وتغطية إعلامية، ومشاركة واسعة من مختلف الجهات، مما ساهم في تعزيز الدور المجتمعي لجمعية سند عبر الرياضة.",
+            "description_en": "This project involved the concept and execution of the Sanad Corporate Football Tournament, designed specifically for companies and organizations. The initiative aimed to promote corporate engagement, foster healthy competition, and strengthen networking among employees. The tournament featured professional organization, broad participation, and media coverage, reinforcing Sanad Association’s social role through sports.",
+            "icon": "fas fa-briefcase text-xl",
+            "categories": [
+                "CORPORATE_TOURNAMENTS",
+                "SPORTS_INITIATIVES",
+                "SOCIAL_RESPONSIBILITY_ACTIVITIES"
+            ],
+            "is_featured": false
+        },
+        {
+            "name_ar": "مشروع فكرة وتنفيذ إقامة بطولة أبطال الدورات الرمضانية لكرة القدم بالأحساء",
+            "name_en": "Concept and Execution of the Champions of Ramadan Football Tournaments in Al-Ahsa",
+            "description_ar": "انطلقت فكرة هذا المشروع لتنظيم بطولة كبرى تجمع بين أبطال الدورات الرمضانية السابقة في محافظة الأحساء، بهدف رفع مستوى التنافس، وتكريم الفرق المتميزة، وتقديم تجربة رياضية رمضانية متكاملة للجمهور واللاعبين على حد سواء. تميزت البطولة بمستوى تنظيمي عالٍ ومشاركة واسعة من نخبة فرق الأحياء والبطولات الشعبية.",
+            "description_en": "This project was conceived and executed to organize a major championship bringing together the champions of previous Ramadan football tournaments in Al-Ahsa. The initiative aimed to elevate the level of competition, honor outstanding teams, and deliver a rich Ramadan sports experience for both players and spectators. The event was marked by high-level organization and broad participation from elite neighborhood and community teams.",
+            "icon": "fas fa-star text-xl",
+            "categories": [
+                "RAMADAN_TOURNAMENTS",
+                "SPORTS_CHAMPIONSHIPS",
+                "HONORING_CHAMPIONS"
+            ],
+            "is_featured": false
         }
     ],
     "certificates": [
