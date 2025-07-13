@@ -72,6 +72,8 @@
             "icon": "fas fa-trophy text-xl",
             "image": "project.jpg",
             "file": "project_doc.pdf",
+            "year_hijri": "1444",
+            "year_gregorian": "2023",
             "is_featured": false,
             "categories": [
                 "SPORTS_CHAMPIONSHIPS",
@@ -92,6 +94,8 @@
                 "NATIONAL_EVENTS",
                 "YOUTH_ACTIVITIES"
             ],
+            "year_hijri": "1443",
+            "year_gregorian": "2022",
             "is_featured": false
         },
         {
@@ -105,6 +109,8 @@
                 "COMMUNITY_EVENTS",
                 "YOUTH_EMPOWERMENT"
             ],
+            "year_hijri": "1445",
+            "year_gregorian": "2023",
             "is_featured": false
         },
         {
@@ -118,6 +124,8 @@
                 "SPORTS_CHAMPIONSHIPS",
                 "LINKING_SPORTS_TO_HERITAGE"
             ],
+            "year_hijri": "1445",
+            "year_gregorian": "2023",
             "is_featured": false
         },
         {
@@ -131,6 +139,8 @@
                 "SPORTS_INITIATIVES",
                 "SOCIAL_RESPONSIBILITY_ACTIVITIES"
             ],
+            "year_hijri": "1446",
+            "year_gregorian": "2025",
             "is_featured": false
         },
         {
@@ -144,6 +154,8 @@
                 "SPORTS_CHAMPIONSHIPS",
                 "HONORING_CHAMPIONS"
             ],
+            "year_hijri": "1445",
+            "year_gregorian": "2023",
             "is_featured": false
         },
         {
@@ -157,7 +169,9 @@
                 "EQUESTRIAN_EVENTS",
                 "ENHANCING_AUDIENCE_EXPERIENCE"
             ],
-            "is_featured": true
+            "year_hijri": "1438",
+            "year_gregorian": "2017",
+            "is_featured": false
         },
         {
             "name_ar": "مشروع المساهمة وتسريع استخراج صك ميدان الفروسية بالأحساء لعام 1437هـ",
@@ -170,7 +184,9 @@
                 "ADMINISTRATIVE_DEVELOPMENT",
                 "SPORTS_FACILITIES"
             ],
-            "is_featured": true
+            "year_hijri": "1437",
+            "year_gregorian": "2016",
+            "is_featured": false
         },
         {
             "name_ar": "مشروع العمل والمساهمة في إجراءات الحوكمة لتصنيف ميدان فروسية الأحساء وزيادة الدعم من 150 ألف ريال إلى 750 ألف ريال لعام 1438هـ",
@@ -183,6 +199,8 @@
                 "FINANCIAL_SUPPORT",
                 "EQUESTRIAN_FACILITIES_DEVELOPMENT"
             ],
+            "year_hijri": "1438",
+            "year_gregorian": "2017",
             "is_featured": true
         },
         {
@@ -196,7 +214,9 @@
                 "ENGINEERING_SUPERVISION",
                 "HERITAGE_SITE_DEVELOPMENT"
             ],
-            "is_featured": true
+            "year_hijri": "1445",
+            "year_gregorian": "2023",
+            "is_featured": false
         },
         {
             "name_ar": "مشروع إنهاء إجراءات جميع التصاريح الرسمية لمنتزه الشيباني (المشقر السياحي) لعام 1444هـ",
@@ -209,6 +229,8 @@
                 "TOURISM_PROJECTS",
                 "FACILITY_OPERATION"
             ],
+            "year_hijri": "1444",
+            "year_gregorian": "2023",
             "is_featured": true
         },
         {
@@ -222,7 +244,9 @@
                 "LOGISTICAL_PROJECTS",
                 "ARAB_TOURISM_EVENTS"
             ],
-            "is_featured": true
+            "year_hijri": "1441",
+            "year_gregorian": "2020",
+            "is_featured": false
         },
         {
             "name_ar": "المساهمة في عملية إنجاز بحيرة المشقر الصناعية بمساحة 26 ألف متر مربع لعام 1447هـ",
@@ -235,6 +259,8 @@
                 "TOURISM_DEVELOPMENT",
                 "RECREATIONAL_FACILITIES"
             ],
+            "year_hijri": "1447",
+            "year_gregorian": "2025",
             "is_featured": true
         },
         {
@@ -248,6 +274,8 @@
                 "SPORTS_CHAMPIONSHIPS",
                 "YOUTH_DEVELOPMENT"
             ],
+            "year_hijri": "1446",
+            "year_gregorian": "2025",
             "is_featured": true
         },
         {
@@ -261,7 +289,9 @@
                 "YOUTH_DEVELOPMENT",
                 "SPORTS_CHAMPIONSHIPS"
             ],
-            "is_featured": true
+            "year_hijri": "1446",
+            "year_gregorian": "2024",
+            "is_featured": false
         }
     ],
     "certificates": [
