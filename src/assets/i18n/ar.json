@@ -24,6 +24,10 @@
         "JOINING_YEAR": "سنة الانضمام",
         "SPECIALIZATION": "التخصص"
     },
+        "DEGREE_TYPE":{
+        "BACHELORS":"بكالوريوس",
+        "SECONDARY":"التعليم الثانوي"
+    },
     "CATEGORIES": {
         "SPORTS_FACILITIES": "خدمة المرافق الرياضية",
         "ADMINISTRATIVE_DEVELOPMENT": "تطوير البنية الإدارية",

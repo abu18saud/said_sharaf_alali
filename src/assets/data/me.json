@@ -53,14 +53,15 @@
     ],
     "education": [
         {
-            "degree_type": "بكالوريوس",
-            "university_ar": "جامعة الملك سعود",
-            "university_en": "King Saud University",
-            "gpa": 3.75,
+            "degree_type": "SECONDARY",
+            "university_ar": "مناهل الجزيرة الأهلية",
+            "university_en": "Manahil Al-Jazeera Private School",
+            "gpa": 92.77,
             "start_date": "2012-09-01",
             "graduation_date": "2016-06-01",
-            "join_year": 2012,
-            "icon": "university_icon.png"
+            "join_year": 2011,
+            "graduation_year":"2013",
+            "icon": "fas fa-school text-xl"
         }
     ],
     "projects": [

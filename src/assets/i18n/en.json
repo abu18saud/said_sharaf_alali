@@ -24,6 +24,10 @@
         "JOINING_YEAR": "Joining Year",
         "SPECIALIZATION": "Specialization"
     },
+    "DEGREE_TYPE":{
+        "BACHELORS":"Bachelors",
+        "SECONDARY":"Secondary Education"
+    },
     "CATEGORIES": {
         "SPORTS_FACILITIES": "Sports Facilities",
         "ADMINISTRATIVE_DEVELOPMENT": "Administrative Development",
