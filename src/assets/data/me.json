@@ -65,11 +65,11 @@
     ],
     "projects": [
         {
-            "name_ar": "مشروع إقامة بطولة صاحب السمو الملكي الأمير خالد بن طلال بن بدر آل سعود",
-            "name_en": "Project for Organizing the Championship of His Royal Highness Prince Khalid bin Talal bin Badr Al Saud",
-            "description_ar": "تمثّل هذا المشروع في التخطيط والتنظيم والإشراف على إقامة بطولة رياضية تحمل اسم صاحب السمو الملكي الأمير خالد بن طلال بن بدر آل سعود، وشملت البطولة عدة فعاليات رياضية واجتماعية تهدف إلى دعم المواهب الشابة وتعزيز الحضور الرياضي والثقافي في المنطقة",
-            "description_en": "This project involved planning, organizing, and overseeing a sports championship named after His Royal Highness Prince Khalid bin Talal bin Badr Al Saud. The event included various athletic and social activities aimed at supporting young talent and enhancing the region’s sports and cultural presence",
-            "icon": "fas fa-award text-xl",
+            "name_ar": "مشروع إقامة بطولة صاحب السمو الملكي الأمير خالد بن طلال بن بدر آل سعود لعام 2023م",
+            "name_en": "Prince Khalid bin Talal bin Badr Al Saud Championship – 2023",
+            "description_ar": "يهدف هذا المشروع إلى تنظيم بطولة رياضية تحمل اسم صاحب السمو الملكي الأمير خالد بن طلال بن بدر آل سعود، والتي أُقيمت في عام 2023م بمشاركة عدد من الفرق الرياضية المحلية. تم تنفيذ البطولة وفق أعلى المعايير التنظيمية واللوجستية، وساهمت في إبراز الدور المجتمعي للرياضة وتعزيز التفاعل بين الشباب في بيئة تنافسية مشرفة.",
+            "description_en": "This project involved organizing a sports championship under the name of His Royal Highness Prince Khalid bin Talal bin Badr Al Saud in 2023, with the participation of several local sports teams. The tournament was executed with high organizational standards, contributing to the social value of sports and fostering youth engagement in a respectable and competitive environment.",
+            "icon": "fas fa-trophy text-xl",
             "image": "project.jpg",
             "file": "project_doc.pdf",
             "is_featured": false,
@@ -80,11 +80,11 @@
             ]
         },
         {
-            "name_ar": "مشروع إقامة بطولة صاحب السمو الملكي الأمير عبدالله بن سعود بن ثنيان آل سعود",
-            "name_en": "Project for Organizing the Championship of His Royal Highness Prince Abdullah bin Saud bin Thunayan Al Saud",
-            "description_ar": "تم تنفيذ هذا المشروع بهدف إقامة بطولة رياضية تحمل اسم صاحب السمو الملكي الأمير عبدالله بن سعود بن ثنيان آل سعود، وشملت البطولة فعاليات رياضية ومجتمعية وثقافية، تهدف إلى دعم الكفاءات الشابة وتعزيز الحراك الرياضي في المملكة بروح من التنافس الشريف والانتماء الوطني.",
-            "description_en": "This project was carried out to organize a sports championship named after His Royal Highness Prince Abdullah bin Saud bin Thunayan Al Saud. The event featured athletic, community, and cultural activities aimed at supporting young talents and promoting the sports movement in the Kingdom through fair competition and national pride.",
-            "icon": "fas fa-award text-xl",
+            "name_ar": "مشروع إقامة بطولة صاحب السمو الملكي الأمير عبدالله بن سعود بن ثنيان آل سعود لعام 2022م",
+            "name_en": "Prince Abdullah bin Saud bin Thunayan Al Saud Championship – 2022",
+            "description_ar": "نُظمت هذه البطولة الرياضية في عام 2022م، تحت رعاية صاحب السمو الملكي الأمير عبدالله بن سعود بن ثنيان آل سعود، وبمشاركة عدد من الفرق الرياضية المحلية والشبابية. هدفت البطولة إلى تعزيز الروح الرياضية بين الشباب، وإبراز دور الرياضة كوسيلة للتنمية الاجتماعية، إضافة إلى ترسيخ اسم سموه في دعم المبادرات الرياضية المجتمعية.",
+            "description_en": "This sports championship was organized in 2022 under the patronage of His Royal Highness Prince Abdullah bin Saud bin Thunayan Al Saud, with the participation of various local and youth teams. The event aimed to promote sportsmanship among youth and highlight the role of sports as a tool for community development, while also reflecting the prince’s support for grassroots sports initiatives.",
+            "icon": "fas fa-medal text-xl",
             "image": "project.jpg",
             "file": "project_doc.pdf",
             "categories": [
@@ -121,11 +121,11 @@
             "is_featured": false
         },
         {
-            "name_ar": "مشروع فكرة وتنفيذ إقامة بطولة سند الرياضية لكرة القدم للشركات",
-            "name_en": "Concept and Execution of the Sanad Corporate Football Tournament",
-            "description_ar": "تم ابتكار وتنفيذ بطولة سند الرياضية لكرة القدم المخصصة لقطاع الشركات، بهدف تعزيز التواصل المؤسسي وبناء علاقات إيجابية بين منسوبي الشركات في أجواء رياضية تنافسية. تميز المشروع بتنظيم احترافي، وتغطية إعلامية، ومشاركة واسعة من مختلف الجهات، مما ساهم في تعزيز الدور المجتمعي لجمعية سند عبر الرياضة.",
-            "description_en": "This project involved the concept and execution of the Sanad Corporate Football Tournament, designed specifically for companies and organizations. The initiative aimed to promote corporate engagement, foster healthy competition, and strengthen networking among employees. The tournament featured professional organization, broad participation, and media coverage, reinforcing Sanad Association’s social role through sports.",
-            "icon": "fas fa-briefcase text-xl",
+            "name_ar": "مشروع فكرة وتنفيذ إقامة بطولة سند الرياضية لكرة القدم للشركات 2025م",
+            "name_en": "Conceptualization and Execution of Sanad Sports Football Championship for Companies – 2025",
+            "description_ar": "يتضمن المشروع فكرة وتنفيذ إقامة بطولة كرة القدم الخاصة بالشركات تحت اسم \"بطولة سند الرياضية\" لعام 2025م. تهدف البطولة إلى تعزيز التنافس الرياضي بين الشركات المختلفة، وتحفيز روح التعاون والعمل الجماعي بين الموظفين، بالإضافة إلى دعم الرياضة المجتمعية وتعزيز العلاقات بين القطاعين الخاص والعام.",
+            "description_en": "This project involves the conceptualization and execution of the \"Sanad Sports Football Championship\" for companies in 2025. The championship aims to foster competitive sportsmanship among various companies, promote teamwork and collaboration among employees, and support community sports initiatives while strengthening ties between the private and public sectors.",
+            "icon": "fas fa-building text-xl",
             "categories": [
                 "CORPORATE_TOURNAMENTS",
                 "SPORTS_INITIATIVES",
@@ -145,6 +145,123 @@
                 "HONORING_CHAMPIONS"
             ],
             "is_featured": false
+        },
+        {
+            "name_ar": "مشروع تطوير بودك العرض المبدئي والنهائي وتركيب المظلة على المنصة الرئيسية ومظلة الجماهير في ميدان الفروسية بالأحساء – 1438هـ",
+            "name_en": "Project for Developing the Preliminary and Final Show Booth, and Installing Canopies on the Main Platform and Spectator Area at Al-Ahsa Equestrian Field – 1438 AH",
+            "description_ar": "تضمّن هذا المشروع تصميم وتطوير \"بودك العرض\" الخاص بالعروض المبدئية والنهائية في ميدان الفروسية بالأحساء، إلى جانب تركيب مظلة مخصصة للمنصة الرئيسية ومظلة إضافية للجمهور، وذلك بهدف تحسين تجربة الحضور، وتوفير بيئة أكثر احترافية وتنظيمًا للفعاليات والبطولات الفروسية. نفذ المشروع في عام 1438هـ، وترك أثرًا واضحًا في مستوى البنية التحتية والتنظيم في الموقع.",
+            "description_en": "This project involved the design and development of the preliminary and final show booth at the Al-Ahsa Equestrian Field, as well as the installation of a canopy over the main platform and another for the spectator area. Implemented in 1438 AH, the project aimed to enhance audience experience and provide a more professional and organized environment for equestrian events and championships. It significantly improved the infrastructure and event operations at the venue.",
+            "icon": "fas fa-horse text-xl",
+            "categories": [
+                "INFRASTRUCTURE_DEVELOPMENT",
+                "EQUESTRIAN_EVENTS",
+                "ENHANCING_AUDIENCE_EXPERIENCE"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "مشروع المساهمة وتسريع استخراج صك ميدان الفروسية بالأحساء لعام 1437هـ",
+            "name_en": "Project for Contributing to and Accelerating the Issuance of the Legal Deed for Al-Ahsa Equestrian Field – 1437 AH",
+            "description_ar": "ساهم المشروع في المتابعة والتنسيق مع الجهات المختصة لتسريع إجراءات استخراج الصك الرسمي لميدان الفروسية بالأحساء عام 1437هـ، مما أسهم في تثبيت الملكية القانونية للميدان، وفتح المجال أمام تطويره واستثماره رسميًا لخدمة أنشطة الفروسية والفعاليات الوطنية. اعتُبر هذا الإنجاز خطوة استراتيجية لتعزيز البنية القانونية لميدان الفروسية في المنطقة.",
+            "description_en": "This project involved active coordination with relevant authorities to expedite the issuance of the official legal deed for Al-Ahsa Equestrian Field in 1437 AH. The effort ensured legal ownership of the venue, paving the way for its official development and investment to support equestrian activities and national events. It was considered a strategic milestone in strengthening the legal framework of the equestrian field in the region.",
+            "icon": "fas fa-file-signature text-xl",
+            "categories": [
+                "LEGAL_PROJECTS",
+                "ADMINISTRATIVE_DEVELOPMENT",
+                "SPORTS_FACILITIES"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "مشروع العمل والمساهمة في إجراءات الحوكمة لتصنيف ميدان فروسية الأحساء وزيادة الدعم من 150 ألف ريال إلى 750 ألف ريال لعام 1438هـ",
+            "name_en": "Project for Contributing to Governance Procedures for the Classification of Al-Ahsa Equestrian Field and Increasing Financial Support from 150K to 750K SAR – 1438 AH",
+            "description_ar": "تم تنفيذ هذا المشروع للمساهمة في تطوير ميدان فروسية الأحساء من خلال العمل على استيفاء متطلبات الحوكمة والتصنيف الرسمية الصادرة من الجهات الرياضية والتنظيمية المختصة. ساهمت الجهود المبذولة في رفع التصنيف الإداري والمالي للميدان، مما أدى إلى زيادة الدعم الحكومي من 150,000 ريال إلى 750,000 ريال سنويًا في عام 1438هـ، وهو ما يُعد نقلة نوعية في تمكين الأنشطة الفروسية وتعزيز استدامتها في المنطقة.",
+            "description_en": "This project aimed to contribute to the development of Al-Ahsa Equestrian Field by implementing and supporting official governance and classification procedures mandated by relevant regulatory and sports authorities. These efforts resulted in raising the administrative and financial classification of the field, which led to a significant increase in government support from 150,000 SAR to 750,000 SAR annually in 1438 AH—a major step in empowering equestrian activities and ensuring their sustainability in the region.",
+            "icon": "fas fa-chart-line text-xl",
+            "categories": [
+                "SPORTS_GOVERNANCE",
+                "FINANCIAL_SUPPORT",
+                "EQUESTRIAN_FACILITIES_DEVELOPMENT"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "مشروع الإشراف على عمل قاعة خارجية في جبل القارة – مشروع أرض الحضارات السياحي لعام 1445هـ",
+            "name_en": "Project for Supervising the Construction of an Outdoor Hall at Jabal Al-Qarah – Land of Civilizations Tourism Project – 1445 AH",
+            "description_ar": "شمل المشروع الإشراف الكامل على تنفيذ قاعة خارجية متعددة الاستخدامات ضمن نطاق مشروع أرض الحضارات في جبل القارة السياحي. تضمنت الأعمال التنسيق مع الجهات المنفذة ومتابعة مراحل البناء لضمان تحقيق أعلى معايير الجودة والتكامل مع هوية المكان السياحية والثقافية، وذلك في عام 1445هـ. تم تخصيص القاعة لاستضافة الفعاليات والأنشطة الثقافية والمعارض المفتوحة.",
+            "description_en": "This project involved the full supervision of constructing a multi-purpose outdoor hall as part of the Land of Civilizations tourism project at Jabal Al-Qarah. It included coordination with executing teams and oversight of construction stages to ensure high-quality standards and alignment with the site’s cultural and tourism identity. Completed in 1445 AH, the hall was designed to host events, exhibitions, and open-air cultural activities.",
+            "icon": "fas fa-warehouse text-xl",
+            "categories": [
+                "INFRASTRUCTURE_PROJECTS",
+                "ENGINEERING_SUPERVISION",
+                "HERITAGE_SITE_DEVELOPMENT"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "مشروع إنهاء إجراءات جميع التصاريح الرسمية لمنتزه الشيباني (المشقر السياحي) لعام 1444هـ",
+            "name_en": "Project for Finalizing All Official Permits for Al-Shaibani Park (Al-Mushaqar Tourism Project) – 1444 AH",
+            "description_ar": "شمل المشروع العمل على إنهاء واستكمال كافة التصاريح النظامية والرسمية اللازمة لتشغيل منتزه الشيباني (المشقر السياحي) في الأحساء، بالتنسيق مع الجهات الحكومية المعنية مثل البلديات، والدفاع المدني، والسياحة، والبيئة. ساهم المشروع في تمكين التشغيل القانوني للمنتزه وفتح أبوابه أمام الزوار، مما يعزز من مكانته كوجهة سياحية طبيعية وتراثية في المنطقة.",
+            "description_en": "This project involved completing all required legal and official permits for the operation of Al-Shaibani Park (Al-Mushaqar Tourism Project) in Al-Ahsa. It included coordination with various government entities such as the municipality, civil defense, tourism, and environmental authorities. The project enabled the park's official launch and public access, reinforcing its role as a natural and heritage-based tourist destination in the region.",
+            "icon": "fas fa-file-alt text-xl",
+            "categories": [
+                "REGULATORY_PROCEDURES",
+                "TOURISM_PROJECTS",
+                "FACILITY_OPERATION"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "مشروع تأمين السيارات والتنقلات وتهيئة الموقع الرئيسي أثناء زيارة وزراء السياحة العرب للأحساء لعام 1441هـ",
+            "name_en": "Project for Managing Transportation and Preparing the Main Venue During the Visit of Arab Tourism Ministers to Al-Ahsa – 1441 AH",
+            "description_ar": "نُفذ المشروع بالتزامن مع زيارة وفد وزراء السياحة العرب إلى محافظة الأحساء عام 1441هـ، حيث تم تأمين المركبات وخطط التنقلات الرسمية، وتهيئة الموقع الرئيسي للزيارة بما يتناسب مع البروتوكولات الدبلوماسية والمستوى الوزاري. ساهمت الجهود التنظيمية في إنجاح الزيارة وإبراز جاهزية الأحساء لاستقبال الوفود الرسمية وتعزيز صورتها السياحية عربياً.",
+            "description_en": "This project was implemented during the visit of Arab Tourism Ministers to Al-Ahsa in 1441 AH. It included securing transportation, organizing official vehicle logistics, and preparing the main event venue in accordance with diplomatic and ministerial protocols. The operational efforts contributed to the success of the visit and highlighted Al-Ahsa's readiness to host official delegations and strengthen its image as a distinguished Arab tourism destination.",
+            "icon": "fas fa-car-side text-xl",
+            "categories": [
+                "OFFICIAL_DELEGATION_ORGANIZATION",
+                "LOGISTICAL_PROJECTS",
+                "ARAB_TOURISM_EVENTS"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "المساهمة في عملية إنجاز بحيرة المشقر الصناعية بمساحة 26 ألف متر مربع لعام 1447هـ",
+            "name_en": "Contribution to the Completion of Al-Mushaqar Artificial Lake (26,000 m²) – 1447 AH",
+            "description_ar": "ساهم المشروع في متابعة وتنفيذ أعمال إنشاء بحيرة صناعية بمساحة 26,000 متر مربع ضمن مشروع المشقر السياحي، بهدف تعزيز الجاذبية البيئية والجمالية للموقع. تضمنت المساهمة التنسيق مع الجهات الفنية والتنفيذية لضمان تحقيق أعلى معايير الجودة والسلامة، لتكون البحيرة عنصرًا رئيسيًا في تقديم تجربة ترفيهية وطبيعية متكاملة لزوار المنطقة.",
+            "description_en": "This project involved contributing to the execution and completion of a 26,000-square-meter artificial lake as part of the Al-Mushaqar Tourism Project. The work aimed to enhance the environmental and visual appeal of the site. Contributions included coordination with technical and implementation teams to ensure top standards of quality and safety. The lake became a central feature in offering a complete recreational and natural experience for visitors.",
+            "icon": "fas fa-water text-xl",
+            "categories": [
+                "ENVIRONMENTAL_PROJECTS",
+                "TOURISM_DEVELOPMENT",
+                "RECREATIONAL_FACILITIES"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "مشروع إقامة معسكر رياضي لكرة القدم لفريق الأجيال بالمبرز في الرياض ومقابلة نادي الهلال السعودية لفئة الناشئين لعام 2025م",
+            "name_en": "Organizing a Football Sports Camp for Al-Ajyal Team in Al-Mubarraz in Riyadh and Match Against Al Hilal Saudi Club for Youth Category – 2025",
+            "description_ar": "يتضمن المشروع تنظيم معسكر تدريبي رياضي لكرة القدم لفريق الأجيال بمدينة المبرز بالرياض، يتخلله لقاء ودي مع نادي الهلال السعودي لفئة الناشئين لعام 2025م. يهدف المعسكر إلى تطوير مهارات اللاعبين الشباب، تعزيز التعاون بين الفرق، وإتاحة فرصة للاحتكاك مع الفرق الكبرى على مستوى المملكة.",
+            "description_en": "The project involves organizing a football training camp for the Al-Ajyal team in Al-Mubarraz, Riyadh, including a friendly match against Al Hilal Saudi Club’s youth category in 2025. The camp aims to develop young players' skills, enhance team collaboration, and provide an opportunity to engage with one of the top clubs in the kingdom.",
+            "icon": "fas fa-futbol text-xl",
+            "categories": [
+                "TRAINING_CAMPS",
+                "SPORTS_CHAMPIONSHIPS",
+                "YOUTH_DEVELOPMENT"
+            ],
+            "is_featured": true
+        },
+        {
+            "name_ar": "مشروع إقامة معسكر رياضي لكرة القدم في الدمام لفئة الناشئين لعام 2024م",
+            "name_en": "Organizing a Football Sports Camp in Dammam for Youth Category – 2024",
+            "description_ar": "يتضمن المشروع تنظيم معسكر تدريبي رياضي لكرة القدم بمدينة الدمام لفئة الناشئين لعام 2024م. يهدف المعسكر إلى تطوير المهارات الفنية والبدنية للاعبين الشباب، وتعزيز الروح الرياضية والتعاون بين المشاركين، بالإضافة إلى إعداد اللاعبين للمسابقات القادمة.",
+            "description_en": "The project involves organizing a football training camp in Dammam for the youth category in 2024. The camp aims to develop the technical and physical skills of young players, enhance sportsmanship and teamwork among participants, and prepare players for upcoming competitions.",
+            "icon": "fas fa-futbol text-xl",
+            "categories": [
+                "TRAINING_CAMPS",
+                "YOUTH_DEVELOPMENT",
+                "SPORTS_CHAMPIONSHIPS"
+            ],
+            "is_featured": true
         }
     ],
     "certificates": [

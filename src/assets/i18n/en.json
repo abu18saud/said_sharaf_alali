@@ -19,9 +19,21 @@
         "PROFESSIONAL_EXPERIENCE": "Professional Experience"
     },
     "CATEGORIES": {
+        "SPORTS_FACILITIES": "Sports Facilities",
+        "ADMINISTRATIVE_DEVELOPMENT": "Administrative Development",
+        "INFRASTRUCTURE_PROJECTS": "Infrastructure Projects",
+        "ENGINEERING_SUPERVISION": "Engineering Supervision",
+        "LEGAL_PROJECTS": "Legal Projects",
+        "ENVIRONMENTAL_PROJECTS": "Environmental Projects",
+        "INFRASTRUCTURE_DEVELOPMENT": "Infrastructure Development",
+        "EQUESTRIAN_EVENTS": "Equestrian Events",
+        "ENHANCING_AUDIENCE_EXPERIENCE": "Enhancing Audience Experience",
         "HONORING_CHAMPIONS": "Honoring Champions",
+        "YOUTH_DEVELOPMENT": "Youth Development",
+        "TRAINING_CAMPS": "Training Camps",
         "SPORTS_CHAMPIONSHIPS": "Sports Championships",
         "SPORTS_INITIATIVES": "Sports Initiatives",
+        "SPORTS_GOVERNANCE": "Sports Governance",
         "CORPORATE_TOURNAMENTS": "Corporate Tournaments",
         "COMMUNITY_INITIATIVES": "Community Initiatives",
         "NATIONAL_EVENTS": "National Events",
@@ -31,6 +43,17 @@
         "RAMADAN_ACTIVITIES": "Ramadan Activities",
         "RAMADAN_TOURNAMENTS": "Ramadan Tournaments",
         "LINKING_SPORTS_TO_HERITAGE": "Linking sports to heritage",
-        "SOCIAL_RESPONSIBILITY_ACTIVITIES": "Social Responsibility Activities"
+        "HERITAGE_SITE_DEVELOPMENT": "Heritage Site Development",
+        "SOCIAL_RESPONSIBILITY_ACTIVITIES": "Social Responsibility Activities",
+        "FINANCIAL_SUPPORT": "Financial Support",
+        "EQUESTRIAN_FACILITIES_DEVELOPMENT": "Equestrian Facilities Development",
+        "REGULATORY_PROCEDURES": "Regulatory Procedures",
+        "TOURISM_PROJECTS": "Tourism Projects",
+        "FACILITY_OPERATION": "Facility Operation",
+        "OFFICIAL_DELEGATION_ORGANIZATION": "Official Delegation Organization",
+        "LOGISTICAL_PROJECTS": "Logistical Projects",
+        "ARAB_TOURISM_EVENTS": "Arab Tourism Events",
+        "TOURISM_DEVELOPMENT": "Tourism Development",
+        "RECREATIONAL_FACILITIES": "Recreational Facilities"
     }
 }
