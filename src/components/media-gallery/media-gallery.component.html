@@ -1,0 +1,73 @@
+<div class="container mx-auto px-4 py-8">
+    <header class="text-center mb-12">
+
+        <div class="flex justify-center mt-6 space-x-4">
+            <button
+                *ngFor="let filter of ['ALL', 'PUBLIC_RELATIONS', 'SPORTS_MARKETING', 'TOURISM', 'AWARDS', 'EQUESTRIAN', 'SPORTS_EVENTS', 'CULTURAL_PROGRAMS']"
+                class="filter-btn px-4 py-2 rounded-full transition" [class.bg-indigo-600]="activeFilter === filter"
+                [class.text-white]="activeFilter === filter" [class.bg-gray-200]="activeFilter !== filter"
+                (click)="activeFilter = filter">
+                {{ 'GALLERY_FILTER.' +filter | translate }}
+            </button>
+        </div>
+    </header>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div *ngFor="let item of filteredItems()"
+            class="gallery-item rounded-xl overflow-hidden bg-white shadow-md cursor-pointer transition-all duration-300"
+            (click)="openMedia(item)">
+
+            <div class="relative" *ngIf="item.type === 'video'">
+                <img [src]="item.src" [alt]="lang === 'ar'? item.title_ar : item.title_en"
+                    class="w-full h-48 object-cover" loading="lazy">
+                <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
+                    <div class="w-16 h-16 bg-white bg-opacity-80 rounded-full flex items-center justify-center">
+                        <i class="fas fa-play text-indigo-600 text-2xl"></i>
+                    </div>
+                </div>
+            </div>
+
+            <img *ngIf="item.type === 'image'" [src]="item.src" [alt]="item.title" class="w-full h-48 object-cover"
+                loading="lazy">
+
+            <div class="p-4">
+                <h3 class="font-semibold text-gray-800">{{ lang === 'ar'? item.title_ar : item.title_en }}</h3>
+                <p class="text-sm text-gray-500 mt-1">{{ 'GALLERY_FILTER.' + item.category | translate }}</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Media Dialog -->
+<div class="media-dialog fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-80"
+    [attr.aria-hidden]="!isDialogOpen" (click)="closeDialog()">
+
+    <div class="relative w-full max-w-4xl bg-white rounded-xl overflow-hidden shadow-2xl"
+        (click)="$event.stopPropagation()">
+        <button
+            class="close-btn absolute top-4 right-4 z-10 w-10 h-10 rounded-full bg-gray-800 text-white flex items-center justify-center hover:bg-gray-700 transition"
+            (click)="closeDialog()">
+            <i class="fas fa-times text-xl"></i>
+        </button>
+
+        <div class="media-content">
+            <div class="video-container" *ngIf="currentMedia.type === 'video'">
+                <iframe [src]="'https://www.youtube.com/embed/' + currentMedia.videoId + '?autoplay=1&rel=0' | safeUrl"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <img *ngIf="currentMedia.type === 'image'" [src]="currentMedia.src"
+                [alt]="lang === 'ar'? currentMedia.title_ar : currentMedia.title_en"
+                class="w-full max-h-[70vh] object-contain">
+        </div>
+
+        <div class="p-4 bg-gray-50">
+            <h3 class="media-title text-xl font-semibold text-gray-800">{{ lang === 'ar'? currentMedia.title_ar :
+                currentMedia.title_en }}</h3>
+            <p class="media-description text-gray-600 mt-1">{{ lang === 'ar'? currentMedia.description_ar :
+                currentMedia.description_en }}</p>
+        </div>
+    </div>
+</div>

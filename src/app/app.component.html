@@ -268,8 +268,7 @@
             </div>
 
             <!-- Gallery Grid -->
-            <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <!-- Images -->
+            <!-- <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 <div *ngFor="let item of me.media_gallery" [attr.data-category]="item.category"
                     class="gallery-item rounded-lg overflow-hidden shadow-md">
                     <img [src]="item.image" [alt]="lang === 'ar'? item.description_ar : item.description_en"
@@ -278,7 +277,9 @@
                         <p class="text-sm font-medium">{{lang === 'ar'? item.description_ar : item.description_en}}</p>
                     </div>
                 </div>
-            </div>
+            </div> -->
+
+            <app-media-gallery></app-media-gallery>
 
             <!-- <div class="text-center mt-8">
                 <button class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">عرض المزيد</button>

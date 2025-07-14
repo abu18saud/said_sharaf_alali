@@ -327,431 +327,614 @@
     ],
     "media_gallery": [
         {
+            "title_ar": "شرف أحمد العلي يشارك فرحة الإنجاز مع الأبطال الصغار",
+            "title_en": "Sharaf Ahmed Al-Ali Shares the Joy of Achievement with Young Champions",
             "description_ar": "شرف أحمد العلي يشارك فرحة الإنجاز مع الأبطال الصغار",
             "description_en": "Sharaf Ahmed Al-Ali shares the joy of achievement with the young champions",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (1).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "شرف أحمد العلي في لقاء ثقافي واجتماعي",
+            "title_en": "Sharaf Ahmed Al-Ali in a Cultural and Social Gathering",
+            "description_ar": "شرف أحمد العلي خلال لقاء ودي يجمعه مع شخصيات بارزة في مجلس تقليدي يعكس الطابع الثقافي والتراثي.",
+            "description_en": "Sharaf Ahmed Al-Ali during a friendly meeting with notable figures in a traditional setting reflecting cultural heritage.",
             "category": "CULTURAL_PROGRAMS",
-            "image": "assets/media/1 (1).jpg",
-            "video": null
+            "type": "image",
+            "src": "assets/media/1 (2).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي يشارك في فعالية رياضية",
-            "description_en": "Sharaf Ahmed Al-Ali participates in a sports event",
+            "title_ar": "قرعة بطولة فريقي الأجيال الرمضانية الثالثة لكرة القدم",
+            "title_en": "Draw Ceremony of the 3rd Generations Team Ramadan Football Championship",
+            "description_ar": "جانب من فعالية قرعة بطولة فريقي الأجيال الرمضانية الثالثة لكرة القدم، بحضور نخبة من الشخصيات الرياضية والمجتمعية في موقع تراثي مميز.",
+            "description_en": "A moment from the draw ceremony of the 3rd Generations Team Ramadan Football Championship, attended by prominent sports and community figures in a unique heritage setting.",
             "category": "SPORTS_EVENTS",
-            "image": "assets/media/1 (2).jpg",
-            "video": null
+            "type": "image",
+            "src": "assets/media/1 (3).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي يشارك في ورشة عمل",
-            "description_en": "Sharaf Ahmed Al-Ali participates in a workshop",
-            "category": "WORKSHOPS",
-            "image": "assets/media/1 (3).jpg",
-            "video": null
+            "title_ar": "تكليف أشرف بن أحمد العلي مسؤولاً لوحدة الاتصال المؤسسي بجمعية سند",
+            "title_en": "Appointment of Ashraf bin Ahmed Al-Ali as Head of Corporate Communications Unit at Sanad Association",
+            "description_ar": "تمت الموافقة على تكليف أ. أشرف بن أحمد العلي مسؤولاً لوحدة الاتصال المؤسسي بجمعية سند للمسؤولية الاجتماعية بالأحساء. نسأل الله له التوفيق والسداد.",
+            "description_en": "Ashraf bin Ahmed Al-Ali has been officially appointed as the Head of the Corporate Communications Unit at Sanad Association for Social Responsibility in Al-Ahsa. Wishing him success and guidance.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (4).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
+            "title_ar": "زيارة فريق الأجيال إلى مقر نادي الهلال السعودي",
+            "title_en": "Generations Team Visit to Al Hilal Saudi Club Headquarters",
+            "description_ar": "زيارة تعريفية لفريق الأجيال إلى منشأة نادي الهلال السعودي بالرياض ضمن برنامج رياضي وتوعوي لتعزيز ثقافة الاحتراف والانتماء الرياضي.",
+            "description_en": "An introductory visit by the Generations Team to Al Hilal Saudi Club facilities in Riyadh, as part of a sports and awareness program promoting professionalism and team spirit.",
+            "category": "SPORTS_MARKETING",
+            "type": "image",
+            "src": "assets/media/1 (5).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "تكريم بو صقر في نهائي بطولة الصاعقة الرمضانية",
+            "title_en": "Media Recognition at the Final of Al-Sa'iqah Ramadan Championship",
+            "description_ar": "تكريم بو صقر من السيد شرف العلي لتغطية إعلامية في نهائي بطولة الصاعقة الرمضانية قبل 9 سنوات، في لحظة تعكس تقدير العمل الإعلامي الرياضي.",
+            "description_en": "A recognition moment from Mr. Sharaf Al-Ali for media coverage at the final of Al-Sa'iqah Ramadan Championship, nine years ago – a gesture reflecting appreciation for sports media efforts.",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (6).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "شرف العلي مع طاقم تحكيم بطولة رياضية",
+            "title_en": "Sharaf Al-Ali with Referees of a Sports Tournament",
+            "description_ar": "توثيق لحظة رسمية للأستاذ شرف العلي مع طاقم التحكيم في إحدى البطولات الرياضية، تأكيدًا على دوره في التنظيم والدعم الإداري والفني.",
+            "description_en": "A formal moment featuring Sharaf Al-Ali with the referee team during a sports tournament, highlighting his role in organizing and supporting sports events.",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (7).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "شرف العلي في خدمة ضيوف الرحمن ضمن وفد تطوعي",
+            "title_en": "Sharaf Al-Ali Serving Pilgrims as Part of a Volunteer Delegation",
+            "description_ar": "شرف العلي خلال مشاركته في تنظيم واستقبال ضيوف الرحمن، ضمن الجهود التطوعية والوطنية.",
+            "description_en": "Sharaf Al-Ali participating in organizing and welcoming pilgrims as part of national volunteer efforts.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (8).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "شكرًا العطاء.. تكريم من سيد شرف لحكام البطولة",
+            "title_en": "Thank You Al-Ataa: Recognition from Sayed Sharaf to the Tournament Referees",
+            "description_ar": "صورة تجمع ثلاثة من حكام إحدى البطولات الرياضية، يرتدون قمصانًا تحمل عبارة 'شكرًا العطاء - سيد شرف' تعبيرًا عن التقدير والدعم المقدم لهم.",
+            "description_en": "A photo of three referees at a sports tournament wearing shirts with the phrase 'Thank You Al-Ataa - Sayed Sharaf', as a token of appreciation and support.",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (9).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "كلمة أ. شرف العلي حول بطولة سند الرياضية",
+            "title_en": "Statement by Mr. Sharaf Al-Ali on the Sanad Sports Tournament",
+            "description_ar": "كلمة للأستاذ شرف بن أحمد العلي، عضو مجلس إدارة جمعية سند والمسؤول عن التواصل المؤسسي، يتحدث فيها عن رؤية بطولة سند الرياضية كمنصة للمسؤولية الاجتماعية والتكامل المؤسسي عبر الرياضة.",
+            "description_en": "A statement by Mr. Sharaf bin Ahmed Al-Ali, board member of Sanad Association and head of institutional communication, highlighting the vision of the Sanad Sports Tournament as a platform for social responsibility and institutional integration through sports.",
+            "category": "SOCIAL_RESPONSIBILITY",
+            "type": "image",
+            "src": "assets/media/1 (10).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "فعالية رحلة عطاء الأحساء 5 بحضور محافظ الأحساء الأمير طلال بن بدر آل سعود",
+            "title_en": "Al-Ahsa Giving Journey 5 Event with Governor Prince Talal bin Badr Al Saud",
+            "description_ar": "صورة تجمع عددًا من الشخصيات البارزة خلال فعالية رحلة عطاء الأحساء 5 بحضور محافظ الأحساء الأمير طلال بن بدر آل سعود، مع وجود شعار الجمعية والشعار الرسمي للفعالية.",
+            "description_en": "A group photo featuring prominent figures during the Al-Ahsa Giving Journey 5 event with Governor Prince Talal bin Badr Al Saud, including the association's logo and official event logo.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (11).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "توعية العاملين بحماية أنفسهم من أشعة الشمس في موقع العمل",
+            "title_en": "Worker Awareness on Sun Protection at the Worksite",
+            "description_ar": "صورة لرجل يوجه كلمة أمام مجموعة من العمال يرتدون خوذات مزودة بمظلات صغيرة للحماية من أشعة الشمس في موقع العمل.",
+            "description_en": "A man giving a speech in front of a group of workers wearing helmets equipped with small umbrellas for sun protection at the worksite.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (12).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "زيارة صاحب السمو الملكي الأمير محمد بن طلال بن بدر آل سعود",
+            "title_en": "Visit of His Royal Highness Prince Mohammed bin Talal bin Badr Al Saud",
+            "description_ar": "صورة لصاحب السمو الملكي الأمير محمد بن طلال بن بدر آل سعود في موقع أثري مع مرافقه.",
+            "description_en": "Photo of His Royal Highness Prince Mohammed bin Talal bin Badr Al Saud at a historic site with his companion.",
+            "category": "TOURISM",
+            "type": "image",
+            "src": "assets/media/1 (13).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "لقاء رسمي في مقر العمل",
+            "title_en": "Official Meeting at the Workplace",
+            "description_ar": "صورة تجمع مجموعة من الرجال في مكتب رسمي في مقر العمل، يظهرون بحالة رسمية ومهنية.",
+            "description_en": "Photo showing a group of men in an official office setting, presenting a formal and professional atmosphere.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (14).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "شرف أحمد محمد العلي ممثل العلاقات العامة في الأحساء للسياحة",
+            "title_en": "Sharaf Ahmad Mohammad al Ali, Public Relations Representative at Al-Ahsa Tourism",
+            "description_ar": "صورة تعريفية لشرف أحمد محمد العلي ممثل العلاقات العامة في الأحساء للسياحة.",
+            "description_en": "Identification photo of Sharaf Ahmad Mohammad al Ali, Public Relations Representative at Al-Ahsa Tourism.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (15).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "حفل تكريم الفائزين بدورة وحدة وطن الرمضانية الرابعة 2016",
+            "title_en": "Award Ceremony for Winners of the 4th Ramadan National Unit Tournament 2016",
+            "description_ar": "صورة من حفل تكريم الفائزين في دورة وحدة وطن الرمضانية الرابعة لعام 2016 برعاية الشيخ عبدالعزيز بن محمد الدوسري.",
+            "description_en": "Photo from the award ceremony of the winners of the 4th Ramadan National Unit Tournament 2016 sponsored by Sheikh Abdulaziz bin Mohammed Al-Dossary.",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (16).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "الأستاذ شرف بن أحمد العلي في مكتبه",
+            "title_en": "Mr. Sharaf bin Ahmad Al-Ali in His Office",
+            "description_ar": "صورة للأستاذ شرف بن أحمد العلي، رئيس لجنة العلاقات العامة، أثناء عمله في مكتبه.",
+            "description_en": "Photo of Mr. Sharaf bin Ahmad Al-Ali, Head of the Public Relations Committee, working at his office.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (17).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "تدشين طقم فريق الشرقية الرياضي لعام 1440/2019",
+            "title_en": "Launch of Al Sharqiya Sports Team Kit for 1440/2019",
+            "description_ar": "صورة لتدشين طقم فريق الشرقية الرياضي لعام 1440/2019، يظهر ثلاثة لاعبين يرتدون الطقم الجديد.",
+            "description_en": "Photo of the launch of Al Sharqiya Sports Team kit for 1440/2019, showing three players wearing the new kit.",
+            "category": "SPORTS_MARKETING",
+            "type": "image",
+            "src": "assets/media/1 (18).jpg",
+            "videoId": null
+        },
+        {
+            "title_ar": "التكريم من جمعية الفضول الخيرية",
+            "title_en": "Honor from Al-Fudool Charitable Association",
+            "description_ar": "تم تكريمي من جمعية الفضول الخيرية تقديراً لمساهماتي الفعالة ودعم المشاريع الاجتماعية والخيرية التي تعزز التنمية المجتمعية وتحسين حياة الأفراد في المنطقة.",
+            "description_en": "I was honored by Al-Fudool Charitable Association in recognition of my effective contributions and support for social and charitable projects that promote community development and improve the lives of individuals in the region.",
             "category": "FIELD_VISITS",
-            "image": "assets/media/1 (4).jpg",
-            "video": null
+            "type": "image",
+            "src": "assets/media/1 (19).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (5).jpg",
-            "video": null
+            "title_ar": "حكم كرة القدم خلال إحدى المباريات في فريق الشرقية الرياضي",
+            "title_en": "Football Referee During a Match in Al-Sharqiya Sports Team",
+            "description_ar": "صورة لحكم كرة القدم أثناء إدارته لمباراة ضمن فعاليات فريق الشرقية الرياضي",
+            "description_en": "Photo of a football referee managing a match as part of Al-Sharqiya Sports Team activities",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (20).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (6).jpg",
-            "video": null
+            "title_ar": "تكريم رسمي في احتفالية فريق الشرقية الرياضي",
+            "title_en": "Official Honor at Al-Sharqiya Sports Team Celebration",
+            "description_ar": "صورة تظهر لحظة تكريم رسمي ضمن فعاليات فريق الشرقية الرياضي",
+            "description_en": "A photo capturing an official honor moment during Al-Sharqiya Sports Team events",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (21).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (7).jpg",
-            "video": null
+            "title_ar": "جهود التوزيع في فعاليات وزارة الشؤون الإسلامية بالمنطقة الشرقية",
+            "title_en": "Distribution Efforts at the Ministry of Islamic Affairs Event in the Eastern Province",
+            "description_ar": "صورة توضح جهود التوزيع ضمن فعاليات وزارة الشؤون الإسلامية والدعوة والإرشاد في المنطقة الشرقية.",
+            "description_en": "A photo showing distribution efforts during the Ministry of Islamic Affairs, Dawah and Guidance event in the Eastern Province.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (22).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (8).jpg",
-            "video": null
+            "title_ar": "اجتماع رسمي لعدد من المسؤولين في الأحساء",
+            "title_en": "Official Meeting of Several Officials in Al-Ahsa",
+            "description_ar": "صورة رسمية لعدد من المسؤولين في الأحساء خلال اجتماع مهم برعاية صاحب السمو الملكي.",
+            "description_en": "Official photo of several officials in Al-Ahsa during an important meeting under the patronage of His Royal Highness.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (23).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (9).jpg",
-            "video": null
+            "title_ar": "اجتماع عمل بين مسؤولين في مكتب رسمي",
+            "title_en": "Work Meeting Among Officials in an Official Office",
+            "description_ar": "صورة تظهر مجموعة من المسؤولين خلال اجتماع عمل في مكتب رسمي، يرتدون الزي السعودي التقليدي والملابس الرسمية.",
+            "description_en": "Photo showing a group of officials during a work meeting in an official office, wearing traditional Saudi attire and formal clothes.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (24).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (10).jpg",
-            "video": null
+            "title_ar": "زيارة صاحب السمو الملكي تركي بن فيصل بن عبد العزيز آل سعود",
+            "title_en": "Visit of His Royal Highness Turki bin Faisal bin Abdulaziz Al Saud",
+            "description_ar": "صورة لصاحب السمو الملكي تركي بن فيصل بن عبد العزيز آل سعود خلال زيارة رسمية مع أحد المسؤولين في موقع خارجي.",
+            "description_en": "Photo of His Royal Highness Turki bin Faisal bin Abdulaziz Al Saud during an official visit with an official at an outdoor location.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (25).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (11).jpg",
-            "video": null
+            "title_ar": "نشاط بيئي بالتعاون مع الكشافة لتعزيز الوعي البيئي",
+            "title_en": "Environmental Activity in Cooperation with Scouts to Promote Environmental Awareness",
+            "description_ar": "مجموعة من الشباب المشاركين في نشاط بيئي مع فريق كشفي، يحملون أدوات زراعة ولافتات توعوية في الهواء الطلق.",
+            "description_en": "A group of young participants in an environmental activity with a scouting team, holding planting tools and awareness posters outdoors.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (26).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (12).jpg",
-            "video": null
+            "title_ar": "حفل تكريم المتفوقين في شركة أرامكو السعودية",
+            "title_en": "Saudi Aramco Excellence Awards Ceremony",
+            "description_ar": "مجموعة من الرجال يرتدون الزي السعودي التقليدي، يقفون ويلتقطون صورة جماعية أثناء حفل تكريم المتفوقين بحضور أعضاء من شركة أرامكو السعودية، يحمل بعضهم شهادات تقدير.",
+            "description_en": "A group of men wearing traditional Saudi attire posing for a group photo during an excellence awards ceremony attended by Saudi Aramco members, with some holding certificates of appreciation.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (27).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (13).jpg",
-            "video": null
+            "title_ar": "زيارة ميدانية لأمين الأحساء المهندس عصام الملا لمتابعة سير العمل",
+            "title_en": "Field Visit by Al-Ahsa Mayor Eng. Essam Al-Mulla to Follow Up on Work Progress",
+            "description_ar": "أمين الأحساء المهندس عصام الملا خلال زيارة ميدانية لمتابعة سير العمل في المشاريع وتفقد الفرق الميدانية.",
+            "description_en": "Al-Ahsa Mayor Eng. Essam Al-Mulla during a field visit to monitor project progress and inspect field teams.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (28).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (14).jpg",
-            "video": null
+            "title_ar": "زيارة ميدانية لأمين الأحساء المهندس عصام الملا لمتابعة سير العمل",
+            "title_en": "Field Visit by Al-Ahsa Mayor Eng. Essam Al-Mulla to Follow Up on Work Progress",
+            "description_ar": "أمين الأحساء المهندس عصام الملا خلال زيارة ميدانية لمتابعة سير العمل في المشاريع وتفقد الفرق الميدانية.",
+            "description_en": "Al-Ahsa Mayor Eng. Essam Al-Mulla during a field visit to monitor project progress and inspect field teams.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (29).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (15).jpg",
-            "video": null
+            "title_ar": "تكريم الأستاذ سلطان بن سعيد ربه رئيس رابطة فرق الأحياء لكرة القدم",
+            "title_en": "Honoring Mr. Sultan Bin Saeed Rabah, President of the Neighborhoods League of Football",
+            "description_ar": "حفل تكريم الأستاذ سلطان بن سعيد ربه رئيس رابطة فرق الأحياء لكرة القدم تقديرًا لجهوده وإنجازاته في تطوير اللعبة.",
+            "description_en": "Honoring ceremony for Mr. Sultan Bin Saeed Rabah, President of the Neighborhoods League of Football, in recognition of his efforts and achievements in developing the sport.",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (30).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (16).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي يحمل كأس دوري الأحياء 2024",
+            "title_en": "Sharaf Ahmed Al-Ali Holds the 2024 Neighborhoods League Trophy",
+            "description_ar": "شرف أحمد العلي يشارك فرحة الفوز بحمل كأس دوري الأحياء لعام 2024م.",
+            "description_en": "Sharaf Ahmed Al-Ali shares the joy of victory holding the 2024 Neighborhoods League trophy.",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (31).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (17).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي يكرم بو صقر",
+            "title_en": "Sharaf Ahmed Al-Ali Honors Bu Saqr",
+            "description_ar": "صورة لتكريم شرف أحمد العلي للبو صقر خلال حفل التكريم.",
+            "description_en": "Photo of Sharaf Ahmed Al-Ali honoring Bu Saqr during an award ceremony.",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (32).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (18).jpg",
-            "video": null
+            "title_ar": "صدى الأحساء: 45 سنة في حواري الأحياء بالأحساء",
+            "title_en": "Echoes of Al-Ahsa: 45 Years in the Neighborhoods of Al-Ahsa",
+            "description_ar": "صورة قديمة توثق ذكرى 45 سنة في أحياء الأحساء، تظهر رجلاً يرتدي الزي السعودي التقليدي والنظارات الشمسية.",
+            "description_en": "An old photo commemorating 45 years in the neighborhoods of Al-Ahsa, showing a man wearing traditional Saudi attire and sunglasses.",
+            "category": "CULTURAL_PROGRAMS",
+            "type": "image",
+            "src": "assets/media/1 (33).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (19).jpg",
-            "video": null
+            "title_ar": "بطاقة تعريف شرف أحمد العلي ممثل العلاقات العامة في الأحساء للسياحة",
+            "title_en": "Sharaf Ahmed Al-Ali Business Card as Public Relations Representative at Al-Ahsa Tourism",
+            "description_ar": "بطاقة تعريف لشرف أحمد العلي، ممثل العلاقات العامة في الأحساء للسياحة تحتوي على معلومات التواصل الرسمية.",
+            "description_en": "Business card of Sharaf Ahmed Al-Ali, Public Relations Representative at Al-Ahsa Tourism, containing official contact information.",
+            "category": "TOURISM",
+            "type": "image",
+            "src": "assets/media/1 (34).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (20).jpg",
-            "video": null
+            "title_ar": "صورة قديمة لفريق كرة قدم شبابي",
+            "title_en": "Old Photo of a Youth Football Team",
+            "description_ar": "صورة قديمة تظهر فريق كرة قدم شبابي في ملعب ترابي، يظهر فيها اللاعبون والمدرب بملابس مختلفة.",
+            "description_en": "An old photo showing a youth football team on a dirt field, with players and coach wearing different outfits.",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (35).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (21).jpg",
-            "video": null
+            "title_ar": "فوز بكأس بطولة المونديال",
+            "title_en": "Victory with the Mundial Championship Cup",
+            "description_ar": "صورة لأشخاص يحملون كأس بطولة المونديال بفخر وفرحة.",
+            "description_en": "A photo of people proudly holding the Mundial Championship Cup.",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (36).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (22).jpg",
-            "video": null
+            "title_ar": "زيارة الموقع التاريخي في الأحساء",
+            "title_en": "Visit to the Historical Site in Al-Ahsa",
+            "description_ar": "صورة لرجلين في موقع تاريخي في الأحساء يظهران تقديرهم للتراث الثقافي.",
+            "description_en": "Photo of two men at a historical site in Al-Ahsa showing appreciation for cultural heritage.",
+            "category": "CULTURAL_PROGRAMS",
+            "type": "image",
+            "src": "assets/media/1 (37).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (23).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي يشارك فرحة الفوز بكأس البطولة",
+            "title_en": "Sharaf Ahmed Al-Ali Shares the Joy of Winning the Championship Cup",
+            "description_ar": "شرف أحمد العلي يشارك أحد اللاعبين الشبان لحظة الفوز والتتويج بكأس البطولة وسط أجواء من الفرح والإنجاز.",
+            "description_en": "Sharaf Ahmed Al-Ali joins a young player in a joyful moment celebrating the championship cup victory.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (38).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (24).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي في زيارة اجتماعية مع الشخصيات الوطنية",
+            "title_en": "Sharaf Ahmed Al-Ali in a Social Visit with National Figures",
+            "description_ar": "شرف أحمد العلي خلال حضوره مناسبة اجتماعية بجانب نخبة من الشخصيات الوطنية، في جو يسوده التقدير والاحترام.",
+            "description_en": "Sharaf Ahmed Al-Ali attending a social event alongside prominent national figures, in a respectful and cordial atmosphere.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (39).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (25).jpg",
-            "video": null
+            "title_ar": "الحافلة السياحية تجوب المبرز في مبادرة فريق الأجيال",
+            "title_en": "Tour Bus Roams Al-Mubarraz in Al-Ajyal Team's Initiative",
+            "description_ar": "لأول مرة في تاريخ المنطقة، الحافلة السياحية المكشوفة تجوب أبرز معالم المبرز التراثية والثقافية في رحلة مميزة بمبادرة من فريق الأجيال.",
+            "description_en": "For the first time in the region's history, the open-top tour bus roams Al-Mubarraz’s cultural and heritage sites in a special initiative by Al-Ajyal Team.",
+            "category": "TOURISM",
+            "type": "image",
+            "src": "assets/media/1 (40).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (26).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي في لقاء رسمي يعكس روح التواصل والتعاون",
+            "title_en": "Sharaf Ahmed Al-Ali in an Official Meeting Reflecting Communication and Cooperation",
+            "description_ar": "شرف أحمد العلي في لقاء رسمي بجانب العلم السعودي، تأكيدًا على دوره في تعزيز العلاقات العامة والتمثيل المشرف.",
+            "description_en": "Sharaf Ahmed Al-Ali appears in an official meeting next to the Saudi flag, emphasizing his role in public relations and honorable representation.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (41).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (27).jpg",
-            "video": null
+            "title_ar": "مجلس إدارة جمعية سند للمسؤولية الاجتماعية بالأحساء",
+            "title_en": "Board of Directors of Sand Social Responsibility Association in Al-Ahsa",
+            "description_ar": "الصورة توضح أعضاء مجلس إدارة جمعية سند للمسؤولية الاجتماعية بالأحساء في دورتها الأولى 2024 - 2028، وتعرض الأدوار المختلفة لكل عضو في سبيل تعزيز المسؤولية المجتمعية.",
+            "description_en": "This image presents the Board of Directors of the Sand Social Responsibility Association in Al-Ahsa for the first session (2024–2028), showcasing the members and their roles in promoting community responsibility.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (42).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (28).jpg",
-            "video": null
+            "title_ar": "شكر وتقدير للسيد شرف العلي من فريق الأجيال بالمبرز",
+            "title_en": "A Note of Appreciation to Mr. Sharaf Al-Ali from Al-Ajyal Team in Al-Mubarraz",
+            "description_ar": "تغريدة شكر من فريق الأجيال بالسيد شرف العلي تقديرًا لجهوده في دعم الشباب والمجتمع الرياضي، واعترافًا بإسهاماته التي صنعت الفرق وألهمت الأجيال.",
+            "description_en": "A tweet of appreciation from Al-Ajyal Team to Mr. Sharaf Al-Ali for his efforts in supporting youth and the sports community, recognizing his impact and inspiration to generations.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (43).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (29).jpg",
-            "video": null
+            "title_ar": "شرف العلي في لقاء رسمي مع نخبة من الشخصيات",
+            "title_en": "Sharaf Al-Ali in an Official Gathering with Distinguished Figures",
+            "description_ar": "السيد شرف العلي يشارك في لقاء رسمي جمع نخبة من الشخصيات البارزة، في إطار جهود التواصل المجتمعي وتعزيز العلاقات العامة.",
+            "description_en": "Mr. Sharaf Al-Ali takes part in an official gathering with a group of distinguished figures, reinforcing community engagement and public relations.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (44).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (30).jpg",
-            "video": null
+            "title_ar": "شرف العلي يتلقى درع تكريمي خلال حفل تكريم الرعاة والمشاركين",
+            "title_en": "Sharaf Al-Ali Receives Honorary Plaque During Sponsors and Participants Ceremony",
+            "description_ar": "خلال حفل رسمي لتكريم الرعاة والمشاركين، تم تكريم السيد شرف العلي بدرع تذكاري تقديرًا لمساهماته المتميزة.",
+            "description_en": "During an official ceremony honoring sponsors and participants, Mr. Sharaf Al-Ali was recognized with a commemorative plaque for his outstanding contributions.",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (45).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (31).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي في لقاء مع الشخصيات المؤثرة",
+            "title_en": "Sharaf Ahmed Al-Ali in a Meeting with Influential Personalities",
+            "description_ar": "شرف أحمد العلي يلتقي مع شخصيات مؤثرة في إطار أنشطة العلاقات العامة والتواصل المؤسسي",
+            "description_en": "Sharaf Ahmed Al-Ali meets with influential personalities as part of public relations and institutional communication activities",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (46).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (32).jpg",
-            "video": null
+            "title_ar": "تكريم الرعاة والمشاركين في الحفل السنوي",
+            "title_en": "Honoring Sponsors and Participants at the Annual Ceremony",
+            "description_ar": "صورة من حفل تكريم الرعاة والمشاركين، حيث يُكرم الحضور على جهودهم ومساهماتهم المتميزة.",
+            "description_en": "A photo from the ceremony honoring sponsors and participants for their outstanding efforts and contributions.",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (47).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (33).jpg",
-            "video": null
+            "title_ar": "لقاء رسمي في إطار العلاقات العامة",
+            "title_en": "Official Meeting in the Framework of Public Relations",
+            "description_ar": "صورة توثق لقاء رسمي يجمع مجموعة من الرجال بالزي التقليدي السعودي في مناسبة اجتماعية أو رسمية.",
+            "description_en": "A photo documenting an official meeting featuring a group of men in traditional Saudi attire during a social or official event.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (48).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (34).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي يشارك فرحة الإنجاز",
+            "title_en": "Sharaf Ahmed Al-Ali Shares the Joy of Achievement",
+            "description_ar": "شرف أحمد العلي في موقع العمل مرتديًا سترة الأمان وقبعة تحمل شعار BERGA، مع فريق عمل في الخلفية.",
+            "description_en": "Sharaf Ahmed Al-Ali at the work site wearing a safety vest and a cap with the BERGA logo, with a team in the background.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (49).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (35).jpg",
-            "video": null
+            "title_ar": "رعاية ودعم الأمير سعود بن طلال لمحافظة الأحساء في بطولة سند الرياضية",
+            "title_en": "Prince Saud bin Talal's Patronage and Support for Al-Ahsa Governorate in the Sand Sports Championship",
+            "description_ar": "كرّم صاحب السمو الملكي الأمير سعود بن طلال بن بدر محافظ الأحساء الجهات الداعمة والمشاركة في بطولة سند الرياضية للشركات في نسختها الأولى.",
+            "description_en": "His Royal Highness Prince Saud bin Talal bin Badr, Governor of Al-Ahsa, honored the supporting and participating entities in the first edition of the Sand Sports Championship for companies.",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (50).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (36).jpg",
-            "video": null
+            "title_ar": "مبادرة حماية البيئة البحرية في شاطئ المبرز برعاية الأمير سعود بن طلال",
+            "title_en": "Marine Environment Protection Initiative at Al-Mubarraz Beach under the Patronage of Prince Saud bin Talal",
+            "description_ar": "انطلقت مبادرة حماية البيئة البحرية في شاطئ المبرز تحت رعاية صاحب السمو الملكي الأمير سعود بن طلال، بمشاركة عدد من المتطوعين والجهات الداعمة.",
+            "description_en": "The Marine Environment Protection Initiative at Al-Mubarraz Beach was launched under the patronage of His Royal Highness Prince Saud bin Talal, with participation from volunteers and supporting entities.",
+            "category": "TOURISM",
+            "type": "image",
+            "src": "assets/media/1 (51).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (37).jpg",
-            "video": null
+            "title_ar": "الشيخ محمد الدوسري يحتفل بفوز فريق الوحدة الإماراتي في دورة وحدة وطن الرمضانية",
+            "title_en": "Sheikh Mohammed Al-Dosari Celebrates the Victory of Al-Wahda Emirati Team in the Ramadan Unity National Tournament",
+            "description_ar": "الشيخ محمد الدوسري يحتفل بفوز فريق الوحدة الإماراتي في دورة وحدة وطن الرمضانية لعام 2016.",
+            "description_en": "Sheikh Mohammed Al-Dosari celebrates the victory of Al-Wahda Emirati team in the 2016 Ramadan Unity National Tournament.",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (52).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (38).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي يتبادل الحديث مع المشاركين في فعالية رؤية 2030",
+            "title_en": "Sharaf Ahmed Al-Ali Engages with Participants at Vision 2030 Event",
+            "description_ar": "شرف أحمد العلي يتحدث مع المشاركين أثناء فعالية رؤية المملكة 2030، مرتدياً سترة عاكسة وقبعة مميزة تحمل مظلة صغيرة.",
+            "description_en": "Sharaf Ahmed Al-Ali talks with participants during the Kingdom's Vision 2030 event, wearing a reflective vest and a distinctive cap with a small umbrella.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (53).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (39).jpg",
-            "video": null
+            "title_ar": "حكم كرة قدم يرتدي زي التحكيم الأحمر مكتوب عليه شكراً العطاء سيد شرف",
+            "title_en": "Football Referee Wearing Red Referee Uniform",
+            "description_ar": "صورة لحكم كرة قدم يرتدي زي التحكيم الأحمر مع شعار Adidas وشعارات أخرى على القميص.",
+            "description_en": "Photo of a football referee wearing a red Adidas referee uniform with various patches on the shirt.",
+            "category": "SPORTS_MARKETING",
+            "type": "image",
+            "src": "assets/media/1 (54).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (40).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي يشارك في حفل تكريم فريق أنوار الفضول",
+            "title_en": "Sharaf Ahmed Al-Ali Participates in the Honoring Ceremony of Anwar Al-Fudool Team",
+            "description_ar": "شرف أحمد العلي يشارك في حفل تكريم فريق أنوار الفضول",
+            "description_en": "Sharaf Ahmed Al-Ali participates in the honoring ceremony of the Anwar Al-Fudool team",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (55).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (41).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي يوقع كرة قدم لطفل في فعالية رياضية",
+            "title_en": "Sharaf Ahmed Al-Ali Signs a Football for a Child at a Sports Event",
+            "description_ar": "شرف أحمد العلي يوقع كرة قدم لطفل خلال فعالية رياضية",
+            "description_en": "Sharaf Ahmed Al-Ali signs a football for a child during a sports event",
+            "category": "SPORTS_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (56).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (42).jpg",
-            "video": null
+            "title_ar": "احتفال مجموعة رجال بمناسبة في ميدان الفروسية بالأحساء",
+            "title_en": "Group of Men Celebrating at Al-Ahsa Equestrian Field",
+            "description_ar": "صورة لمجموعة من الرجال يرتدون الملابس التقليدية السعودية وهم يشاركون في تقطيع كعكة بمناسبة في ميدان الفروسية بالأحساء. تظهر لافتة في الخلفية تشير إلى مكان الاحتفال، ويوجد على الطاولة أمامهم مجموعة من العصائر ومياه الشرب.",
+            "description_en": "A photo of a group of men wearing traditional Saudi attire participating in cutting a cake at an event held at the Al-Ahsa Equestrian Field. A sign in the background indicates the location, and there are various juices and bottled water on the table in front of them.",
+            "category": "SOCIAL_EVENTS",
+            "type": "image",
+            "src": "assets/media/1 (57).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (43).jpg",
-            "video": null
+            "title_ar": "أيام نادي الاتفاق قبل 25 سنة مع شرف أحمد العلي",
+            "title_en": "Days of Al-Ettifaq Club 25 Years Ago with Sharaf Ahmed Al-Ali",
+            "description_ar": "أن الغرض من التربية هو إعداد المرء للحياة الكاملة ولتحقيق ذلك يجب تهييب الطبيعة الإنسانية تهيبًا كاملاً من نواحيها المختلفة الجسم والعقل والخلق والقلب والذوق واليد واللسان فلا تعني بناحية ونهمل أخرى في تربية ..",
+            "description_en": "The purpose of education is to prepare a person for a complete life. To achieve this, the human nature must be fully cultivated in its different aspects: body, mind, morals, heart, taste, hand, and tongue. We should not focus on one aspect and neglect another in education.",
+            "category": "SPORTS_MARKETING",
+            "type": "image",
+            "src": "assets/media/1 (58).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (44).jpg",
-            "video": null
+            "title_ar": "شرف أحمد العلي مع كأس البطولة",
+            "title_en": "Sharaf Ahmed Al Ali with the Championship Trophy",
+            "description_ar": "شرف أحمد العلي يقف بجانب كأس البطولة في إحدى الفعاليات الرياضية التي تدعمها جمعية سند بالأحساء، تعبيرًا عن النجاح والتميز في المجال الرياضي.",
+            "description_en": "Sharaf Ahmed Al Ali stands beside the championship trophy at a sports event supported by Sanad Association in Al-Ahsa, representing success and excellence in the sports field.",
+            "category": "AWARDS",
+            "type": "image",
+            "src": "assets/media/1 (59).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (45).jpg",
-            "video": null
+            "title_ar": "أحمد شرف العلي مع أبنائه وخليل الزياني",
+            "title_en": "Ahmed Sharaf Al Ali with His Sons and Khalil Al Zayani",
+            "description_ar": "صورة تجمع أحمد شرف العلي مع أبنائه وخليل الزياني في مناسبة اجتماعية داخلية، يظهرون وهم يرتدون الزي السعودي التقليدي في مكان مزين بثريات وأضواء دافئة.",
+            "description_en": "A photo featuring Ahmed Sharaf Al Ali with his sons and Khalil Al Zayani at an indoor social gathering, all dressed in traditional Saudi attire with chandeliers and warm lighting in the background.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (60).jpg",
+            "videoId": null
         },
         {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (46).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (47).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (48).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (49).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (50).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (51).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (52).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (53).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (54).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (55).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (56).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (57).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (58).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (59).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (60).jpg",
-            "video": null
-        },
-        {
-            "description_ar": "شرف أحمد العلي في زيارة ميدانية",
-            "description_en": "Sharaf Ahmed Al-Ali on a field visit",
-            "category": "FIELD_VISITS",
-            "image": "assets/media/1 (61).jpg",
-            "video": null
+            "title_ar": "أحمد شرف العلي يلقي كلمة",
+            "title_en": "Ahmed Sharaf Al Ali Giving a Speech",
+            "description_ar": "صورة لأحمد شرف العلي يرتدي الزي السعودي التقليدي ويُلقي كلمة وهو يحمل الميكروفون في يده أمام خلفية صخرية مضاءة.",
+            "description_en": "Photo of Ahmed Sharaf Al Ali wearing traditional Saudi attire, giving a speech while holding a microphone in front of an illuminated rocky background.",
+            "category": "PUBLIC_RELATIONS",
+            "type": "image",
+            "src": "assets/media/1 (61).jpg",
+            "videoId": null
         }
     ],
     "hobbies": [
