@@ -241,102 +241,48 @@
 
             <!-- Gallery Filters -->
             <div class="flex flex-wrap justify-center gap-2 mb-8">
-                <button class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">{{ 'GALLERY_FILTER.ALL'
+                <button class="px-4 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700" data-filter="all">{{
+                    'GALLERY_FILTER.ALL'
                     | translate }}</button>
-                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100">{{ 'GALLERY_FILTER.PUBLIC_RELATIONS' |
+                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100" data-filter="PUBLIC_RELATIONS">{{
+                    'GALLERY_FILTER.PUBLIC_RELATIONS' |
                     translate }}</button>
-                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100">{{ 'GALLERY_FILTER.SPORTS_MARKETING' |
+                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100" data-filter="SPORTS_MARKETING">{{
+                    'GALLERY_FILTER.SPORTS_MARKETING' |
                     translate }}</button>
-                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100">{{ 'GALLERY_FILTER.TOURISM' |
+                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100" data-filter="TOURISM">{{
+                    'GALLERY_FILTER.TOURISM' |
                     translate }}</button>
-                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100">{{ 'GALLERY_FILTER.AWARDS' | translate
+                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100" data-filter="AWARDS">{{
+                    'GALLERY_FILTER.AWARDS' | translate
                     }}</button>
-                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100">{{ 'GALLERY_FILTER.EQUESTRIAN' |
+                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100" data-filter="EQUESTRIAN">{{
+                    'GALLERY_FILTER.EQUESTRIAN' |
                     translate }}</button>
-                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100">{{ 'GALLERY_FILTER.SPORTS_EVENTS' |
+                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100" data-filter="SPORTS_ACTIVITIES">{{
+                    'GALLERY_FILTER.SPORTS_EVENTS' |
                     translate }}</button>
-                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100">{{ 'GALLERY_FILTER.CULTURAL_PROGRAMS'
+                <button class="px-4 py-2 bg-white rounded-full hover:bg-gray-100" data-filter="CULTURAL_PROGRAMS">{{
+                    'GALLERY_FILTER.CULTURAL_PROGRAMS'
                     | translate }}</button>
             </div>
 
             <!-- Gallery Grid -->
             <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
-                <!-- PR Images -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=العلاقات+العامة" alt="العلاقات العامة"
+                <!-- Images -->
+                <div *ngFor="let item of me.media_gallery" [attr.data-category]="item.category"
+                    class="gallery-item rounded-lg overflow-hidden shadow-md">
+                    <img [src]="item.image" [alt]="lang === 'ar'? item.description_ar : item.description_en"
                         class="w-full h-48 object-cover">
                     <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">فعالية العلاقات العامة</p>
-                    </div>
-                </div>
-
-                <!-- Sports Marketing Images -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=التسويق+الرياضي" alt="التسويق الرياضي"
-                        class="w-full h-48 object-cover">
-                    <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">حملة تسويقية رياضية</p>
-                    </div>
-                </div>
-
-                <!-- Tourism Images -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=السياحة+والترفيه" alt="السياحة والترفيه"
-                        class="w-full h-48 object-cover">
-                    <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">مشروع المشقر السياحي</p>
-                    </div>
-                </div>
-
-                <!-- Medals Images -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=الأوسمة" alt="الأوسمة"
-                        class="w-full h-48 object-cover">
-                    <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">حفل تكريم</p>
-                    </div>
-                </div>
-
-                <!-- Equestrian Images -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=الفروسية" alt="الفروسية"
-                        class="w-full h-48 object-cover">
-                    <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">منافسات الفروسية</p>
-                    </div>
-                </div>
-
-                <!-- Sports Activities Images -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=الأنشطة+الرياضية" alt="الأنشطة الرياضية"
-                        class="w-full h-48 object-cover">
-                    <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">فعالية رياضية</p>
-                    </div>
-                </div>
-
-                <!-- Cultural Programs Images -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=البرامج+الثقافية" alt="البرامج الثقافية"
-                        class="w-full h-48 object-cover">
-                    <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">ندوة ثقافية</p>
-                    </div>
-                </div>
-
-                <!-- Another PR Image -->
-                <div class="gallery-item rounded-lg overflow-hidden shadow-md">
-                    <img src="https://via.placeholder.com/400x300?text=العلاقات+العامة" alt="العلاقات العامة"
-                        class="w-full h-48 object-cover">
-                    <div class="p-3 bg-white">
-                        <p class="text-sm font-medium">لقاء إعلامي</p>
+                        <p class="text-sm font-medium">{{lang === 'ar'? item.description_ar : item.description_en}}</p>
                     </div>
                 </div>
             </div>
 
-            <div class="text-center mt-8">
+            <!-- <div class="text-center mt-8">
                 <button class="px-6 py-2 bg-blue-600 text-white rounded-full hover:bg-blue-700">عرض المزيد</button>
-            </div>
+            </div> -->
         </div>
     </section>
 
