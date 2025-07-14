@@ -26,6 +26,16 @@
         "JOINING_YEAR": "Joining Year",
         "MAJOR": "Major"
     },
+    "GALLERY_FILTER": {
+        "ALL": "All",
+        "PUBLIC_RELATIONS": "Public Relations",
+        "SPORTS_MARKETING": "Sports Marketing",
+        "TOURISM": "Tourism",
+        "AWARDS": "Awards",
+        "EQUESTRIAN": "Equestrian",
+        "SPORTS_EVENTS": "Sports Events",
+        "CULTURAL_PROGRAMS": "Cultural Programs"
+    },
     "DEGREE_TYPE": {
         "BACHELORS": "Bachelors",
         "SECONDARY": "Secondary Education"

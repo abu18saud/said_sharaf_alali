@@ -26,6 +26,16 @@
         "JOINING_YEAR": "سنة الانضمام",
         "MAJOR": "التخصص"
     },
+    "GALLERY_FILTER": {
+        "ALL": "الكل",
+        "PUBLIC_RELATIONS": "العلاقات العامة والتواصل المؤسسي",
+        "SPORTS_MARKETING": "⁠التسويق والاستثمار الرياضي",
+        "TOURISM": "⁠السياحة والترفية",
+        "AWARDS": "⁠الأوسمة والاستحقاقات",
+        "EQUESTRIAN": "⁠الفروسية والإنجازات",
+        "SPORTS_EVENTS": "⁠الأنشطة والفعاليات الرياضية",
+        "CULTURAL_PROGRAMS": "⁠البرامج الثقافية والإنسانية"
+    },
     "DEGREE_TYPE": {
         "BACHELORS": "بكالوريوس",
         "SECONDARY": "التعليم الثانوي"
