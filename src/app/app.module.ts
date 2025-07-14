@@ -1,4 +1,4 @@
-import { CUSTOM_ELEMENTS_SCHEMA, NgModule } from '@angular/core';
+import { CUSTOM_ELEMENTS_SCHEMA, LOCALE_ID, NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -34,10 +34,13 @@ export function HttpLoaderFactory(http: HttpClient) {
       }
     })
   ],
-    schemas: [
+  schemas: [
     CUSTOM_ELEMENTS_SCHEMA
   ],
-  providers: [DatePipe],
+  providers: [
+    DatePipe,
+    // { provide: LOCALE_ID, useValue: 'ar' }, // Set Arabic as the default locale
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

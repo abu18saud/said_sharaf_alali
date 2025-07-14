@@ -17,16 +17,18 @@
         "DOWNLOAD_CV": "تنزيل السيرة"
     },
     "LABELS": {
+        "CURRENTLY": "حالياً",
+        "UNSPECIFIED": "غير محدد",
         "PROFESSIONAL_EXPERIENCE": "مسيرتي المهنية",
         "GPA": "المعدل التراكمي",
         "START_DATE": "تاريخ البدء",
         "END_DATE": "تاريخ التخرج",
         "JOINING_YEAR": "سنة الانضمام",
-        "SPECIALIZATION": "التخصص"
+        "MAJOR": "التخصص"
     },
-        "DEGREE_TYPE":{
-        "BACHELORS":"بكالوريوس",
-        "SECONDARY":"التعليم الثانوي"
+    "DEGREE_TYPE": {
+        "BACHELORS": "بكالوريوس",
+        "SECONDARY": "التعليم الثانوي"
     },
     "CATEGORIES": {
         "SPORTS_FACILITIES": "خدمة المرافق الرياضية",

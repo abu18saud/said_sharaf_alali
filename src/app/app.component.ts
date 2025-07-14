@@ -11,6 +11,7 @@ export class AppComponent {
   lang = 'ar';
   me: any = {};
   featureds: any[] = [];
+  formatDate: any = "dd/MM/yyyy";
 
   constructor(private appService: AppService,
     private translateService: TranslateService

@@ -188,64 +188,46 @@
     <!-- Education Section -->
     <section id="education" class="section py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">{{'MAIN_MENU.EDUCATION' | translate}}</h2>
+            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">
+                {{'MAIN_MENU.EDUCATION' | translate}}</h2>
 
             <div class="grid md:grid-cols-2 gap-8">
-                <!-- Secondary Education -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
+                <div *ngFor="let item of me.education" class="bg-gray-50 p-6 rounded-lg shadow-sm">
                     <div class="flex items-center mb-4">
-                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4">
-                            <i class="fas fa-school text-xl"></i>
+                        <div
+                            [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-3 rounded-full ml-4':'bg-blue-100 text-blue-600 p-3 rounded-full mr-4'">
+                            <i [class]="item.icon"></i>
                         </div>
-                        <h3 class="text-xl font-semibold">التعليم الثانوي - مدرسة الأقصى</h3>
+                        <h3 class="text-xl font-semibold">{{'DEGREE_TYPE.' + item.degree_type | translate}} - {{lang ===
+                            'ar'? item.university_ar: item.university_en}}</h3>
                     </div>
                     <div class="space-y-2">
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">المعدل التراكمي:</span>
-                            <span class="font-medium">98%</span>
+                        <div *ngIf="item.major_ar" class="flex justify-between">
+                            <span class="text-gray-600">{{'LABELS.MAJOR' | translate}}:</span>
+                            <span class="font-medium">{{lang === 'ar'? item.major_ar: item.major_en}}</span>
                         </div>
                         <div class="flex justify-between">
-                            <span class="text-gray-600">تاريخ البدء:</span>
-                            <span class="font-medium">1430هـ / 2009م</span>
+                            <span class="text-gray-600">{{'LABELS.GPA' | translate}}:</span>
+                            <span class="font-medium">{{item.gpa}} / {{item.max_gpa}}</span>
                         </div>
                         <div class="flex justify-between">
-                            <span class="text-gray-600">تاريخ التخرج:</span>
-                            <span class="font-medium">1433هـ / 2012م</span>
+                            <span class="text-gray-600">{{'LABELS.START_DATE' | translate}}:</span>
+                            <span class="font-medium">{{item.start_date? (item.start_date | date:formatDate):
+                                ('LABELS.UNSPECIFIED' | translate)}}</span>
                         </div>
                         <div class="flex justify-between">
-                            <span class="text-gray-600">سنة الانضمام:</span>
-                            <span class="font-medium">1427هـ / 2006م</span>
+                            <span class="text-gray-600">{{'LABELS.END_DATE' | translate}}:</span>
+                            <span class="font-medium">{{item.graduation_date? (item.graduation_date | date:formatDate):
+                                ('LABELS.UNSPECIFIED' | translate)}}</span>
+                        </div>
+                        <div class="flex justify-between">
+                            <span class="text-gray-600">{{'LABELS.JOINING_YEAR' | translate}}:</span>
+                            <span class="font-medium">{{item.join_year}} - {{item.graduation_year? item.graduation_year
+                                : ('LABELS.CURRENTLY' | translate)}}</span>
                         </div>
                     </div>
                 </div>
 
-                <!-- University Education -->
-                <div class="bg-gray-50 p-6 rounded-lg shadow-sm">
-                    <div class="flex items-center mb-4">
-                        <div class="bg-blue-100 text-blue-600 p-3 rounded-full mr-4">
-                            <i class="fas fa-university text-xl"></i>
-                        </div>
-                        <h3 class="text-xl font-semibold">بكالوريوس - جامعة الملك فيصل</h3>
-                    </div>
-                    <div class="space-y-2">
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">التخصص:</span>
-                            <span class="font-medium">إدارة الأعمال</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">تاريخ البدء:</span>
-                            <span class="font-medium">1434هـ / 2013م</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">تاريخ التخرج المتوقع:</span>
-                            <span class="font-medium">1439هـ / 2018م</span>
-                        </div>
-                        <div class="flex justify-between">
-                            <span class="text-gray-600">المعدل التراكمي:</span>
-                            <span class="font-medium">4.75 من 5</span>
-                        </div>
-                    </div>
-                </div>
             </div>
         </div>
     </section>
@@ -253,7 +235,8 @@
     <!-- Gallery Section -->
     <section id="gallery" class="section py-16 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">معرض الوسائط
+            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">
+                {{ 'MAIN_MENU.GALLERY' | translate }}
             </h2>
 
             <!-- Gallery Filters -->
