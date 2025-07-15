@@ -14,6 +14,7 @@ export class MediaGalleryComponent {
   activeFilter = 'ALL';
   isDialogOpen = false;
   currentMedia: any = {};
+  _loading: boolean = false;
 
   constructor(private appService: AppService,
     private translateService: TranslateService
@@ -21,6 +22,13 @@ export class MediaGalleryComponent {
     this.appService.getMe().subscribe(res => {
       this.me = res;
     });
+  }
+
+  loading() {
+    this._loading = true;
+    setTimeout(() => {
+      this._loading = false;
+    }, 500);
   }
 
   galleryItems = [

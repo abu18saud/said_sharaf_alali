@@ -16,7 +16,11 @@
         "MY_ACHIEVEMENTS": "إنجازاتي",
         "DOWNLOAD_CV": "تنزيل السيرة"
     },
+    "PLACEHOLDERS": {
+        "SEARCH": "ابحث في الصور والفيديوهات..."
+    },
     "LABELS": {
+        "SEARCH": "بحث",
         "CURRENTLY": "حالياً",
         "UNSPECIFIED": "غير محدد",
         "PROFESSIONAL_EXPERIENCE": "مسيرتي المهنية",

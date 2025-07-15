@@ -1,7 +1,7 @@
-<div class="container mx-auto px-4 py-8">
+<div class="container mx-auto px-4">
     <header class="text-center mb-12">
 
-        <div class="flex justify-center mt-6 space-x-4">
+        <div class="flex justify-center space-x-4">
             <button
                 *ngFor="let filter of ['ALL', 'PUBLIC_RELATIONS', 'SPORTS_MARKETING', 'TOURISM', 'AWARDS', 'EQUESTRIAN', 'SPORTS_EVENTS', 'CULTURAL_PROGRAMS']"
                 class="filter-btn px-4 py-2 rounded-full transition" [class.bg-indigo-600]="activeFilter === filter"
@@ -10,10 +10,19 @@
                 {{ 'GALLERY_FILTER.' +filter | translate }}
             </button>
         </div>
+
+        <form class="example-form mt-5">
+            <mat-form-field class="example-full-width">
+                <mat-label>{{'LABELS.SEARCH' | translate}}</mat-label>
+                <input matInput #search (keyup)="loading()" maxlength="256"
+                    [placeholder]="'PLACEHOLDERS.SEARCH' | translate">
+            </mat-form-field>
+            <mat-progress-bar mode="query" *ngIf="_loading"></mat-progress-bar>
+        </form>
     </header>
 
     <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
-        <div *ngFor="let item of filteredItems()"
+        <div *ngFor="let item of filteredItems() | mediaSearch: search.value"
             class="gallery-item rounded-xl overflow-hidden bg-white shadow-md cursor-pointer transition-all duration-300"
             (click)="openMedia(item)">
 

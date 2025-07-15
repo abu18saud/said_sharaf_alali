@@ -10,6 +10,7 @@ import { TranslateLoader, TranslateModule } from '@ngx-translate/core';
 import { DatePipe } from '@angular/common';
 import { MediaGalleryComponent } from '../components/media-gallery/media-gallery.component';
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
+import { MediaSearchPipe } from './pipes/media-search.pipe';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -19,7 +20,8 @@ export function HttpLoaderFactory(http: HttpClient) {
   declarations: [
     AppComponent,
     MediaGalleryComponent,
-    SafeUrlPipe
+    SafeUrlPipe,
+    MediaSearchPipe
   ],
   imports: [
     BrowserModule,

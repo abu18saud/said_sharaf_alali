@@ -16,7 +16,11 @@
         "MY_ACHIEVEMENTS": "My Achievements",
         "DOWNLOAD_CV": "Download CV"
     },
+    "PLACEHOLDERS": {
+        "SEARCH": "Search images and videos..."
+    },
     "LABELS": {
+        "SEARCH": "Search",
         "CURRENTLY": "Currently",
         "UNSPECIFIED": "Unspecified",
         "PROFESSIONAL_EXPERIENCE": "Professional Experience",
