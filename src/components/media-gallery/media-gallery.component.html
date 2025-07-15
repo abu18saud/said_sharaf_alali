@@ -16,6 +16,7 @@
                 <mat-label>{{'LABELS.SEARCH' | translate}}</mat-label>
                 <input matInput #search (keyup)="loading()" maxlength="256"
                     [placeholder]="'PLACEHOLDERS.SEARCH' | translate">
+                <mat-icon matSuffix>search</mat-icon>
             </mat-form-field>
             <mat-progress-bar mode="query" *ngIf="_loading"></mat-progress-bar>
         </form>
@@ -44,6 +45,8 @@
                 <p class="text-sm text-gray-500 mt-1">{{ 'GALLERY_FILTER.' + item.category | translate }}</p>
             </div>
         </div>
+
+        <app-not-found *ngIf="(filteredItems() | mediaSearch: search.value).length === 0"></app-not-found>
     </div>
 </div>
 

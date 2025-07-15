@@ -11,6 +11,7 @@ import { DatePipe } from '@angular/common';
 import { MediaGalleryComponent } from '../components/media-gallery/media-gallery.component';
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
 import { MediaSearchPipe } from './pipes/media-search.pipe';
+import { NotFoundComponent } from '../components/not-found/not-found.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -21,7 +22,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     AppComponent,
     MediaGalleryComponent,
     SafeUrlPipe,
-    MediaSearchPipe
+    MediaSearchPipe,
+    NotFoundComponent
   ],
   imports: [
     BrowserModule,

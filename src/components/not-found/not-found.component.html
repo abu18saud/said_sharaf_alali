@@ -1,0 +1,33 @@
+<div class="w-100">
+    <!-- شريط البحث -->
+    <!-- <div class="search-box bg-white rounded-full p-2 w-full max-w-md mb-12 flex items-center shadow-lg">
+        <input type="text" id="searchInput" placeholder="ابحث عن شيء..."
+            class="flex-grow px-4 py-2 rounded-full focus:outline-none text-gray-800 text-right"
+            >
+        <button (click)="onSearch()"
+            class="search-btn bg-blue-500 text-white rounded-full p-3 hover:bg-blue-600 transition-colors">
+            <i class="fas fa-search"></i>
+        </button>
+    </div> -->
+
+    <!-- رسالة عدم وجود نتائج -->
+    <div id="noResults" class="text-center">
+        <div class="floating mb-8" [innerHTML]="currentIcon">
+        </div>
+
+        <h1 class="text-3xl font-bold text-gray-800 mb-4">{{'ERRORS.NO_RESULTS' | translate}}</h1>
+        <p class="text-gray-600 mb-6">{{'ERRORS.SEARCH_FAILED' | translate}}</p>
+
+    </div>
+
+    <!-- رسالة الترحيب -->
+    <div id="welcomeMessage" class="text-center" *ngIf="!showNoResults">
+        <div class="floating mb-8">
+            <svg width="200" height="200" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M21 21L15 15M17 10C17 13.866 13.866 17 10 17C6.13401 17 3 13.866 3 10C3 6.13401 6.13401 3 10 3C13.866 3 17 6.13401 17 10Z"
+                    stroke="#4B5563" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+        </div>
+    </div>
+</div>

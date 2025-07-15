@@ -30,6 +30,10 @@
         "JOINING_YEAR": "Joining Year",
         "MAJOR": "Major"
     },
+    "ERRORS": {
+        "NO_RESULTS": "Sorry, no results found",
+        "SEARCH_FAILED": "We couldn't find anything matching your search. Please try using different keywords."
+    },
     "GALLERY_FILTER": {
         "ALL": "All",
         "PUBLIC_RELATIONS": "Public Relations",
