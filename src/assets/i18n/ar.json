@@ -1,15 +1,25 @@
 {
     "MAIN_MENU": {
+        "RESUME_STATISTICS": "إحصائيات السيرة الذاتية",
         "ABOUT": "عني",
         "EXPERIENCE": "الخبرات",
         "PROFESSIONAL_EXPERIENCE": "الخبرات العلمية",
         "EDUCATION": "التعليم",
         "GALLERY": "معرض الوسائط",
         "ACHIEVEMENTS": "الإنجازات",
+        "ACHIEVEMENTS_AND_CERTIFICATES": "الإنجازات والشهادات",
         "PROJECTS": "المشاريع",
         "FEATURED_PROJECTS": "المشاريع البارزة",
         "HOBBIES": "الهوايات",
         "CONTACT": "التواصل"
+    },
+    "MENU_COMMENTS": {
+        "RESUME_STATISTICS": "نظرة عامة على محتويات سيرتي الذاتية",
+        "PROFESSIONAL_EXPERIENCE": "سنوات من الخبرة المتراكمة",
+        "GALLERY": "من العناصر في المعرض",
+        "ACHIEVEMENTS_AND_CERTIFICATES": "إنجاز وشهادة مهنية",
+        "PROJECTS": "من المشاريع المكتملة",
+        "HOBBIES": "من الهوايات المختلفة"
     },
     "BUTTONS": {
         "CONTACT_ME": "تواصل معي",
@@ -20,6 +30,7 @@
         "SEARCH": "ابحث في الصور والفيديوهات..."
     },
     "LABELS": {
+        "LAST_UPDATE": "آخر تحديث",
         "SEARCH": "بحث",
         "CURRENTLY": "حالياً",
         "UNSPECIFIED": "غير محدد",

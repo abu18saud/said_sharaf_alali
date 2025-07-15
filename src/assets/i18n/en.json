@@ -1,15 +1,25 @@
 {
     "MAIN_MENU": {
+        "RESUME_STATISTICS": "Resume Statistics",
         "ABOUT": "About Me",
         "EXPERIENCE": "Experience",
         "PROFESSIONAL_EXPERIENCE": "Professional Experience",
         "EDUCATION": "Education",
         "GALLERY": "Gallery",
         "ACHIEVEMENTS": "Achievements",
+        "ACHIEVEMENTS_AND_CERTIFICATES": "Achievements & Certificates",
         "PROJECTS": "Projects",
         "FEATURED_PROJECTS": "Featured Projects",
         "HOBBIES": "Hobbies",
         "CONTACT": "Contact"
+    },
+    "MENU_COMMENTS": {
+        "RESUME_STATISTICS": "Overview of my resume contents",
+        "PROFESSIONAL_EXPERIENCE": "Years of accumulated experience",
+        "GALLERY": "Items in the gallery",
+        "ACHIEVEMENTS_AND_CERTIFICATES": "Achievement & professional certificate",
+        "PROJECTS": "Completed projects",
+        "HOBBIES": "Various hobbies"
     },
     "BUTTONS": {
         "CONTACT_ME": "Contact Me",
@@ -20,6 +30,7 @@
         "SEARCH": "Search images and videos..."
     },
     "LABELS": {
+        "LAST_UPDATE": "Last Update",
         "SEARCH": "Search",
         "CURRENTLY": "Currently",
         "UNSPECIFIED": "Unspecified",

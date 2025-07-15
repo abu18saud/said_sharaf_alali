@@ -1,0 +1,40 @@
+{
+    "id": "52077826428",
+    "type": "PushEvent",
+    "actor": {
+        "id": 7097059,
+        "login": "abu18saud",
+        "display_login": "abu18saud",
+        "gravatar_id": "",
+        "url": "https://api.github.com/users/abu18saud",
+        "avatar_url": "https://avatars.githubusercontent.com/u/7097059?"
+    },
+    "repo": {
+        "id": 1016969008,
+        "name": "abu18saud/said_sharaf_alali",
+        "url": "https://api.github.com/repos/abu18saud/said_sharaf_alali"
+    },
+    "payload": {
+        "repository_id": 1016969008,
+        "push_id": 25493116217,
+        "size": 1,
+        "distinct_size": 1,
+        "ref": "refs/heads/main",
+        "head": "05a3341b38dc5e0e62d9da8f441ecd6d0ed41c44",
+        "before": "468d1851c57de76041e0fd232f0651b2a3b18da8",
+        "commits": [
+            {
+                "sha": "05a3341b38dc5e0e62d9da8f441ecd6d0ed41c44",
+                "author": {
+                    "email": "441226478@tvtc.edu.sa",
+                    "name": "Abdullah Alsalem"
+                },
+                "message": "Add media gallery component and safe URL pipe\n\nIntroduced a new MediaGalleryComponent and SafeUrlPipe for secure media handling. Updated app.module.ts to declare these, refactored app.component.html to use the new gallery component, and enhanced me.json media_gallery entries with additional metadata and structure.",
+                "distinct": true,
+                "url": "https://api.github.com/repos/abu18saud/said_sharaf_alali/commits/05a3341b38dc5e0e62d9da8f441ecd6d0ed41c44"
+            }
+        ]
+    },
+    "public": false,
+    "created_at": "2025-07-14T21:43:19Z"
+}
