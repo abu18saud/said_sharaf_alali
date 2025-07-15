@@ -12,6 +12,7 @@ import { MediaGalleryComponent } from '../components/media-gallery/media-gallery
 import { SafeUrlPipe } from './pipes/safe-url.pipe';
 import { MediaSearchPipe } from './pipes/media-search.pipe';
 import { NotFoundComponent } from '../components/not-found/not-found.component';
+import { StatisticsComponent } from '../components/statistics/statistics.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -23,7 +24,8 @@ export function HttpLoaderFactory(http: HttpClient) {
     MediaGalleryComponent,
     SafeUrlPipe,
     MediaSearchPipe,
-    NotFoundComponent
+    NotFoundComponent,
+    StatisticsComponent
   ],
   imports: [
     BrowserModule,

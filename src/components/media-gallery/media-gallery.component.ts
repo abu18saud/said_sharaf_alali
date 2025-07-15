@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
 import { AppService } from 'src/app/app.service';
 
@@ -8,7 +8,7 @@ import { AppService } from 'src/app/app.service';
   styleUrls: ['./media-gallery.component.scss']
 })
 export class MediaGalleryComponent {
-  lang = 'ar';
+  @Input('lang') lang = 'ar';
   me: any = {};
   formatDate: any = "dd/MM/yyyy";
   activeFilter = 'ALL';
