@@ -10,7 +10,7 @@ export class StatisticsComponent {
   @Input('me') me: any = {};
   @Input('formatDate') formatDate: any = "dd MMMM yyyy - hh:mm a";
 
-  lastPush: any;
+  lastPush: any = null;
   constructor(private githubService: GithubService) { }
 
   ngOnInit() {
