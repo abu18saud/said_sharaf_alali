@@ -1,6 +1,8 @@
 import { Component, Input } from '@angular/core';
 import { TranslateService } from '@ngx-translate/core';
+import { catchError, map, Observable, of } from 'rxjs';
 import { AppService } from 'src/app/app.service';
+import { TiktokService } from 'src/app/services/tiktok.service';
 
 @Component({
   selector: 'app-media-gallery',
@@ -15,13 +17,28 @@ export class MediaGalleryComponent {
   isDialogOpen = false;
   currentMedia: any = {};
   _loading: boolean = false;
+  tiktokThumbnails: { [videoId: string]: string } = {};
+
 
   constructor(private appService: AppService,
-    private translateService: TranslateService
+    private translateService: TranslateService,
+    private tiktokService: TiktokService
   ) {
     this.appService.getMe().subscribe(res => {
       this.me = res;
     });
+  }
+
+  ngOnInit() {
+    this.me.media_gallery.forEach((item: any) => {
+      if (item.platform === 'tiktok') {
+        this.getTikTokThumbnail(item.videoId).subscribe(url => {
+          this.tiktokThumbnails[item.videoId] = url;
+        });
+      }
+    });
+
+    console.log(this.tiktokThumbnails)
   }
 
   loading() {
@@ -29,6 +46,19 @@ export class MediaGalleryComponent {
     setTimeout(() => {
       this._loading = false;
     }, 500);
+  }
+
+  public getTikTokThumbnail(videoId: string): Observable<string> {
+    return this.tiktokService._getVideoDetails(videoId).pipe(
+      map((res: any) => res.thumbnail_url || ''),
+      catchError(() => of('assets/images/video-placeholder.jpg'))
+    );
+  }
+
+  // ✅ YouTube thumbnail (طريقة مباشرة)
+  private getYouTubeThumbnail(videoId: string): Observable<string> {
+    const thumbnailUrl = `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+    return of(thumbnailUrl);
   }
 
   galleryItems = [

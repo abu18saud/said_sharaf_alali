@@ -63,6 +63,7 @@
             <div class="relative" *ngIf="item.type === 'video'">
                 <img [src]="item.src" [alt]="lang === 'ar'? item.title_ar : item.title_en"
                     class="w-full h-48 object-cover" loading="lazy">
+
                 <div class="absolute inset-0 flex items-center justify-center bg-black bg-opacity-30">
                     <div class="w-16 h-16 bg-white bg-opacity-80 rounded-full flex items-center justify-center">
                         <i class="fas fa-play text-indigo-600 text-2xl"></i>
@@ -97,8 +98,18 @@
         </button>
 
         <div class="media-content">
-            <div class="video-container" *ngIf="currentMedia.type === 'video'">
+            <!-- YouTube Video -->
+            <div class="video-container" *ngIf="currentMedia.type === 'video' && currentMedia.platform === 'youtube'">
                 <iframe [src]="'https://www.youtube.com/embed/' + currentMedia.videoId + '?autoplay=1&rel=0' | safeUrl"
+                    frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+            </div>
+
+            <!-- TikTok Video -->
+            <div class="video-container" *ngIf="currentMedia.type === 'video' && currentMedia.platform === 'tiktok'">
+                <iframe
+                    [src]="'https://www.tiktok.com/embed/v2/' + currentMedia.videoId + '?lang=' + (lang === 'ar' ? 'ar' : 'en') | safeUrl"
                     frameborder="0"
                     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                     allowfullscreen></iframe>

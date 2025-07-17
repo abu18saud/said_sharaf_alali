@@ -44,11 +44,88 @@
     ],
     "experiences": [
         {
-            "title_ar": "مدير علاقات عامة",
-            "title_en": "PR Manager",
-            "ar_description": "إدارة التواصل المؤسسي",
-            "en_description": "Managing corporate communication",
-            "icon": "pr_icon.png"
+            "title_ar": "إدارة مشاريع سياحية وترفيهية",
+            "title_en": "Management of Tourism and Entertainment Projects",
+            "description_ar": "إدارة وتنفيذ مشاريع بارزة مثل مشروع جبل القارة (أرض الحضارات) ومنتزه الشيباني، مما ساهم في تعزيز السياحة في الأحساء.",
+            "description_en": "Managed and executed key projects such as Jabal Al-Qarah (Land of Civilizations) and Al-Shaibani Park, contributing to the growth of tourism in Al-Ahsa.",
+            "icon": "fas fa-map-marked-alt text-xl"
+        },
+        {
+            "title_ar": "تعزيز الحضور المؤسسي في جمعية سند",
+            "title_en": "Institutional Presence Enhancement at Sand Association",
+            "description_ar": "تعزيز حضور الجمعية وتأثيرها المجتمعي من خلال مبادرات نوعية وشراكات استراتيجية.",
+            "description_en": "Enhanced the association's presence and community impact through quality initiatives and strategic partnerships.",
+            "icon": "fas fa-hand-holding-heart text-xl"
+        },
+        {
+            "title_ar": "إدارة العلاقات العامة في ميدان فروسية الأحساء",
+            "title_en": "Public Relations Management at Al-Ahsa Equestrian Field",
+            "description_ar": "قيادة العلاقات العامة لأكثر من 4 سنوات، ساهمت في تصنيف الميدان ضمن الفئة (أ).",
+            "description_en": "Led public relations for over 4 years, contributing to the field’s classification as Category A.",
+            "icon": "fas fa-horse text-xl"
+        },
+        {
+            "title_ar": "المساهمة في الحصول على درع كأس عز الخيل",
+            "title_en": "Contributing to Winning the Az Al-Khail Cup Shield",
+            "description_ar": "الإشراف على العمل الإداري والإعلامي ساعد في تحقيق هذا الإنجاز الوطني.",
+            "description_en": "Oversaw administrative and media efforts that led to achieving this national honor.",
+            "icon": "fas fa-award text-xl"
+        },
+        {
+            "title_ar": "تشغيل المنشآت الرياضية",
+            "title_en": "Sports Facility Operations",
+            "description_ar": "تشغيل منشآت رياضية متعددة وتنظيم فعاليات رياضية باحترافية عالية.",
+            "description_en": "Operated various sports facilities and organized professional-level sports events.",
+            "icon": "fas fa-dumbbell text-xl"
+        },
+        {
+            "title_ar": "تنظيم البطولات الرسمية",
+            "title_en": "Official Tournaments Organization",
+            "description_ar": "تنظيم بطولات رياضية رسمية والإشراف عليها بما يتماشى مع المعايير الوطنية.",
+            "description_en": "Organized and supervised official sports tournaments meeting national standards.",
+            "icon": "fas fa-flag-checkered text-xl"
+        },
+        {
+            "title_ar": "إقامة المعارض والمؤتمرات",
+            "title_en": "Exhibition and Conference Management",
+            "description_ar": "تنظيم معارض ومؤتمرات وفعاليات مختلفة لدعم الصورة المؤسسية.",
+            "description_en": "Organized various exhibitions and conferences to support institutional image.",
+            "icon": "fas fa-chalkboard-teacher text-xl"
+        },
+        {
+            "title_ar": "تنمية الموارد المالية للمؤسسات",
+            "title_en": "Institutional Fundraising and Revenue Development",
+            "description_ar": "وضع وتنفيذ خطط لتنمية الموارد المالية بطريقة مستدامة.",
+            "description_en": "Developed and implemented sustainable fundraising plans for institutions.",
+            "icon": "fas fa-hand-holding-usd text-xl"
+        },
+        {
+            "title_ar": "إدارة المراسم والبروتوكول",
+            "title_en": "Protocol and Ceremony Management",
+            "description_ar": "إدارة وتنظيم المناسبات الرسمية بما يتناسب مع الهوية المؤسسية.",
+            "description_en": "Managed and organized formal events aligning with institutional identity.",
+            "icon": "fas fa-user-tie text-xl"
+        },
+        {
+            "title_ar": "بناء الشراكات المؤسسية",
+            "title_en": "Strategic Partnership Development",
+            "description_ar": "بناء شراكات استراتيجية دعمت الأثر المجتمعي للجهات التي عملت معها.",
+            "description_en": "Built strategic partnerships that strengthened community impact.",
+            "icon": "fas fa-handshake text-xl"
+        },
+        {
+            "title_ar": "قيادة الفرق التطوعية",
+            "title_en": "Volunteer Team Leadership",
+            "description_ar": "قيادة وتوجيه فرق تطوعية لتنفيذ برامج مجتمعية وتنموية.",
+            "description_en": "Led and guided volunteer teams to execute social and developmental programs.",
+            "icon": "fas fa-users text-xl"
+        },
+        {
+            "title_ar": "التميز في التواصل المؤسسي",
+            "title_en": "Excellence in Corporate Communication",
+            "description_ar": "تصميم وتنفيذ استراتيجيات تواصل مؤسسي عززت الهوية والسمعة.",
+            "description_en": "Designed and implemented corporate communication strategies that enhanced identity and reputation.",
+            "icon": "fas fa-bullhorn text-xl"
         }
     ],
     "education": [
@@ -319,6 +396,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (1).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -329,6 +407,7 @@
             "category": "CULTURAL_PROGRAMS",
             "type": "image",
             "src": "assets/media/1 (2).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -339,6 +418,7 @@
             "category": "SPORTS_EVENTS",
             "type": "image",
             "src": "assets/media/1 (3).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -349,6 +429,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (4).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -359,6 +440,7 @@
             "category": "SPORTS_MARKETING",
             "type": "image",
             "src": "assets/media/1 (5).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -369,6 +451,7 @@
             "category": "SPORTS_EVENTS",
             "type": "image",
             "src": "assets/media/1 (7).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -379,6 +462,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (8).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -389,16 +473,18 @@
             "category": "SPORTS_MARKETING",
             "type": "image",
             "src": "assets/media/1 (10).jpg",
+            "platform": null,
             "videoId": null
         },
         {
-            "title_ar": "فعالية رحلة عطاء الأحساء 5 بحضور محافظ الأحساء الأمير طلال بن بدر آل سعود",
-            "title_en": "Al-Ahsa Giving Journey 5 Event with Governor Prince Talal bin Badr Al Saud",
-            "description_ar": "صورة تجمع عددًا من الشخصيات البارزة خلال فعالية رحلة عطاء الأحساء 5 بحضور محافظ الأحساء الأمير طلال بن بدر آل سعود، مع وجود شعار الجمعية والشعار الرسمي للفعالية.",
-            "description_en": "A group photo featuring prominent figures during the Al-Ahsa Giving Journey 5 event with Governor Prince Talal bin Badr Al Saud, including the association's logo and official event logo.",
+            "title_ar": "فعالية رحلة عطاء الأحساء 5 بحضور محافظ الأحساء صاحب السمو الملكي الأمير سعود بن طلال بن بدر آل سعود",
+            "title_en": "Al-Ahsa Giving Journey 5 Event, attended by the Governor of Al-Ahsa, His Royal Highness Prince Saud bin Talal bin Badr Al Saud",
+            "description_ar": "أقيمت فعالية رحلة عطاء الأحساء 5 بحضور وتشريف صاحب السمو الملكي الأمير سعود بن طلال بن بدر آل سعود، محافظ الأحساء، بمشاركة نخبة من الجهات الحكومية والأهلية والفرق التطوعية. تهدف الفعالية إلى تعزيز ثقافة العطاء والعمل المجتمعي، وتسليط الضوء على المبادرات الإنسانية والتنموية التي تخدم أهالي الأحساء وتعكس روح التعاون والتكافل في المحافظة",
+            "description_en": "The Al-Ahsa Giving Journey 5 event was held under the patronage and attendance of His Royal Highness Prince Saud bin Talal bin Badr Al Saud, Governor of Al-Ahsa, with the participation of various government entities, NGOs, and volunteer teams. The event aimed to promote a culture of giving and community engagement, highlighting humanitarian and developmental initiatives that serve the people of Al-Ahsa and reflect the spirit of cooperation and solidarity in the region",
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (11).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -409,16 +495,18 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (12).jpg",
+            "platform": null,
             "videoId": null
         },
         {
-            "title_ar": "اجتماع مركز التنمية الاجتماعية بالأحساء حول إقامة بطولة سند الرياضية",
-            "title_en": "Al-Ahsa Social Development Center Meeting on Holding the Sanad Sports Championship",
-            "description_ar": "عُقد اجتماع في مركز التنمية الاجتماعية بمحافظة الأحساء لمناقشة ترتيبات إقامة بطولة سند الرياضية، بحضور ممثلين عن الجهات المنظمة والداعمة. ناقش الاجتماع سبل تعزيز الشراكات المجتمعية، وآليات تنظيم البطولة بما يسهم في دعم الرياضة المحلية وتمكين الشركات من المساهمة المجتمعية الفاعلة",
-            "description_en": "A meeting was held at the Al-Ahsa Social Development Center to discuss the organization of the Sanad Sports Championship, with the participation of representatives from supporting and organizing entities. The meeting focused on enhancing community partnerships and setting up effective mechanisms for hosting the championship to support local sports and promote meaningful corporate social engagement",
+            "title_ar": "مجلس إدارة جمعية سند للمسؤولية الاجتماعية يجتمع مع مدير مركز التنمية الاجتماعية الأستاذ مساعد السعيد بخصوص إقامة بطولة سند الرياضية برعاية صاحب السمو الملكي الأمير سعود بن طلال بن بدر آل سعود",
+            "title_en": "The Board of Directors of the Sanad Association for Social Responsibility meets with the Director of the Social Development Center, Mr. Musaad Al-Saeed, regarding the organization of the Sanad Sports Championship, under the patronage of His Royal Highness Prince Saud bin Talal bin Badr Al Saud",
+            "description_ar": "عقد مجلس إدارة جمعية سند للمسؤولية الاجتماعية اجتماعًا مع سعادة مدير مركز التنمية الاجتماعية بالأحساء الأستاذ مساعد السعيد، لمناقشة الترتيبات الخاصة بإقامة بطولة سند الرياضية، والتي تُقام برعاية كريمة من صاحب السمو الملكي الأمير سعود بن طلال بن بدر آل سعود، محافظ الأحساء. يأتي هذا الاجتماع في إطار تعزيز التعاون بين الجهات الرسمية والجمعيات الأهلية لتنظيم فعاليات رياضية هادفة تخدم الشباب وتدعم المسؤولية المجتمعية",
+            "description_en": "The Board of Directors of Sanad Association for Social Responsibility held a meeting with the Director of the Al-Ahsa Social Development Center, Mr. Musaad Al-Saeed, to discuss the arrangements for the upcoming Sanad Sports Championship, under the gracious patronage of His Royal Highness Prince Saud bin Talal bin Badr Al Saud, Governor of Al-Ahsa. The meeting reflects the ongoing collaboration between official entities and non-profit organizations to organize purposeful sports events that serve youth and promote social responsibility",
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (14).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -429,6 +517,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (15).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -439,6 +528,7 @@
             "category": "SPORTS_EVENTS",
             "type": "image",
             "src": "assets/media/1 (16).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -449,6 +539,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (17).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -459,6 +550,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (19).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -469,6 +561,7 @@
             "category": "AWARDS",
             "type": "image",
             "src": "assets/media/1 (21).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -479,6 +572,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (22).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -489,6 +583,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (23).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -499,6 +594,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (24).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -509,6 +605,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (25).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -519,6 +616,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (26).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -529,6 +627,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (27).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -539,6 +638,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (28).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -549,6 +649,7 @@
             "category": "AWARDS",
             "type": "image",
             "src": "assets/media/1 (30).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -559,6 +660,7 @@
             "category": "CULTURAL_PROGRAMS",
             "type": "image",
             "src": "assets/media/1 (33).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -569,6 +671,7 @@
             "category": "TOURISM",
             "type": "image",
             "src": "assets/media/1 (34).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -579,6 +682,7 @@
             "category": "SPORTS_EVENTS",
             "type": "image",
             "src": "assets/media/1 (35).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -589,6 +693,7 @@
             "category": "AWARDS",
             "type": "image",
             "src": "assets/media/1 (36).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -599,6 +704,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (38).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -609,6 +715,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (39).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -619,6 +726,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (42).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -629,6 +737,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (43).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -639,6 +748,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (44).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -649,6 +759,7 @@
             "category": "AWARDS",
             "type": "image",
             "src": "assets/media/1 (45).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -659,6 +770,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (48).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -669,6 +781,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (49).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -679,6 +792,7 @@
             "category": "SPORTS_EVENTS",
             "type": "image",
             "src": "assets/media/1 (50).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -689,6 +803,7 @@
             "category": "TOURISM",
             "type": "image",
             "src": "assets/media/1 (51).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -699,6 +814,7 @@
             "category": "SPORTS_EVENTS",
             "type": "image",
             "src": "assets/media/1 (52).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -709,6 +825,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (53).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -719,6 +836,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (55).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -729,6 +847,7 @@
             "category": "SPORTS_EVENTS",
             "type": "image",
             "src": "assets/media/1 (56).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -739,6 +858,7 @@
             "category": "EQUESTRIAN",
             "type": "image",
             "src": "assets/media/1 (57).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -749,6 +869,7 @@
             "category": "SPORTS_MARKETING",
             "type": "image",
             "src": "assets/media/1 (58).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -759,6 +880,7 @@
             "category": "AWARDS",
             "type": "image",
             "src": "assets/media/1 (59).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -769,6 +891,7 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (60).jpg",
+            "platform": null,
             "videoId": null
         },
         {
@@ -779,7 +902,19 @@
             "category": "PUBLIC_RELATIONS",
             "type": "image",
             "src": "assets/media/1 (61).jpg",
+            "platform": null,
             "videoId": null
+        },
+        {
+            "title_ar": "الإشادة بجهود جميع رجالات الرياضة في الأحساء",
+            "title_en": "Commending the Efforts of All Sports Figures in Al-Ahsa",
+            "description_ar": "فيديو يتضمن كلمات شكر وتقدير لجميع رجالات الرياضة في محافظة الأحساء، تقديرًا لما قدموه من جهود كبيرة في دعم وتطوير الأنشطة الرياضية والمجتمعية على مدى سنوات. يعكس المقطع روح الوفاء والاعتزاز بالعطاء المتواصل من قبل القيادات الرياضية، والإسهامات التي كان لها أثر ملموس في رفع مستوى الرياضة في المنطقة",
+            "description_en": "A video expressing gratitude and appreciation to all sports figures in Al-Ahsa for their tremendous efforts in supporting and developing sports and community initiatives over the years. The clip reflects a spirit of loyalty and recognition for the continuous contributions of sports leaders and their impactful role in elevating the athletic landscape in the region",
+            "category": "SPORTS_EVENTS",
+            "type": "video",
+            "src": "assets/media/1 (62).jfif",
+            "platform": "tiktok",
+            "videoId": "7408914592425905409"
         }
     ],
     "hobbies": [
