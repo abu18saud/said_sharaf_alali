@@ -86,7 +86,7 @@
 </div>
 
 <!-- Media Dialog -->
-<div class="media-dialog fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-80"
+<div *ngIf="isDialogOpen" class="media-dialog fixed inset-0 z-50 flex items-center justify-center p-4 bg-black bg-opacity-80"
     [attr.aria-hidden]="!isDialogOpen" (click)="closeDialog()">
 
     <div class="relative w-full max-w-4xl bg-white rounded-xl overflow-hidden shadow-2xl"
