@@ -11,7 +11,8 @@
         "PROJECTS": "Projects",
         "FEATURED_PROJECTS": "Featured Projects",
         "HOBBIES": "Hobbies",
-        "CONTACT": "Contact"
+        "CONTACT": "Contact",
+        "CONTACT_INFO": "Contact Information"
     },
     "MENU_COMMENTS": {
         "RESUME_STATISTICS": "Overview of my resume contents",
@@ -19,7 +20,8 @@
         "GALLERY": "Items in the gallery",
         "ACHIEVEMENTS_AND_CERTIFICATES": "Achievement & professional certificate",
         "PROJECTS": "Completed projects",
-        "HOBBIES": "Various hobbies"
+        "HOBBIES": "Various hobbies",
+        "CONTACT_INFO": "Contact Mr. Sharaf Ahmed Al-Ali"
     },
     "BUTTONS": {
         "CONTACT_ME": "Contact Me",
@@ -30,6 +32,11 @@
         "SEARCH": "Search images and videos..."
     },
     "LABELS": {
+        "PHONES": "Phones",
+        "MOBILE": "Mobile",
+        "FAX": "Fax",
+        "EMAIL": "Email",
+        "ADDRESS": "Address",
         "LAST_UPDATE": "Last Update",
         "SEARCH": "Search",
         "CURRENTLY": "Currently",

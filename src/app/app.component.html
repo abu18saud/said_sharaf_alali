@@ -258,8 +258,8 @@
     <!-- Achievements Section -->
     <section id="achievements" class="section py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">الإنجازات
-                والشهادات</h2>
+            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">{{
+                'MAIN_MENU.ACHIEVEMENTS_AND_CERTIFICATES' | translate }}</h2>
 
             <!-- Achievement Filters -->
             <div class="flex flex-wrap justify-center gap-2 mb-8">
@@ -385,7 +385,8 @@
     <!-- Hobbies Section -->
     <section id="hobbies" class="section py-16 bg-white">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">الهوايات</h2>
+            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">{{
+                'MAIN_MENU.HOBBIES' | translate }}</h2>
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Football Hobby -->
@@ -439,62 +440,76 @@
     <!-- Contact Section -->
     <section id="contact" class="section py-16 bg-gray-50">
         <div class="container mx-auto px-4">
-            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">معلومات التواصل
+            <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">
+                {{ 'MAIN_MENU.CONTACT_INFO' | translate }}
             </h2>
 
             <div class="grid md:grid-cols-2 gap-8">
                 <!-- Contact Info -->
                 <div class="bg-white p-6 rounded-lg shadow-sm">
-                    <h3 class="text-xl font-semibold mb-4">تواصل مع شرف العلي</h3>
+                    <h3 class="text-xl font-semibold mb-4">{{'MENU_COMMENTS.CONTACT_INFO' | translate}}</h3>
 
                     <div class="space-y-4">
                         <div class="flex items-start">
-                            <div class="bg-blue-100 text-blue-600 p-2 rounded-full mr-4">
+                            <div
+                                [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-mobile-alt"></i>
                             </div>
                             <div>
-                                <h4 class="font-medium">الجوال</h4>
-                                <p class="text-gray-600">+966547007111</p>
+                                <h4 class="font-medium">{{'LABELS.MOBILE' | translate}}</h4>
+                                <p class="text-gray-600"><span dir="ltr"
+                                        *ngFor="let item of me.mobiles; let i=index"><span
+                                            *ngIf="i !== me.mobiles.length - 1">&nbsp;-&nbsp;</span>{{item}}</span></p>
                             </div>
                         </div>
 
                         <div class="flex items-start">
-                            <div class="bg-blue-100 text-blue-600 p-2 rounded-full mr-4">
+                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div>
-                                <h4 class="font-medium">الهواتف</h4>
-                                <p class="text-gray-600">+966135982888 - +966135982999</p>
+                                <h4 class="font-medium">{{'LABELS.PHONES' | translate}}</h4>
+                                <p class="text-gray-600">
+                                    <span dir="ltr" *ngFor="let item of me.phones; let i = index"><span
+                                            *ngIf="i !== me.phones.length - 1">&nbsp;-&nbsp;</span>{{item}}</span>
+                                </p>
                             </div>
                         </div>
 
                         <div class="flex items-start">
-                            <div class="bg-blue-100 text-blue-600 p-2 rounded-full mr-4">
+                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-fax"></i>
                             </div>
                             <div>
-                                <h4 class="font-medium">الفاكس</h4>
-                                <p class="text-gray-600">+966135982555</p>
+                                <h4 class="font-medium">{{'LABELS.FAX' | translate}}</h4>
+                                <p class="text-gray-600">
+                                    <span dir="ltr" *ngFor="let item of me.faxes; let i = index"><span
+                                            *ngIf="i !== me.faxes.length - 1">&nbsp;-&nbsp;</span>{{item}}</span>
+                                </p>
                             </div>
                         </div>
 
                         <div class="flex items-start">
-                            <div class="bg-blue-100 text-blue-600 p-2 rounded-full mr-4">
+                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div>
-                                <h4 class="font-medium">البريد الإلكتروني</h4>
-                                <p class="text-gray-600">sh.ali@ahsana.com</p>
+                                <h4 class="font-medium">{{'LABELS.EMAIL' | translate}}</h4>
+                                <p class="text-gray-600">
+                                    <a [href]="'mailto:' + item" target="_blank" dir="ltr"
+                                        *ngFor="let item of me.emails; let i = index"><span
+                                            *ngIf="i !== me.emails.length - 1">&nbsp;-&nbsp;</span>{{item}}</a>
+                                </p>
                             </div>
                         </div>
 
                         <div class="flex items-start">
-                            <div class="bg-blue-100 text-blue-600 p-2 rounded-full mr-4">
+                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div>
-                                <h4 class="font-medium">العنوان</h4>
-                                <p class="text-gray-600">
+                                <h4 class="font-medium">{{'LABELS.ADDRESS' | translate}}</h4>
+                                <p [innerHtml]="lang === 'ar'? me.address_ar : me.address_en" class="text-gray-600">
                                     صندوق البريد: 1715<br>
                                     الأحساء - المملكة العربية السعودية<br>
                                     الرمز البريدي: 31982
@@ -510,15 +525,6 @@
                             class="bg-blue-100 text-blue-600 p-3 rounded-full hover:bg-blue-200">
                             <i [class]="item.icon"></i>
                         </a>
-                        <!-- <a href="#" class="bg-blue-100 text-blue-600 p-3 rounded-full hover:bg-blue-200">
-                            <i class="fab fa-linkedin text-xl"></i>
-                        </a>
-                        <a href="#" class="bg-blue-100 text-blue-600 p-3 rounded-full hover:bg-blue-200">
-                            <i class="fab fa-instagram text-xl"></i>
-                        </a>
-                        <a href="#" class="bg-blue-100 text-blue-600 p-3 rounded-full hover:bg-blue-200">
-                            <i class="fab fa-snapchat text-xl"></i>
-                        </a> -->
                     </div>
                 </div>
 

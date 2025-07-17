@@ -11,7 +11,8 @@
         "PROJECTS": "المشاريع",
         "FEATURED_PROJECTS": "المشاريع البارزة",
         "HOBBIES": "الهوايات",
-        "CONTACT": "التواصل"
+        "CONTACT": "التواصل",
+        "CONTACT_INFO": "معلومات التواصل"
     },
     "MENU_COMMENTS": {
         "RESUME_STATISTICS": "نظرة عامة على محتويات سيرتي الذاتية",
@@ -19,7 +20,8 @@
         "GALLERY": "من العناصر في المعرض",
         "ACHIEVEMENTS_AND_CERTIFICATES": "إنجاز وشهادة مهنية",
         "PROJECTS": "من المشاريع المكتملة",
-        "HOBBIES": "من الهوايات المختلفة"
+        "HOBBIES": "من الهوايات المختلفة",
+        "CONTACT_INFO": "تواصل مع أ. شرف أحمد العلي"
     },
     "BUTTONS": {
         "CONTACT_ME": "تواصل معي",
@@ -30,6 +32,11 @@
         "SEARCH": "ابحث في الصور والفيديوهات..."
     },
     "LABELS": {
+        "PHONES": "الهواتف",
+        "MOBILE": "الجوال",
+        "FAX": "الفاكس",
+        "EMAIL": "البريد الإلكتروني",
+        "ADDRESS": "العنوان",
         "LAST_UPDATE": "آخر تحديث",
         "SEARCH": "بحث",
         "CURRENTLY": "حالياً",
