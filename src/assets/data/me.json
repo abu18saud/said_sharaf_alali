@@ -930,12 +930,25 @@
     ],
     "hobbies": [
         {
-            "name_ar": "القراءة",
-            "name_en": "Reading",
-            "description_ar": "قراءة كتب التنمية البشرية",
-            "description_en": "Reading personal development books",
-            "icon": "book_icon.png",
-            "image": "reading.jpg"
+            "name_ar": "كرة القدم",
+            "name_en": "Football",
+            "description_ar": "خبرة واسعة في تشغيل المنشآت الرياضية وتنظيم البطولات الرسمية، بما في ذلك بطولة سند الرياضية وبطولات رمضانية عديدة، إلى جانب الإشراف على معسكرات الأندية وتطوير الأنشطة الرياضية.",
+            "description_en": "Extensive experience in managing sports facilities and organizing official tournaments, including the Sanad Sports Championship and several Ramadan tournaments, as well as overseeing club training camps and developing athletic programs.",
+            "icon": "fas fa-futbol"
+        },
+        {
+            "name_ar": "الفروسية",
+            "name_en": "Equestrian",
+            "description_ar": "شغف برياضة الفروسية وتجربة رائدة كمدير للعلاقات العامة في ميدان فروسية الأحساء لمدة ٤ سنوات، ساهمت خلالها في تطوير الميدان وتصنيفه ضمن الفئة (أ) على مستوى المملكة، والمشاركة في إنجازات مثل الحصول على درع كأس عز الخيل.",
+            "description_en": "A deep passion for equestrian sports with a pioneering role as PR Manager at Al-Ahsa Equestrian Field for 4 years, contributing to its advancement and classification in Category A nationwide, and participating in achievements like winning the Ezz Al-Khail Cup Shield.",
+            "icon": "fas fa-horse"
+        },
+        {
+            "name_ar": "الخدمات الاجتماعية",
+            "name_en": "Social Services",
+            "description_ar": "نشاط مجتمعي بارز من خلال عضوية مجلس إدارة جمعية سند للمسؤولية الاجتماعية، وتنظيم مبادرات تطوعية وشراكات استراتيجية تهدف إلى دعم المجتمع وتعزيز روح العطاء والمسؤولية.",
+            "description_en": "Active community involvement through board membership in Sanad Association for Social Responsibility, organizing volunteer initiatives and strategic partnerships that aim to support society and promote a spirit of giving and responsibility.",
+            "icon": "fas fa-hands-helping"
         }
     ],
     "social_links": [

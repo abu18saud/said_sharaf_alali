@@ -390,48 +390,18 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Football Hobby -->
-                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div *ngFor="let item of me.hobbies" class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                     <div class="hobby-icon">
-                        <i class="fas fa-futbol"></i>
+                        <i [class]="item.icon"></i>
                     </div>
-                    <h3 class="text-xl font-semibold mb-2">كرة القدم</h3>
+                    <h3 class="text-xl font-semibold mb-2">{{lang === 'ar'? item.name_ar : item.name_en}}</h3>
                     <p class="text-gray-600">
-                        لاعب سابق في نادي الأحساء ومشارك في العديد من البطولات الخيرية والمحلية.
+                        {{lang === 'ar'? item.description_ar : item.description_en}}
                     </p>
-                    <div class="mt-4">
-                        <img src="https://via.placeholder.com/300x200?text=كرة+القدم" alt="كرة القدم"
+                    <!-- <div class="mt-4">
+                        <img [src]="item.image" [alt]="lang === 'ar'? item.name_ar : item.name_en"
                             class="w-full h-32 object-cover rounded">
-                    </div>
-                </div>
-
-                <!-- Equestrian Hobby -->
-                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <div class="hobby-icon">
-                        <i class="fas fa-horse"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-2">الفروسية</h3>
-                    <p class="text-gray-600">
-                        مشارك في مسابقات الفروسية المحلية وحاصل على عدة جوائز في هذا المجال.
-                    </p>
-                    <div class="mt-4">
-                        <img src="https://via.placeholder.com/300x200?text=الفروسية" alt="الفروسية"
-                            class="w-full h-32 object-cover rounded">
-                    </div>
-                </div>
-
-                <!-- Social Services Hobby -->
-                <div class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
-                    <div class="hobby-icon">
-                        <i class="fas fa-hands-helping"></i>
-                    </div>
-                    <h3 class="text-xl font-semibold mb-2">الخدمات الاجتماعية</h3>
-                    <p class="text-gray-600">
-                        عضو فعال في العديد من المبادرات التطوعية وبرامج المسؤولية الاجتماعية.
-                    </p>
-                    <div class="mt-4">
-                        <img src="https://via.placeholder.com/300x200?text=الخدمات+الاجتماعية" alt="الخدمات الاجتماعية"
-                            class="w-full h-32 object-cover rounded">
-                    </div>
+                    </div> -->
                 </div>
             </div>
         </div>
