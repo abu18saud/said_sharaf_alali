@@ -62,6 +62,16 @@
         "SPORTS_EVENTS": "⁠الأنشطة والفعاليات الرياضية",
         "CULTURAL_PROGRAMS": "⁠البرامج الثقافية والإنسانية"
     },
+    "ACHIEVEMENTS_FILTER": {
+        "ALL": "الكل",
+        "FOOTBALL_PARTICIPATIONS": "مشاركات كرة القدم",
+        "EQUESTRIAN_PARTICIPATIONS": "مشاركات الفروسية",
+        "TOURISM_PARTICIPATIONS": "المشاركات في القطاع السياحي",
+        "AWARDS_AND_MEDALS": "الأوسمة والأنواط",
+        "CERTIFICATES_OF_APPRECIATION": "شهادات الشكر والتقدير",
+        "TRAINING_AND_COURSES": "التدريب والدورات",
+        "GENERAL_ACHIEVEMENTS": "الإنجازات العامة"
+    },
     "DEGREE_TYPE": {
         "BACHELORS": "بكالوريوس",
         "SECONDARY": "التعليم الثانوي"

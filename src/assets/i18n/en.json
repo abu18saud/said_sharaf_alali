@@ -62,6 +62,16 @@
         "SPORTS_EVENTS": "Sports Events",
         "CULTURAL_PROGRAMS": "Cultural Programs"
     },
+    "ACHIEVEMENTS_FILTER": {
+        "ALL": "All",
+        "FOOTBALL_PARTICIPATIONS": "Football Participations",
+        "EQUESTRIAN_PARTICIPATIONS": "Equestrian Participations",
+        "TOURISM_PARTICIPATIONS": "Tourism Participations",
+        "AWARDS_AND_MEDALS": "Awards and Medals",
+        "CERTIFICATES_OF_APPRECIATION": "Certificates of Appreciation",
+        "TRAINING_AND_COURSES": "Training and Courses",
+        "GENERAL_ACHIEVEMENTS": "General Achievements"
+    },
     "DEGREE_TYPE": {
         "BACHELORS": "Bachelors",
         "SECONDARY": "Secondary Education"

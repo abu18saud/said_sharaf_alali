@@ -135,7 +135,6 @@
             <h2 class="text-3xl font-bold mb-8 text-center border-b-2 border-blue-600 pb-2 inline-block">
                 {{'MAIN_MENU.PROFESSIONAL_EXPERIENCE' | translate}}
             </h2>
-            <!-- لاحقاً -->
             <div class="grid md:grid-cols-2 gap-8">
                 <div *ngFor="let item of me.experiences" class="bg-white p-6 rounded-lg shadow-sm">
                     <div class="flex items-center mb-4">
@@ -390,7 +389,8 @@
 
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
                 <!-- Football Hobby -->
-                <div *ngFor="let item of me.hobbies" class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
+                <div *ngFor="let item of me.hobbies"
+                    class="text-center p-6 bg-gray-50 rounded-lg shadow-sm hover:shadow-md transition-shadow">
                     <div class="hobby-icon">
                         <i [class]="item.icon"></i>
                     </div>
@@ -434,7 +434,8 @@
                         </div>
 
                         <div class="flex items-start">
-                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
+                            <div
+                                [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-phone"></i>
                             </div>
                             <div>
@@ -447,7 +448,8 @@
                         </div>
 
                         <div class="flex items-start">
-                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
+                            <div
+                                [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-fax"></i>
                             </div>
                             <div>
@@ -460,7 +462,8 @@
                         </div>
 
                         <div class="flex items-start">
-                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
+                            <div
+                                [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-envelope"></i>
                             </div>
                             <div>
@@ -474,7 +477,8 @@
                         </div>
 
                         <div class="flex items-start">
-                            <div [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
+                            <div
+                                [class]="lang === 'ar'? 'bg-blue-100 text-blue-600 p-2 rounded-full ml-4':'bg-blue-100 text-blue-600 p-2 rounded-full mr-4'">
                                 <i class="fas fa-map-marker-alt"></i>
                             </div>
                             <div>
