@@ -293,7 +293,7 @@
             <!-- Achievements Grid -->
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- دوران الإنجازات -->
-                <div *ngFor="let item of filteredItems() | mediaSearch: search.value"
+                <div *ngFor="let item of filteredItems() | achievementsSearch: search.value"
                     class="achievement-card bg-gray-50 rounded-lg overflow-hidden shadow-sm">
                     <div class="h-40 bg-blue-100 flex items-center justify-center">
                         <i [class]="item.icon"></i>

@@ -17,6 +17,7 @@ import { StatisticsComponent } from '../components/statistics/statistics.compone
 // Arabic locale imports
 import localeAr from '@angular/common/locales/ar';
 import localeArSA from '@angular/common/locales/ar-SA';
+import { AchievementsSearchPipe } from './pipes/achievements-search.pipe';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -33,7 +34,8 @@ registerLocaleData(localeArSA, 'ar-SA');
     SafeUrlPipe,
     MediaSearchPipe,
     NotFoundComponent,
-    StatisticsComponent
+    StatisticsComponent,
+    AchievementsSearchPipe
   ],
   imports: [
     BrowserModule,
