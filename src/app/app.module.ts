@@ -19,6 +19,7 @@ import localeAr from '@angular/common/locales/ar';
 import localeArSA from '@angular/common/locales/ar-SA';
 import { AchievementsSearchPipe } from './pipes/achievements-search.pipe';
 import { AchievementDialogComponent } from '../components/achievement-dialog/achievement-dialog.component';
+import { GetMomentPipe } from './pipes/get-moment.pipe';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -37,7 +38,8 @@ registerLocaleData(localeArSA, 'ar-SA');
     NotFoundComponent,
     StatisticsComponent,
     AchievementsSearchPipe,
-    AchievementDialogComponent
+    AchievementDialogComponent,
+    GetMomentPipe
   ],
   imports: [
     BrowserModule,
