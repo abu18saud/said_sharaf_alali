@@ -13,6 +13,9 @@ export class AppComponent {
   me: any = {};
   featureds: any[] = [];
   formatDate: any = "dd/MM/yyyy";
+  activeFilter = 'ALL';
+  _loading: boolean = false;
+
 
   constructor(private appService: AppService,
     private translateService: TranslateService,
@@ -22,6 +25,18 @@ export class AppComponent {
       this.me = res;
       this.featureds = res.projects.filter((item: any) => item.is_featured === true);
     });
+  }
+
+  filteredItems() {
+    if (this.activeFilter === 'ALL') return this.me.achievements;
+    return this.me.achievements.filter((item: any) => item.category === this.activeFilter);
+  }
+
+  loading() {
+    this._loading = true;
+    setTimeout(() => {
+      this._loading = false;
+    }, 500);
   }
 
   public switchLanguage(event: any) {

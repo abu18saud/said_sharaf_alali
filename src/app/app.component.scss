@@ -1,3 +1,13 @@
+.example-form {
+    min-width: 150px;
+    max-width: 500px;
+    width: 100%;
+}
+
+.example-full-width {
+    width: 100%;
+}
+
 .language-switcher {
     position: fixed;
     bottom: 20px;
@@ -11,7 +21,6 @@
     right: 20px;
     z-index: 1000;
 }
-
 
 .job-title {
     animation: slide 15s infinite;

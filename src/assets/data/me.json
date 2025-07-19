@@ -62,7 +62,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-futbol text-5xl text-green-600"
         },
         {
             "name_ar": "رئيس اللجنة المنظمة لدورات سمو الأمير فيصل بن فهد رحمه الله لفرق الحواري بالأحساء",
@@ -82,7 +82,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-clipboard-list text-5xl text-green-600"
         },
         {
             "name_ar": "رئيس اللجنة المنظمة لدورات نادي الاتفاق لفرق حواري الأحساء (حسانا أجمل)",
@@ -102,7 +102,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-futbol text-5xl text-indigo-600"
         },
         {
             "name_ar": "عضو اللجنة التنظيمية بملعب مدينة الأمير عبدالله بن جلوي الرياضية بالأحساء - مشرف المقصورة الرئيسية",
@@ -122,7 +122,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-user-shield text-5xl text-indigo-600"
         },
         {
             "name_ar": "عضو اللجنة التنظيمية بنادي الفتح في دوري أبطال آسيا بمدينة الأمير عبدالله بن جلوي الرياضية بالأحساء",
@@ -143,7 +143,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-user-shield text-5xl text-indigo-600"
         },
         {
             "name_ar": "مشرف منظم في دوري عبداللطيف جميل في المنطقة الشرقية من قِبل (شركة 360 التجارية)",
@@ -164,7 +164,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-id-badge text-5xl text-indigo-600"
         },
         {
             "name_ar": "مشرف إسناد الأمير محمد بن فهد بالدمام",
@@ -185,7 +185,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-users-cog text-5xl text-indigo-600"
         },
         {
             "name_ar": "مشرف في تنظيم المقصورة الرئيسية بمدينة الأمير سعود بن جلوي الرياضية بالخبر",
@@ -206,7 +206,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-chair text-5xl text-indigo-600"
         },
         {
             "name_ar": "رئيس لجنة العلاقات العامة بالمجلس الاستشاري لرابطة فرق الأحياء بمحافظة الأحساء",
@@ -227,7 +227,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-handshake text-5xl text-indigo-600"
         },
         {
             "name_ar": "المشرف العام على إقامة كرنفال بطولة فريق الأجيال الرمضانية بالمبرز والمقامة على أرض الحضارات (جبل القارة)",
@@ -247,7 +247,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-crown text-5xl text-indigo-600"
         },
         {
             "name_ar": "التطوع في مجال إدارة وتنظيم الفعاليات الرياضية",
@@ -267,7 +267,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-hands-helping text-5xl text-indigo-600"
         },
         {
             "name_ar": "حضور لقاء إصابات كرة القدم وطرق إسعافها",
@@ -287,7 +287,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-notes-medical text-5xl text-indigo-600"
         },
         {
             "name_ar": "رئيس لجنة العلاقات العامة والحكومية للاستثمار والدعم بميدان الفروسية بالأحساء",
@@ -308,7 +308,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-horse-head text-5xl text-indigo-600"
         },
         {
             "name_ar": "عضو ممثل إدارة ميدان الفروسية بالأحساء في أثناء المشاركة في دورة كأس عز الخيل والمقامة بمنتجع ىنوفا بالرياض",
@@ -329,7 +329,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-horse text-5xl text-indigo-600"
         },
         {
             "name_ar": "مندوب إدارة ميدان الفروسية بالأحساء ضمن اللجنة المشكلة من إمارة محافظة الأحساء للوقوف على التعديات والمخالفات بميدان الفروسية بالأحساء",
@@ -349,7 +349,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-gavel text-5xl text-indigo-600"
         },
         {
             "name_ar": "المساهمة في عملية استخراج صك ميدان الفروسية بالأحساء وكذلك عملية تصنيف الميدان للفئة (أ)",
@@ -370,7 +370,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-file-signature text-5xl text-indigo-600"
         },
         {
             "name_ar": "ورشة التدريب (تطوير مهارات موظفي الاستقبال في الإيواء السياحي)",
@@ -390,7 +390,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-chalkboard-teacher text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة تدريب الأمن والسلامة في القطاع السياحي",
@@ -410,7 +410,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shield-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة الأمن والسلامة في القطاع السياحي",
@@ -430,7 +430,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shield-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة تدريب في العلاقات العامة والمراسيم (البروتوكول) في القطاع السياحي",
@@ -450,7 +450,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-user-tie text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة تطوير قدرات ومهارات العاملين في التسويق السياحي",
@@ -470,7 +470,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-bullhorn text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة مفهوم وأهمية الجودة في الخدمات السياحية",
@@ -490,7 +490,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-star text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة العلاقات العامة والمراسم البروتوكول",
@@ -510,7 +510,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-handshake text-5xl text-indigo-600"
         },
         {
             "name_ar": "الضيافة السعودية لموظفي القطاعات الحكومية والخاصة في المطارات",
@@ -530,7 +530,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-plane-departure text-5xl text-indigo-600"
         },
         {
             "name_ar": "الضيافة السعودية لموظفي قطاعات وزارة الداخلية",
@@ -550,7 +550,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-mug-hot text-5xl text-indigo-600"
         },
         {
             "name_ar": "الضيافة السعودية لموظفي المكاتب الأمامية في قطاع الإيواء السياحي",
@@ -570,7 +570,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-concierge-bell text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة تنمية مهارات بائعي المنتجات السياحية",
@@ -590,7 +590,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shopping-bag text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة الإعلام السياحي",
@@ -610,7 +610,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-broadcast-tower text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة تسويق الوجهات السياحية",
@@ -630,7 +630,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-map-marker-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي إدارة الفعاليات",
@@ -650,7 +650,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-calendar-check text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة دور النظم والمرشد في إثراء تجربة السياحية",
@@ -670,7 +670,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-route text-5xl text-indigo-600"
         },
         {
             "name_ar": "وسام تحرير دولة الكويت من الدرجة الرابعة من أمير دولة الكويت",
@@ -690,7 +690,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-medal text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط الذكرى المئوية الأولى لتأسيس المملكة",
@@ -709,7 +709,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-award text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الأولى",
@@ -730,7 +730,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shield-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الثانية",
@@ -751,7 +751,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shield-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الثالثة",
@@ -772,7 +772,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shield-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الرابعة",
@@ -793,7 +793,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shield-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط تمرين سيف عبدالله",
@@ -814,7 +814,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-fist-raised text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط الإدارة العسكرية",
@@ -834,7 +834,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-chess-king text-5xl text-indigo-600"
         },
         {
             "name_ar": "نوط الإتقان",
@@ -854,7 +854,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-check-circle text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر وتقدير للمشاركة الفعالة في أنشطة المكتب الثقافية ومهرجان الطفل",
@@ -874,7 +874,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-award text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
@@ -894,7 +894,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-thumbs-up text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
@@ -914,7 +914,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-star text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر وتقدير للمشاركة في لقاء الصفوة",
@@ -934,7 +934,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-handshake text-5xl text-indigo-600"
         },
         {
             "name_ar": "خطاب من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
@@ -954,7 +954,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-file-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر وتقدير للمشاركة في اللقاء المفتوح مع مسؤولي صحة الأحساء والشخصيات الفاعلة في المجتمع",
@@ -974,7 +974,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-hand-holding-heart text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية المكلف",
@@ -994,7 +994,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-ribbon text-5xl text-indigo-600"
         },
         {
             "name_ar": "خطاب شكر من سعادة قائد سرية القيادة بمجموعة الإسناد الهندسي السابعة بالشرقية",
@@ -1014,7 +1014,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-envelope-open-text text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر من المجلس البلدي للمشاركة في إقامة الفعاليات الرياضية",
@@ -1053,7 +1053,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-users text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة شكر وتقدير إعداد وتنسيق موقع الاحتفال الرئيسي لجامعة الدول العربية",
@@ -1073,7 +1073,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-globe text-5xl text-indigo-600"
         },
         {
             "name_ar": "خطاب شكر للمشاركة في اللقاء السنوي السادس عشر للجهات الأهلية (غير الربحية) بالمنطقة الشرقية",
@@ -1093,7 +1093,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-hands-helping text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة برامج إسعافات أولية",
@@ -1113,7 +1113,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-briefcase-medical text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة برامج إسعافات أولية وإنعاش القلب الرئوي (الكل مسعف)",
@@ -1133,7 +1133,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-heartbeat text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة لغة إنجليزية، المستوى الأساسي",
@@ -1154,7 +1154,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-language text-5xl text-indigo-600"
         },
         {
             "name_ar": "شهادة حضور ملتقى الأنظمة العقارية",
@@ -1174,7 +1174,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-balance-scale text-5xl text-indigo-600"
         },
         {
             "name_ar": "عضو اللجنة المنظمة لإقامة ورشة عمل بعنوان الأمراض المتعلقة بشؤون الخيل",
@@ -1194,7 +1194,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-horse text-5xl text-indigo-600"
         },
         {
             "name_ar": "ورشة عمل للإدارة العامة للدفاع المدني بالأحساء بعنوان (التشغيل الجزئي لمعرض مراكز الدفاع المدني) من قبل المتطوعين",
@@ -1214,7 +1214,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-fire-extinguisher text-5xl text-indigo-600"
         },
         {
             "name_ar": "المشاركة في تنظيم فعاليات بيت المعرفة (قيادة آمنة- بيت السلامة المرورية) آرامكو السعودية",
@@ -1235,7 +1235,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-car-side text-5xl text-indigo-600"
         },
         {
             "name_ar": "المشاركة مع مديرية الزراعة بالأحساء في إنجاح فعالية أحساؤنا جميلة (2)",
@@ -1255,7 +1255,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-seedling text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي (التطوع الصحي المجتمعي)",
@@ -1275,7 +1275,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-hand-holding-medical text-5xl text-indigo-600"
         },
         {
             "name_ar": "دورة مهارات التعامل مع الرؤساء",
@@ -1295,7 +1295,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-user-tie text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي الإشراف الإداري",
@@ -1315,7 +1315,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-chalkboard-teacher text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي إدارة التغيير",
@@ -1335,7 +1335,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-sync-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي تخطيط الموارد البشرية",
@@ -1355,7 +1355,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-users-cog text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي الجوانب القانونية في الموارد البشرية",
@@ -1375,7 +1375,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-gavel text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي مهارات بناء فرق العمل",
@@ -1395,7 +1395,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-users text-5xl text-indigo-600"
         },
         {
             "name_ar": "البرنامج التدريبي جرائم المعلوماتية",
@@ -1415,7 +1415,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-shield-alt text-5xl text-indigo-600"
         },
         {
             "name_ar": "برنامج السلامة في البحث والانتقاد",
@@ -1435,7 +1435,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-search text-5xl text-indigo-600"
         },
         {
             "name_ar": "حضور لقاء دور العلاقات العامة في إدارة الأزمة",
@@ -1455,14 +1455,14 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-bullhorn text-5xl text-indigo-600"
         },
         {
             "name_ar": "وثيقة العمل الحر - الفنون والترفيه",
             "name_en": "Freelance Document - Arts and Entertainment",
             "certified_ar": "",
             "certified_en": "",
-            "category": "الإنجازات العامة",
+            "category": "GENERAL_ACHIEVEMENTS",
             "dated": "2020",
             "dated_hijri": "1441هـ / 1442هـ",
             "start_date": "",
@@ -1475,14 +1475,14 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-palette text-5xl text-indigo-600"
         },
         {
-            "name_ar": "تكليفي مدير للعلاقات العمة والحكومية لرابطة فرق الأحساء",
+            "name_ar": "تكليفي مديراً للعلاقات العمة والحكومية لرابطة فرق الأحساء",
             "name_en": "Appointed Director of Public and Governmental Relations for Al-Ahsa Teams Association",
             "certified_ar": "",
             "certified_en": "",
-            "category": "الإنجازات العامة",
+            "category": "GENERAL_ACHIEVEMENTS",
             "dated": "26/06/1441هـ",
             "dated_hijri": "26/06/1441هـ",
             "start_date": "",
@@ -1495,7 +1495,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-trophy text-5xl text-blue-600"
+            "icon": "fas fa-handshake text-5xl text-indigo-600"
         }
     ],
     "experiences": [

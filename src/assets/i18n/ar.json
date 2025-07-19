@@ -29,7 +29,8 @@
         "DOWNLOAD_CV": "تنزيل السيرة"
     },
     "PLACEHOLDERS": {
-        "SEARCH": "ابحث في الصور والفيديوهات..."
+        "SEARCH": "ابحث في الصور والفيديوهات...",
+        "ACHIEVEMENTS_AND_CERTIFICATES": "ابحث في الإنجازات والشهادات..."
     },
     "LABELS": {
         "PHONES": "الهواتف",

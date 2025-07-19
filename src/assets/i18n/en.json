@@ -29,7 +29,8 @@
         "DOWNLOAD_CV": "Download CV"
     },
     "PLACEHOLDERS": {
-        "SEARCH": "Search images and videos..."
+        "SEARCH": "Search images and videos...",
+        "ACHIEVEMENTS_AND_CERTIFICATES": "Search achievements and certificates..."
     },
     "LABELS": {
         "PHONES": "Phones",
