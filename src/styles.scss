@@ -14,6 +14,16 @@ body {
     scroll-behavior: smooth;
 }
 
+/* PDF Viewer styling */
+ngx-extended-pdf-viewer {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+ngx-extended-pdf-viewer .textLayer .highlight.selected {
+  opacity: 0.25;
+}
 //------------------- Margines ------------------
 .lh-lg {
     line-height: 1.5 !important; /* You can adjust the value according to your preference */

@@ -45,10 +45,3 @@
 .course-content::-webkit-scrollbar-thumb:hover {
     background: #555;
 }
-
-/* PDF Viewer styling */
-ngx-extended-pdf-viewer {
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-    border-radius: 4px;
-    overflow: hidden;
-}
