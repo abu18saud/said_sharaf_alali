@@ -96,11 +96,13 @@
                     Description
                 </h3>
                 <p class="text-gray-700 leading-relaxed">
-                    This comprehensive course takes you through modern web development techniques using
-                    the latest technologies.
-                    You'll learn to build responsive, interactive web applications with HTML5, CSS3,
-                    JavaScript (ES6+), and popular frameworks.
+                    <a [href]="data.file">ملف الشهادة</a>
+
+                    <ngx-extended-pdf-viewer [language]="lang" [src]="data.file" [showPresentationModeButton]="true"
+                    [backgroundColor]="'#161C1E'" [zoom]="'auto'"></ngx-extended-pdf-viewer>
                 </p>
+
+                
             </div>
 
             <div class="mb-8">

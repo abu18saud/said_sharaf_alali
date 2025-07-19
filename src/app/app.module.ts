@@ -20,6 +20,7 @@ import localeArSA from '@angular/common/locales/ar-SA';
 import { AchievementsSearchPipe } from './pipes/achievements-search.pipe';
 import { AchievementDialogComponent } from '../components/achievement-dialog/achievement-dialog.component';
 import { GetMomentPipe } from './pipes/get-moment.pipe';
+import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -56,13 +57,13 @@ registerLocaleData(localeArSA, 'ar-SA');
         useFactory: HttpLoaderFactory,
         deps: [HttpClient]
       }
-    })
+    }),
+    NgxExtendedPdfViewerModule,
   ],
   schemas: [
     CUSTOM_ELEMENTS_SCHEMA
   ],
   providers: [
-    DatePipe,
     DatePipe,
     CurrencyPipe,
     DecimalPipe,
