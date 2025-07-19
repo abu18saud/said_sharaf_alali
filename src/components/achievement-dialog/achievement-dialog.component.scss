@@ -1,0 +1,47 @@
+/* Custom animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideUp {
+    from {
+        transform: translateY(20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.dialog-overlay {
+    animation: fadeIn 0.3s ease-out;
+}
+
+.dialog-content {
+    animation: slideUp 0.3s ease-out;
+}
+
+/* Custom scrollbar for course content */
+.course-content::-webkit-scrollbar {
+    width: 6px;
+}
+
+.course-content::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+.course-content::-webkit-scrollbar-thumb {
+    background: #888;
+    border-radius: 10px;
+}
+
+.course-content::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

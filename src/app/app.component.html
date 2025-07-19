@@ -301,7 +301,7 @@
                     <div class="p-4">
                         <h3 class="font-bold text-lg mb-2">{{lang === 'ar'? item.name_ar : item.name_en}}</h3>
                         <p class="text-gray-600 text-sm mb-4">{{'ACHIEVEMENTS_FILTER.' + item.category | translate}}</p>
-                        <button class="text-blue-600 font-medium hover:underline">عرض الشهادة</button>
+                        <button (click)="openAchievementDialog(item)" class="text-blue-600 font-medium hover:underline">عرض الشهادة</button>
                     </div>
                 </div>
 

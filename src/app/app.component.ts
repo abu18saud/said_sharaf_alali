@@ -2,6 +2,8 @@ import { Component } from '@angular/core';
 import { AppService } from './app.service';
 import { TranslateService } from '@ngx-translate/core';
 import { _LocalStorageService } from './services/_local-storage.service';
+import { MatDialog } from '@angular/material/dialog';
+import { AchievementDialogComponent } from 'src/components/achievement-dialog/achievement-dialog.component';
 
 @Component({
   selector: 'app-root',
@@ -9,17 +11,17 @@ import { _LocalStorageService } from './services/_local-storage.service';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  lang = this.localeStorage.getLanguageCode();
+  lang = this.localeStorage.getLanguageCode()? this.localeStorage.getLanguageCode() : 'ar';
   me: any = {};
   featureds: any[] = [];
   formatDate: any = "dd/MM/yyyy";
   activeFilter = 'ALL';
   _loading: boolean = false;
 
-
   constructor(private appService: AppService,
     private translateService: TranslateService,
-    private localeStorage: _LocalStorageService
+    private localeStorage: _LocalStorageService,
+    public dialog: MatDialog,
   ) {
     this.appService.getMe().subscribe(res => {
       this.me = res;
@@ -39,7 +41,7 @@ export class AppComponent {
     }, 500);
   }
 
-  public switchLanguage(event: any) {
+  public switchLanguage(event: any = 'ar') {
     this.localeStorage.setLanguageCode(event);
     // TODO
     if (this.lang === 'ar') {
@@ -50,5 +52,12 @@ export class AppComponent {
       this.lang = event;
     }
     window.location.reload();
+  }
+
+  openAchievementDialog(item: any) {
+    this.dialog.open(AchievementDialogComponent, {
+      data: item,
+      //disableClose: true,
+    });
   }
 }
