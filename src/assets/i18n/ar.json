@@ -24,6 +24,7 @@
         "CONTACT_INFO": "تواصل مع أ. شرف أحمد العلي"
     },
     "BUTTONS": {
+        "VIEW_CERTIFICATE": "عرض الشهادة",
         "CONTACT_ME": "تواصل معي",
         "MY_ACHIEVEMENTS": "إنجازاتي",
         "DOWNLOAD_CV": "تنزيل السيرة"

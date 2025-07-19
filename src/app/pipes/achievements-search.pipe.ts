@@ -19,6 +19,7 @@ export class AchievementsSearchPipe implements PipeTransform {
       'certified_en',
       'category',
       'dated',
+      'dated_hijri',
       'id',
       'file'
     ];

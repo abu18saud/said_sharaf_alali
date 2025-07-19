@@ -294,14 +294,34 @@
             <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <!-- دوران الإنجازات -->
                 <div *ngFor="let item of filteredItems() | achievementsSearch: search.value"
-                    class="achievement-card bg-gray-50 rounded-lg overflow-hidden shadow-sm">
+                    (click)="openAchievementDialog(item)"
+                    class="cursor-pointer achievement-card bg-gray-50 rounded-lg overflow-hidden shadow-sm">
                     <div class="h-40 bg-blue-100 flex items-center justify-center">
                         <i [class]="item.icon"></i>
                     </div>
                     <div class="p-4">
                         <h3 class="font-bold text-lg mb-2">{{lang === 'ar'? item.name_ar : item.name_en}}</h3>
-                        <p class="text-gray-600 text-sm mb-4">{{'ACHIEVEMENTS_FILTER.' + item.category | translate}}</p>
-                        <button (click)="openAchievementDialog(item)" class="text-blue-600 font-medium hover:underline">عرض الشهادة</button>
+                        <p class="text-gray-600 text-sm mb-4">
+                            <i [class]="lang === 'ar'? 'fas fa-calendar-alt ml-1' :'fas fa-calendar-alt mr-1'"></i>
+                            {{item.dated | date: formatDate}} - {{item.dated_hijri? item.dated_hijri : ''}}
+                        </p>
+                        <div class="flex flex-wrap gap-3 mt-4">
+                            <span class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
+                                <i [class]="lang === 'ar'? 'fas fa-clock ml-1' :'fas fa-clock mr-1'"></i> {{item.dated |
+                                getMoment}}
+                            </span>
+                            <span class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
+                                <i [class]="lang === 'ar'? 'fas fa-layer-group ml-1' :'fas fa-layer-group mr-1'"></i>
+                                {{'ACHIEVEMENTS_FILTER.' + item.category | translate}}
+                            </span>
+                            <span class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
+                                <i [class]="lang === 'ar'? 'fas fa-hashtag ml-1' :'fas fa-hashtag mr-1'"></i>
+                                {{item.id}}
+                            </span>
+                        </div>
+                        <button
+                            class="text-blue-600 my-2 font-medium hover:underline">{{'BUTTONS.VIEW_CERTIFICATE' |
+                            translate}}</button>
                     </div>
                 </div>
 

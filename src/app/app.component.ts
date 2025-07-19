@@ -11,7 +11,7 @@ import { AchievementDialogComponent } from 'src/components/achievement-dialog/ac
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  lang = this.localeStorage.getLanguageCode()? this.localeStorage.getLanguageCode() : 'ar';
+  lang = this.localeStorage.getLanguageCode() ? this.localeStorage.getLanguageCode() : 'ar';
   me: any = {};
   featureds: any[] = [];
   formatDate: any = "dd/MM/yyyy";
@@ -29,9 +29,19 @@ export class AppComponent {
     });
   }
 
+
   filteredItems() {
-    if (this.activeFilter === 'ALL') return this.me.achievements;
-    return this.me.achievements.filter((item: any) => item.category === this.activeFilter);
+    if (this.activeFilter === 'ALL') {
+      return this.me.achievements.sort((a: any, b: any) => {
+        return new Date(b.dated).getTime() - new Date(a.dated).getTime();
+      });
+    }
+
+    return this.me.achievements
+      .filter((item: any) => item.category === this.activeFilter)
+      .sort((a: any, b: any) => {
+        return new Date(b.dated).getTime() - new Date(a.dated).getTime();
+      });
   }
 
   loading() {

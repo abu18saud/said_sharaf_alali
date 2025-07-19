@@ -24,6 +24,7 @@
         "CONTACT_INFO": "Contact Mr. Sharaf Ahmed Al-Ali"
     },
     "BUTTONS": {
+        "VIEW_CERTIFICATE": "View Certificate",
         "CONTACT_ME": "Contact Me",
         "MY_ACHIEVEMENTS": "My Achievements",
         "DOWNLOAD_CV": "Download CV"
