@@ -24,6 +24,10 @@
         "CONTACT_INFO": "Contact Mr. Sharaf Ahmed Al-Ali"
     },
     "BUTTONS": {
+        "CLOSE":"Close",
+        "DOWNLOAD": "Download",
+        "BACK": "Back",
+        "HOME": "Home",
         "VIEW_CERTIFICATE": "View Certificate",
         "CONTACT_ME": "Contact Me",
         "MY_ACHIEVEMENTS": "My Achievements",
@@ -34,6 +38,7 @@
         "ACHIEVEMENTS_AND_CERTIFICATES": "Search achievements and certificates..."
     },
     "LABELS": {
+        "DOCUMENT": "Document",
         "PHONES": "Phones",
         "MOBILE": "Mobile",
         "FAX": "Fax",
@@ -51,6 +56,8 @@
         "MAJOR": "Major"
     },
     "ERRORS": {
+        "NOT_FOUND": "Sorry, the file you are looking for does not exist",
+        "NOT_FOUND_DESCRIPTION": "It seems that the page or file you are trying to access has been moved, deleted, or does not exist.",
         "NO_RESULTS": "Sorry, no results found",
         "SEARCH_FAILED": "We couldn't find anything matching your search. Please try using different keywords."
     },

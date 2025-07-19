@@ -21,6 +21,7 @@ import { AchievementsSearchPipe } from './pipes/achievements-search.pipe';
 import { AchievementDialogComponent } from '../components/achievement-dialog/achievement-dialog.component';
 import { GetMomentPipe } from './pipes/get-moment.pipe';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
+import { NotFoundFileComponent } from '../components/not-found-file/not-found-file.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -40,7 +41,8 @@ registerLocaleData(localeArSA, 'ar-SA');
     StatisticsComponent,
     AchievementsSearchPipe,
     AchievementDialogComponent,
-    GetMomentPipe
+    GetMomentPipe,
+    NotFoundFileComponent
   ],
   imports: [
     BrowserModule,

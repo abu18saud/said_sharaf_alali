@@ -68,6 +68,7 @@ export class AppComponent {
     this.dialog.open(AchievementDialogComponent, {
       data: item,
       //disableClose: true,
+      width: '895.99px',
     });
   }
 }

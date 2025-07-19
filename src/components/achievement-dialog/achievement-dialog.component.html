@@ -16,215 +16,27 @@
                 <i [class]="lang === 'ar'? 'fas fa-clock ml-1' :'fas fa-clock mr-1'"></i> {{data.dated | getMoment}}
             </span>
             <span class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
-                <i [class]="lang === 'ar'? 'fas fa-user-graduate ml-1' :'fas fa-user-graduate mr-1'"></i> Intermediate
+                <i [class]="lang === 'ar'? 'fas fa-layer-group ml-1' :'fas fa-layer-group mr-1'"></i>
+                {{'ACHIEVEMENTS_FILTER.' + data.category | translate}}
             </span>
             <span class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
-                <i [class]="lang === 'ar'? 'fas fa-certificate ml-1' :'fas fa-certificate mr-1'"></i> Certificate
+                <i [class]="lang === 'ar'? 'fas fa-hashtag ml-1' :'fas fa-hashtag mr-1'"></i>
+                {{data.id}}
             </span>
         </div>
     </div>
 
     <!-- Body Content -->
-    <div class="flex flex-col md:flex-row overflow-hidden flex-grow">
-        <!-- Left Column -->
-        <div class="md:w-1/3 border-r p-6 bg-gray-50">
-            <div class="mb-6">
-                <h3 class="font-semibold text-lg mb-3 flex items-center">
-                    <i
-                        [class]="lang === 'ar'? 'fas fa-info-circle text-blue-500 ml-2' :'fas fa-info-circle text-blue-500 mr-2'"></i>
-                    Course Info
-                </h3>
-                <ul class="space-y-2">
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-calendar-alt text-gray-500 mt-1 ml-2' :'fas fa-calendar-alt text-gray-500 mt-1 mr-2'"></i>
-                        <span><strong>Start Date:</strong> June 5, 2023</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-chalkboard-teacher text-gray-500 mt-1 ml-2' :'fas fa-chalkboard-teacher text-gray-500 mt-1 mr-2'"></i>
-                        <span><strong>Instructor:</strong> Sarah Johnson</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-users text-gray-500 mt-1 ml-2' :'fas fa-users text-gray-500 mt-1 mr-2'"></i>
-                        <span><strong>Students:</strong> 1,245 enrolled</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-star text-gray-500 mt-1 ml-2' :'fas fa-star text-gray-500 mt-1 mr-2'"></i>
-                        <span><strong>Rating:</strong> 4.8/5 (328 reviews)</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mb-6">
-                <h3 class="font-semibold text-lg mb-3 flex items-center">
-                    <i [class]="lang === 'ar'? 'fas fa-tags text-blue-500 ml-2' :'fas fa-tags text-blue-500 mr-2'"></i>
-                    Pricing
-                </h3>
-                <div class="bg-white p-4 rounded-lg border shadow-sm">
-                    <div class="text-3xl font-bold text-blue-600">$149<span class="text-lg font-normal">.99</span>
-                    </div>
-                    <p class="text-gray-600 text-sm mt-1">One-time payment</p>
-                    <button
-                        class="mt-4 w-full bg-blue-600 hover:bg-blue-700 text-white py-2 rounded-lg transition duration-200 flex items-center justify-center">
-                        <i [class]="lang === 'ar'? 'fas fa-shopping-cart ml-2' :'fas fa-shopping-cart mr-2'"></i> Enroll
-                        Now
-                    </button>
-                </div>
-            </div>
-
-            <div class="flex space-x-3">
-                <button
-                    class="flex-1 bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 rounded-lg transition duration-200 flex items-center justify-center mx-2">
-                    <i [class]="lang === 'ar'? 'far fa-heart ml-2' :'far fa-heart mr-2'"></i> Save
-                </button>
-                <button
-                    class="flex-1 bg-gray-200 hover:bg-gray-300 text-gray-800 py-2 rounded-lg transition duration-200 flex items-center justify-center mx-2">
-                    <i [class]="lang === 'ar'? 'fas fa-share-alt ml-2' :'fas fa-share-alt mr-2'"></i> Share
-                </button>
-            </div>
-        </div>
-
-        <!-- Right Column -->
-        <div class="md:w-2/3 p-6 overflow-y-auto course-content">
-            <div class="mb-8">
-                <h3 class="font-semibold text-lg mb-3 border-b pb-2 flex items-center">
-                    <i
-                        [class]="lang === 'ar'? 'fas fa-book-open text-blue-500 ml-2' :'fas fa-book-open text-blue-500 mr-2'"></i>
-                    Description
-                </h3>
-                <p class="text-gray-700 leading-relaxed">
-                    <a [href]="data.file">ملف الشهادة</a>
-
-                    <ngx-extended-pdf-viewer [language]="lang" [src]="data.file" [showPresentationModeButton]="true"
-                    [backgroundColor]="'#161C1E'" [zoom]="'auto'"></ngx-extended-pdf-viewer>
-                </p>
-
-                
-            </div>
-
-            <div class="mb-8">
-                <h3 class="font-semibold text-lg mb-3 border-b pb-2 flex items-center">
-                    <i
-                        [class]="lang === 'ar'? 'fas fa-list-ol text-blue-500 ml-2' :'fas fa-list-ol text-blue-500 mr-2'"></i>
-                    What You'll Learn
-                </h3>
-                <ul class="grid grid-cols-1 md:grid-cols-2 gap-3">
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-check text-green-500 mt-1 ml-2' :'fas fa-check text-green-500 mt-1 mr-2'"></i>
-                        <span>Build responsive layouts with Flexbox and Grid</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-check text-green-500 mt-1 ml-2' :'fas fa-check text-green-500 mt-1 mr-2'"></i>
-                        <span>Master JavaScript ES6+ features</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-check text-green-500 mt-1 ml-2' :'fas fa-check text-green-500 mt-1 mr-2'"></i>
-                        <span>Work with APIs and AJAX</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-check text-green-500 mt-1 ml-2' :'fas fa-check text-green-500 mt-1 mr-2'"></i>
-                        <span>Introduction to React.js</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-check text-green-500 mt-1 ml-2' :'fas fa-check text-green-500 mt-1 mr-2'"></i>
-                        <span>State management with Redux</span>
-                    </li>
-                    <li class="flex items-start">
-                        <i
-                            [class]="lang === 'ar'? 'fas fa-check text-green-500 mt-1 ml-2' :'fas fa-check text-green-500 mt-1 mr-2'"></i>
-                        <span>Deployment strategies</span>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="mb-8">
-                <h3 class="font-semibold text-lg mb-3 border-b pb-2 flex items-center">
-                    <i
-                        [class]="lang === 'ar'? 'fas fa-project-diagram text-blue-500 ml-2' :'fas fa-project-diagram text-blue-500 mr-2'"></i>
-                    Course Curriculum
-                </h3>
-                <div class="space-y-2">
-                    <div class="accordion-item border rounded-lg overflow-hidden">
-                        <button
-                            class="accordion-header w-full text-left p-3 bg-gray-100 hover:bg-gray-200 transition duration-200 flex justify-between items-center">
-                            <span class="font-medium">Week 1: HTML5 & CSS3 Fundamentals</span>
-                            <i class="fas fa-chevron-down transition-transform duration-200"></i>
-                        </button>
-                        <div class="accordion-content hidden p-4 bg-white">
-                            <ul class="space-y-2">
-                                <li class="flex items-center text-gray-700">
-                                    <i
-                                        [class]="lang === 'ar'? 'far fa-play-circle text-blue-500 ml-2' :'far fa-play-circle text-blue-500 mr-2'"></i>
-                                    <span>Introduction to semantic HTML</span>
-                                </li>
-                                <li class="flex items-center text-gray-700">
-                                    <i
-                                        [class]="lang === 'ar'? 'far fa-play-circle text-blue-500 ml-2' :'far fa-play-circle text-blue-500 mr-2'"></i>
-                                    <span>CSS selectors and specificity</span>
-                                </li>
-                                <li class="flex items-center text-gray-700">
-                                    <i
-                                        [class]="lang === 'ar'? 'far fa-play-circle text-blue-500 ml-2' :'far fa-play-circle text-blue-500 mr-2'"></i>
-                                    <span>Responsive design principles</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-
-                    <div class="accordion-item border rounded-lg overflow-hidden">
-                        <button
-                            class="accordion-header w-full text-left p-3 bg-gray-100 hover:bg-gray-200 transition duration-200 flex justify-between items-center">
-                            <span class="font-medium">Week 2: Modern JavaScript</span>
-                            <i class="fas fa-chevron-down transition-transform duration-200"></i>
-                        </button>
-                        <div class="accordion-content hidden p-4 bg-white">
-                            <ul class="space-y-2">
-                                <li class="flex items-center text-gray-700">
-                                    <i
-                                        [class]="lang === 'ar'? 'far fa-play-circle text-blue-500 ml-2' :'far fa-play-circle text-blue-500 mr-2'"></i>
-                                    <span>ES6+ features (let/const, arrow functions)</span>
-                                </li>
-                                <li class="flex items-center text-gray-700">
-                                    <i
-                                        [class]="lang === 'ar'? 'far fa-play-circle text-blue-500 ml-2' :'far fa-play-circle text-blue-500 mr-2'"></i>
-                                    <span>Asynchronous JavaScript</span>
-                                </li>
-                                <li class="flex items-center text-gray-700">
-                                    <i
-                                        [class]="lang === 'ar'? 'far fa-play-circle text-blue-500 ml-2' :'far fa-play-circle text-blue-500 mr-2'"></i>
-                                    <span>DOM manipulation</span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div>
-                <h3 class="font-semibold text-lg mb-3 border-b pb-2 flex items-center">
-                    <i
-                        [class]="lang === 'ar'? 'fas fa-user-tie text-blue-500 ml-2' :'fas fa-user-tie text-blue-500 mr-2'"></i>
-                    Instructor
-                </h3>
-                <div class="flex items-start">
-                    <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Instructor"
-                        class="w-16 h-16 rounded-full mr-4 border-2 border-blue-200">
-                    <div>
-                        <h4 class="font-bold">Sarah Johnson</h4>
-                        <p class="text-gray-600 text-sm">Senior Web Developer at TechCorp</p>
-                        <p class="text-gray-700 mt-2 text-sm">With over 10 years of experience in web
-                            development, Sarah has worked with numerous startups and Fortune 500
-                            companies to build cutting-edge web applications.</p>
-                    </div>
-                </div>
+    <div class="flex flex-col flex-grow w-full h-screen overflow-hidden bg-gray-100">
+        <!-- Right Column - Full Width Viewer -->
+        <div class="w-full h-full p-4">
+            <div class="h-full w-full rounded shadow overflow-hidden">
+                <ngx-extended-pdf-viewer *ngIf="data.file" [src]="data.file" [useBrowserLocale]="true" [language]="lang"
+                    [height]="'100%'" [zoom]="'page-fit'" [showPresentationModeButton]="true"
+                    [showHandToolButton]="true" [textLayer]="true" [showSidebarButton]="false" [showPrintButton]="true"
+                    [showDownloadButton]="true" [backgroundColor]="'#ffffff'" style="width: 100%; height: 100%;">
+                </ngx-extended-pdf-viewer>
+                <app-not-found-file *ngIf="data.file === '' || !data.file"></app-not-found-file>
             </div>
         </div>
     </div>
@@ -232,15 +44,16 @@
     <!-- Footer -->
     <div class="bg-gray-100 px-6 py-3 border-t flex justify-between items-center">
         <div class="text-sm text-gray-600">
-            <i class="far fa-question-circle mr-1"></i> Need help? <a href="#"
-                class="text-blue-600 hover:underline">Contact support</a>
+            <!-- <i class="far fa-question-circle mr-1"></i> Need help? <a href="#"
+                class="text-blue-600 hover:underline">Contact support</a> -->
         </div>
         <div class="flex space-x-3">
-            <button mat-button class="px-4 py-2 bg-white border rounded-lg hover:bg-gray-50 transition duration-200">
-                <mat-icon>download</mat-icon> Syllabus
+            <button *ngIf="data.file" (click)="download()" mat-button
+                class="px-4 py-2 bg-white border rounded-lg hover:bg-gray-50 transition duration-200">
+                <mat-icon>download</mat-icon> {{'BUTTONS.DOWNLOAD' | translate}}
             </button>
-            <button mat-raised-button color="primary" class="px-4 py-2">
-                <mat-icon>shopping_cart</mat-icon> Enroll Now
+            <button mat-raised-button mat-dialog-close color="primary" class="px-4 py-2">
+                <mat-icon>close</mat-icon> {{'BUTTONS.CLOSE' | translate}}
             </button>
         </div>
     </div>

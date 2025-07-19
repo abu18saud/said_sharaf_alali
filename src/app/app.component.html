@@ -319,12 +319,13 @@
                                 {{item.id}}
                             </span>
                         </div>
-                        <button
-                            class="text-blue-600 my-2 font-medium hover:underline">{{'BUTTONS.VIEW_CERTIFICATE' |
+                        <button class="text-blue-600 my-2 font-medium hover:underline">{{'BUTTONS.VIEW_CERTIFICATE' |
                             translate}}</button>
                     </div>
                 </div>
 
+                <app-not-found
+                    *ngIf="(filteredItems() | achievementsSearch: search.value).length === 0"></app-not-found>
 
             </div>
         </div>
