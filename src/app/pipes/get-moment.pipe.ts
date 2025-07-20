@@ -7,7 +7,7 @@ import * as moment from 'moment';
 })
 export class GetMomentPipe implements PipeTransform {
   transform(value: any): any {
-    moment.locale(localStorage.getItem('currentLanguage'));
+    moment.locale(localStorage.getItem('currentLanguage') ? localStorage.getItem('currentLanguage') : 'ar');
     const dateToFormat = moment(value);
     return dateToFormat.fromNow();
   }
