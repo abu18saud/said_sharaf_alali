@@ -24,7 +24,8 @@
         "CONTACT_INFO": "Contact Mr. Sharaf Ahmed Al-Ali"
     },
     "BUTTONS": {
-        "CLOSE":"Close",
+        "SEND_THE_MESSAGE": "Send the message",
+        "CLOSE": "Close",
         "DOWNLOAD": "Download",
         "BACK": "Back",
         "HOME": "Home",
@@ -38,7 +39,13 @@
         "ACHIEVEMENTS_AND_CERTIFICATES": "Search achievements and certificates..."
     },
     "LABELS": {
-        "":"أرسل رسالة",
+        "DEVELOPER_NAME": "Eng. Abdullah Ali Alsalem",
+        "DEVELOPED_BY": "Developed by",
+        "COPYRIGHT": "All rights reserved &copy; 2025 Sharaf Alali",
+        "MESSAGE": "Message",
+        "SUBJECT": "Subject",
+        "NAME": "Name",
+        "SEND_A_MESSAGE": "Send a message",
         "DOCUMENT": "Document",
         "PHONES": "Phones",
         "MOBILE": "Mobile",
