@@ -4,6 +4,8 @@ import { TranslateService } from '@ngx-translate/core';
 import { _LocalStorageService } from './services/_local-storage.service';
 import { MatDialog } from '@angular/material/dialog';
 import { AchievementDialogComponent } from 'src/components/achievement-dialog/achievement-dialog.component';
+import { TelegramBotService } from './services/telegram-bot.service';
+import { SnackBarService } from './services/snack-bar.service';
 
 @Component({
   selector: 'app-root',
@@ -22,6 +24,8 @@ export class AppComponent {
   constructor(private appService: AppService,
     private translateService: TranslateService,
     private localeStorage: _LocalStorageService,
+    private telegramBotService: TelegramBotService,
+    private snackBarService: SnackBarService,
     public dialog: MatDialog,
   ) {
     this._loadingPage();
@@ -78,5 +82,15 @@ export class AppComponent {
       //disableClose: true,
       width: '895.99px',
     });
+  }
+
+  sendMessage(name: string, email: string, subject: string, message: string) {
+    this.telegramBotService.sendMessage({
+      chat_id: '5399930171',
+      text: subject + '\n' + message + '\n' + name + '\n' + email,
+      parse_mode: 'Markdown'
+    }).subscribe(res => {
+      this.snackBarService.showTopRight('تم الإرسال',);
+    })
   }
 }

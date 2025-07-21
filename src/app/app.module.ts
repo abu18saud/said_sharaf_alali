@@ -23,6 +23,8 @@ import { GetMomentPipe } from './pipes/get-moment.pipe';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { NotFoundFileComponent } from '../components/not-found-file/not-found-file.component';
 import { LoderComponent } from '../components/loder/loder.component';
+import { FormsModule } from '@angular/forms';
+import { TelegramBotService } from './services/telegram-bot.service';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -50,6 +52,7 @@ registerLocaleData(localeArSA, 'ar-SA');
     BrowserModule,
     AppRoutingModule,
     HttpClientModule,
+    FormsModule,
     MaterialModule,
     BrowserModule,
     AppRoutingModule,
@@ -68,6 +71,7 @@ registerLocaleData(localeArSA, 'ar-SA');
     CUSTOM_ELEMENTS_SCHEMA
   ],
   providers: [
+    TelegramBotService,
     importProvidersFrom(NgxExtendedPdfViewerModule),
     DatePipe,
     CurrencyPipe,
