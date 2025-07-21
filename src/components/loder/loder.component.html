@@ -1,0 +1,27 @@
+<div class="gradient-bg h-screen w-full flex items-center justify-center overflow-hidden">
+    <div class="relative w-64 h-64 md:w-80 md:h-80">
+        <!-- Outer Spinner Ring -->
+        <div
+            class="absolute inset-0 border-8 border-t-transparent border-r-transparent border-b-transparent border-white/20 rounded-full">
+        </div>
+
+        <!-- Animated Spinner -->
+        <div
+            class="absolute inset-0 border-8 border-t-transparent border-r-white border-b-transparent border-l-white rounded-full spinner">
+        </div>
+
+        <!-- Inner Circle -->
+        <div class="absolute inset-8 md:inset-10 bg-white/10 rounded-full flex items-center justify-center">
+            <!-- Logo Container -->
+            <div class="logo-pulse flex flex-col items-center justify-center">
+                <!-- Replace this with your actual logo -->
+                <img src="https://sharaf-al-ali.netlify.app/assets/img/Copilot01_20250721_113227-removebg-preview.png">
+            </div>
+        </div>
+
+        <!-- Progress Percentage (hidden by default) -->
+        <div class="absolute -bottom-10 left-0 right-0 text-center text-white/70 text-xs hidden">
+            <!-- <span id="progress-percentage">0</span>% -->
+        </div>
+    </div>
+</div>

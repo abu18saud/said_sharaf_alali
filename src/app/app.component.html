@@ -1,8 +1,10 @@
+<app-loder *ngIf="loadingPage"></app-loder>
 <!-- Language Switcher -->
 <div [class]="lang === 'ar'? 'language-switcher':'language-switcher-ar'">
     <button id="langToggle" (click)="switchLanguage(lang === 'ar'? 'en':'ar')"
         class="bg-blue-500 hover:bg-blue-600 text-white px-4 py-2 rounded-full shadow-md transition">
-        <i class="fas fa-language mr-2"></i>{{lang === 'ar'? 'English':'عربي'}}
+        <i [class]="lang === 'ar'? 'fas fa-language ml-2':'fas fa-language mr-2'"></i>{{lang === 'ar'?
+        'English':'عربي'}}
     </button>
 </div>
 

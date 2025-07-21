@@ -17,18 +17,19 @@ export class AppComponent {
   formatDate: any = "dd/MM/yyyy";
   activeFilter = 'ALL';
   _loading: boolean = false;
+  loadingPage: boolean = true;
 
   constructor(private appService: AppService,
     private translateService: TranslateService,
     private localeStorage: _LocalStorageService,
     public dialog: MatDialog,
   ) {
+    this._loadingPage();
     this.appService.getMe().subscribe(res => {
       this.me = res;
       this.featureds = res.projects.filter((item: any) => item.is_featured === true);
     });
   }
-
 
   filteredItems() {
     if (this.activeFilter === 'ALL') {
@@ -49,6 +50,13 @@ export class AppComponent {
     setTimeout(() => {
       this._loading = false;
     }, 500);
+  }
+
+  _loadingPage() {
+    this.loadingPage = true;
+    setTimeout(() => {
+      this.loadingPage = false;
+    }, 3000);
   }
 
   public switchLanguage(event: any = 'ar') {

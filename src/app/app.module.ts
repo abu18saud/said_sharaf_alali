@@ -22,6 +22,7 @@ import { AchievementDialogComponent } from '../components/achievement-dialog/ach
 import { GetMomentPipe } from './pipes/get-moment.pipe';
 import { NgxExtendedPdfViewerModule } from 'ngx-extended-pdf-viewer';
 import { NotFoundFileComponent } from '../components/not-found-file/not-found-file.component';
+import { LoderComponent } from '../components/loder/loder.component';
 
 export function HttpLoaderFactory(http: HttpClient) {
   return new TranslateHttpLoader(http, './assets/i18n/', '.json');
@@ -42,7 +43,8 @@ registerLocaleData(localeArSA, 'ar-SA');
     AchievementsSearchPipe,
     AchievementDialogComponent,
     GetMomentPipe,
-    NotFoundFileComponent
+    NotFoundFileComponent,
+    LoderComponent
   ],
   imports: [
     BrowserModule,

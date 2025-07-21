@@ -1,0 +1,32 @@
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+@keyframes pulse {
+    0%,
+    100% {
+        opacity: 1;
+    }
+
+    50% {
+        opacity: 0.5;
+    }
+}
+
+.spinner {
+    animation: spin 1.5s linear infinite;
+}
+
+.logo-pulse {
+    animation: pulse 2s ease-in-out infinite;
+}
+
+.gradient-bg {
+    background: linear-gradient(135deg, #387df3 0%, #1f51da 100%);
+}
