@@ -63,7 +63,7 @@
                         class="border border-white px-6 py-2 rounded-full font-medium hover:bg-white hover:text-blue-600">{{'BUTTONS.MY_ACHIEVEMENTS'
                         | translate}}</a> -->
                     <a (click)="printCv()"
-                        class="border border-white px-6 py-2 rounded-full font-medium hover:bg-white hover:text-blue-600"><i
+                        class="border border-white cursor-pointer px-6 py-2 rounded-full font-medium hover:bg-white hover:text-blue-600"><i
                             class="fas fa-download mx-1"></i>{{'BUTTONS.DOWNLOAD_CV'
                         | translate}}</a>
                 </div>
@@ -318,7 +318,7 @@
                 </div>
 
                 <app-not-found
-                    *ngIf="(filteredItems() | achievementsSearch: search.value).length === 0"></app-not-found>
+                    *ngIf="(filteredItems() | achievementsSearch: search.value)?.length === 0"></app-not-found>
             </div>
         </div>
     </section>

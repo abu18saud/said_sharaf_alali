@@ -38,7 +38,27 @@
         "SEARCH": "Search images and videos...",
         "ACHIEVEMENTS_AND_CERTIFICATES": "Search achievements and certificates..."
     },
+    "LOADING": {
+        "PLEASE_WAIT": "Please wait ..."
+    },
+    "GENDERS": {
+        "MALE": "Male",
+        "FEMALE": "Female"
+    },
+    "MARITAL_STATUSES": {
+        "SINGLE": "Single",
+        "MARRIED": "Married"
+    },
+    "LANGUAGES": {
+        "ARABIC": "Arabic (Native)",
+        "ENGLISH": "English (Proficient)"
+    },
     "LABELS": {
+        "SCAN_QR": "Scan the QR to learn more",
+        "LANGUAGES": "Languages",
+        "KEY_CONTRIBUTIONS": "Key Contributions",
+        "PROFESSIONAL_PROFILE": "Professional Profile",
+        "CV": "CV",
         "DEVELOPER_NAME": "Eng. Abdullah Ali Alsalem",
         "DEVELOPED_BY": "Developed by",
         "COPYRIGHT": "All rights reserved &copy; 2025 Sharaf Alali",

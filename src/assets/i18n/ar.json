@@ -38,8 +38,28 @@
         "SEARCH": "ابحث في الصور والفيديوهات...",
         "ACHIEVEMENTS_AND_CERTIFICATES": "ابحث في الإنجازات والشهادات..."
     },
+    "LOADING": {
+        "PLEASE_WAIT": "يرجى الانتظار ..."
+    },
+    "GENDERS": {
+        "MALE": "ذكر",
+        "FEMALE": "أنثى"
+    },
+    "MARITAL_STATUSES": {
+        "SINGLE": "أعزب",
+        "MARRIED": "متزوج"
+    },
+    "LANGUAGES": {
+        "ARABIC": "العربية (اللغة الأم)",
+        "ENGLISH": "الإنجليزية (أجيد)"
+    },
     "LABELS": {
-        "DEVELOPER_NAME":"م. عبدالله السالم",
+        "SCAN_QR":"للتعرّف عليّ بشكل أوسع، يُرجى مسح رمز QR",
+        "LANGUAGES": "اللغات",
+        "KEY_CONTRIBUTIONS": "أبرز المساهمات",
+        "PROFESSIONAL_PROFILE": "ملف شخصي",
+        "CV": "السيرة الذاتية",
+        "DEVELOPER_NAME": "م. عبدالله السالم",
         "DEVELOPED_BY": "تم التطوير بواسطة",
         "COPYRIGHT": "جميع الحقوق محفوظة &copy; 2025 شرف العلي",
         "MESSAGE": "الرسالة",
