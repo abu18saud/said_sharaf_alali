@@ -1,3 +1,4 @@
+@import "src/assets/scss/_variables";
 /* You can add global styles to this file, and also import other style files */
 @import url("https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700;900&display=swap");
 
@@ -278,289 +279,209 @@ ngx-extended-pdf-viewer .textLayer .highlight.selected {
 }
 // ------------------ end -----------------------
 
-/* SnackBar Custom Styles */
+// -------------------- Snack ----------------
 
-/* تنسيقات الأنواع المختلفة */
-.success-snackbar {
-    --mdc-snackbar-container-color: #4caf50 !important;
-    --mdc-snackbar-supporting-text-color: white !important;
-    --mdc-snackbar-action-color: #c8e6c9 !important;
-}
-
-.success-snackbar .mat-mdc-snack-bar-container {
-    background-color: #4caf50 !important;
-    color: white !important;
-    border-left: 4px solid #2e7d32;
-}
-
-.error-snackbar {
-    --mdc-snackbar-container-color: #f44336 !important;
-    --mdc-snackbar-supporting-text-color: white !important;
-    --mdc-snackbar-action-color: #ffcdd2 !important;
-}
-
-.error-snackbar .mat-mdc-snack-bar-container {
-    background-color: #f44336 !important;
-    color: white !important;
-    border-left: 4px solid #c62828;
-}
-
-.warning-snackbar {
-    --mdc-snackbar-container-color: #ff9800 !important;
-    --mdc-snackbar-supporting-text-color: white !important;
-    --mdc-snackbar-action-color: #ffe0b2 !important;
-}
-
-.warning-snackbar .mat-mdc-snack-bar-container {
-    background-color: #ff9800 !important;
-    color: white !important;
-    border-left: 4px solid #ef6c00;
-}
-
-.info-snackbar {
-    --mdc-snackbar-container-color: #2196f3 !important;
-    --mdc-snackbar-supporting-text-color: white !important;
-    --mdc-snackbar-action-color: #bbdefb !important;
-}
-
-.info-snackbar .mat-mdc-snack-bar-container {
-    background-color: #2196f3 !important;
-    color: white !important;
-    border-left: 4px solid #1565c0;
-}
-
-/* تنسيقات خاصة */
-.persistent-snackbar .mat-mdc-snack-bar-container {
-    background-color: #673ab7 !important;
-    color: white !important;
-    border: 2px solid #512da8;
-    border-radius: 8px !important;
-}
-
-.loading-snackbar .mat-mdc-snack-bar-container {
-    background-color: #607d8b !important;
-    color: white !important;
-    border-left: 4px solid #37474f;
-}
-
-.loading-snackbar .mat-mdc-snack-bar-container::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: linear-gradient(90deg, transparent, #ffffff, transparent);
-    animation: loading-shimmer 2s infinite;
-}
-
-@keyframes loading-shimmer {
-    0% {
-        transform: translateX(-100%);
-    }
-    100% {
-        transform: translateX(100%);
-    }
-}
-
-.confirmation-snackbar .mat-mdc-snack-bar-container {
-    background-color: #795548 !important;
-    color: white !important;
-    border: 2px solid #5d4037;
-    border-radius: 8px !important;
-}
-
-.countdown-snackbar .mat-mdc-snack-bar-container {
-    background-color: #e91e63 !important;
-    color: white !important;
-    border-left: 4px solid #ad1457;
-    position: relative;
-}
-
-.countdown-snackbar .mat-mdc-snack-bar-container::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 3px;
-    background: #ffffff;
-    animation: countdown-progress 5s linear;
-}
-
-@keyframes countdown-progress {
-    from {
-        width: 100%;
-    }
-    to {
-        width: 0%;
-    }
-}
-
-.progress-snackbar .mat-mdc-snack-bar-container {
-    background-color: #009688 !important;
-    color: white !important;
-    border-left: 4px solid #00695c;
-    position: relative;
-    overflow: hidden;
-}
-
-.progress-snackbar .mat-mdc-snack-bar-container::after {
-    content: "";
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    height: 3px;
-    background: #ffffff;
-    transition: width 0.3s ease;
-}
-
-/* تنسيقات الموضع */
-.top-snackbar .mat-mdc-snack-bar-container {
-    border-radius: 0 0 8px 8px !important;
-}
-
-.top-left-snackbar .mat-mdc-snack-bar-container {
-    border-radius: 0 8px 8px 0 !important;
-}
-
-.top-right-snackbar .mat-mdc-snack-bar-container {
-    border-radius: 8px 0 0 8px !important;
-}
-
-/* تنسيقات مع الأيقونات */
-.icon-snackbar .mat-mdc-snack-bar-container {
-    padding-left: 24px;
-}
-
-.icon-snackbar .mat-mdc-snack-bar-label {
-    display: flex;
-    align-items: center;
-    gap: 8px;
-}
-
-/* تنسيق RTL */
-.rtl-snackbar {
+.snackbar-rtl-success {
     direction: rtl !important;
-}
-
-.rtl-snackbar .mat-mdc-snack-bar-container {
-    text-align: right;
-}
-
-.rtl-snackbar .mat-mdc-snack-bar-action {
-    margin-left: 0;
-    margin-right: auto;
-}
-
-/* تنسيقات عامة محسّنة */
-.custom-snackbar .mat-mdc-snack-bar-container {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15) !important;
-    border-radius: 8px !important;
-    font-family: "Cairo", "Roboto", sans-serif;
-    font-size: 14px;
-    line-height: 1.4;
-}
-
-.custom-snackbar .mat-mdc-snack-bar-action {
-    font-weight: 600;
-    text-transform: none;
-    border-radius: 4px;
-    padding: 4px 12px;
-    margin-left: 8px;
-    transition: all 0.2s ease;
-}
-
-.custom-snackbar .mat-mdc-snack-bar-action:hover {
-    background-color: rgba(255, 255, 255, 0.1);
-}
-
-/* تأثيرات الظهور والاختفاء */
-.mat-mdc-snack-bar-container {
-    animation: slideInUp 0.3s ease-out;
-}
-
-@keyframes slideInUp {
-    from {
-        transform: translateY(100%);
-        opacity: 0;
+    text-align: right !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: black !important;
     }
-    to {
-        transform: translateY(0);
-        opacity: 1;
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #5cb85c !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
     }
 }
 
-/* تنسيقات responsive */
-@media (max-width: 600px) {
-    .mat-mdc-snack-bar-container {
-        margin: 8px !important;
-        width: calc(100% - 16px) !important;
-        max-width: none !important;
+.snackbar-ltr-success {
+    direction: ltr !important;
+    text-align: left !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: black !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #5cb85c !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
     }
 }
 
-/* تنسيقات للوضع المظلم */
-@media (prefers-color-scheme: dark) {
-    .mat-mdc-snack-bar-container {
-        background-color: #424242 !important;
-        color: #ffffff !important;
+.snackbar-rtl-info {
+    direction: rtl !important;
+    text-align: right !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: black !important;
     }
 
-    .success-snackbar .mat-mdc-snack-bar-container {
-        background-color: #2e7d32 !important;
-    }
-
-    .error-snackbar .mat-mdc-snack-bar-container {
-        background-color: #c62828 !important;
-    }
-
-    .warning-snackbar .mat-mdc-snack-bar-container {
-        background-color: #ef6c00 !important;
-    }
-
-    .info-snackbar .mat-mdc-snack-bar-container {
-        background-color: #1565c0 !important;
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #33b5e5 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
     }
 }
 
-/* تنسيقات إضافية للتخصيص */
-.elevated-snackbar .mat-mdc-snack-bar-container {
-    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2) !important;
-    transform: translateY(-4px);
+.box-shadow {
+    box-shadow: $card-box-shadow !important;
 }
 
-.rounded-snackbar .mat-mdc-snack-bar-container {
-    border-radius: 24px !important;
+.snackbar-ltr-info {
+    direction: ltr !important;
+    text-align: left !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: black !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #33b5e5 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
 }
 
-.minimal-snackbar .mat-mdc-snack-bar-container {
-    background-color: rgba(0, 0, 0, 0.8) !important;
-    color: white !important;
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.1);
+.snackbar-rtl-danger {
+    direction: rtl !important;
+    text-align: right !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: #fff !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #ff4444 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
 }
 
-/* تنسيقات للحالات الخاصة */
-.network-error-snackbar .mat-mdc-snack-bar-container {
-    background-color: #d32f2f !important;
-    color: white !important;
-    border-left: 4px solid #b71c1c;
+.snackbar-ltr-danger {
+    direction: ltr !important;
+    text-align: left !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: #fff !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #ff4444 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
 }
 
-.network-error-snackbar .mat-mdc-snack-bar-container::before {
-    content: "🌐";
-    margin-right: 8px;
+.snackbar-rtl-warning {
+    direction: rtl !important;
+    text-align: right !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: black !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #ffbb33 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
 }
 
-.validation-error-snackbar .mat-mdc-snack-bar-container {
-    background-color: #f57c00 !important;
-    color: white !important;
-    border-left: 4px solid #e65100;
+.snackbar-ltr-warning {
+    direction: ltr !important;
+    text-align: left !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        color: black !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        background-color: #ffbb33 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
 }
 
-.session-expired-snackbar .mat-mdc-snack-bar-container {
-    background-color: #7b1fa2 !important;
-    color: white !important;
-    border-left: 4px solid #4a148c;
+.snackbar-rtl-notification {
+    direction: rtl !important;
+    text-align: right !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        // color: black !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        // background-color: #ffbb33 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
 }
+
+.snackbar-ltr-notification {
+    direction: ltr !important;
+    text-align: left !important;
+    // التحكم في النص
+    .mat-mdc-snack-bar-label {
+        // color: black !important;
+    }
+
+    // التحكم في لون الخلفية
+    .mdc-snackbar__surface {
+        border: solid $border-color 1px;
+        border-radius: 10px;
+        box-shadow: $box-shadow;
+        // background-color: #ffbb33 !important;
+        line-height: 1.9 !important;
+        text-align: center !important;
+        font-weight: bold !important;
+    }
+}
+// ------------------ end -----------------------

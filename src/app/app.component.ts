@@ -6,6 +6,7 @@ import { MatDialog } from '@angular/material/dialog';
 import { AchievementDialogComponent } from 'src/components/achievement-dialog/achievement-dialog.component';
 import { TelegramBotService } from './services/telegram-bot.service';
 import { SnackBarService } from './services/snack-bar.service';
+import { _PrintService } from './services/_print.service';
 
 @Component({
   selector: 'app-root',
@@ -26,6 +27,7 @@ export class AppComponent {
     private localeStorage: _LocalStorageService,
     private telegramBotService: TelegramBotService,
     private snackBarService: SnackBarService,
+    private printService: _PrintService,
     public dialog: MatDialog,
   ) {
     this._loadingPage();
@@ -90,7 +92,11 @@ export class AppComponent {
       text: subject + '\n' + message + '\n' + name + '\n' + email,
       parse_mode: 'Markdown'
     }).subscribe(res => {
-      this.snackBarService.showTopRight('تم الإرسال',);
+      this.snackBarService.success('تم الإرسال',);
     })
+  }
+
+  printCv() {
+    this.printService.printCv(this.me);
   }
 }

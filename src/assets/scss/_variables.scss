@@ -4,11 +4,11 @@
 
 /* You can add global styles to this file, and also import other style files */
 
-@font-face {
-    font-family: "Bukra-Regular";
-    /* ../../webfonts/DroidKufi-Regular.ttf */
-    src: url("../fonts/29LTBukraRegular3.otf") format("truetype");
-}
+// @font-face {
+//     font-family: "Bukra-Regular";
+//     /* ../../webfonts/DroidKufi-Regular.ttf */
+//     src: url("../fonts/29LTBukraRegular3.otf") format("truetype");
+// }
 
 //Old Variables
 // $primary-color: #3695A1;//#3d535f - #3695A1
@@ -21,7 +21,7 @@ $primary-color: #f6f6f6; //#3d535f - #3695A1
 $accent-color: #f9eee3; //4AC0EE#7f00ff #A16537 #304FFE
 $warn-color: #957242; //FFC220#FCF182
 
-$alyahya-font: "Bukra-Regular";
+// $alyahya-font: "Bukra-Regular";
 $basic-color: #fff;
 $basic-color-2: #000;
 $basic-color-light: lighten($basic-color, 5%);
