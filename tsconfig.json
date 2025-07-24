@@ -9,7 +9,7 @@
     "baseUrl": "./",
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
-    "strict": true,        
+    "strict": true,
     "strictNullChecks": false,
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": false,
@@ -30,6 +30,7 @@
       "dom"
     ],
     "allowSyntheticDefaultImports": true,
+    "esModuleInterop": true,
     "noImplicitAny": false
   },
   "angularCompilerOptions": {
