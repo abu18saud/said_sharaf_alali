@@ -4,6 +4,7 @@ import { TranslateService } from '@ngx-translate/core';
 import { SnackBarService } from './snack-bar.service';
 import { DatePipe } from '@angular/common';
 import { _LocalStorageService } from './_local-storage.service';
+import { PdfExportService } from './pdf-export.service';
 
 @Injectable({
     providedIn: 'root'
@@ -31,6 +32,7 @@ export class _PrintService {
         private localStorageService: _LocalStorageService,
         public translateService: TranslateService,
         private snackBarService: SnackBarService,
+        private pdfExportService: PdfExportService
     ) {
         this.lang = this.localStorageService.getLanguageCode() ? this.localStorageService.getLanguageCode() : 'ar';
     }
@@ -62,7 +64,7 @@ export class _PrintService {
         }, 500);
 
 
-        setTimeout(() => {
+        setTimeout(async () => {
             let printDate = new Date();
             const newContent2 = `
             <!DOCTYPE html>
@@ -626,8 +628,10 @@ export class _PrintService {
 
 `;
             this.createAndReplaceIframe(newContent2);
+            // await this.pdfExportService.exportHtmlToPdf(newContent2, 'filename.pdf');
 
-        }, 2000);
+
+        }, 1000);
 
     }
 

@@ -1,5 +1,5 @@
 import { Pipe, PipeTransform } from '@angular/core';
-import * as moment from 'moment';
+const moment = require('moment');
 
 @Pipe({
   name: 'getMoment',

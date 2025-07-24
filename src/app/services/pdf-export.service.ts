@@ -77,6 +77,8 @@ export class PdfExportService {
       tempDiv.style.position = 'absolute';
       tempDiv.style.left = '-9999px';
       tempDiv.style.top = '-9999px';
+      tempDiv.style.direction = 'rtl';
+
       document.body.appendChild(tempDiv);
 
       // التقاط الصورة
