@@ -74,10 +74,10 @@ export class PdfExportService {
       // إنشاء عنصر مؤقت
       const tempDiv = document.createElement('div');
       tempDiv.innerHTML = htmlContent;
-      tempDiv.style.position = 'absolute';
-      tempDiv.style.left = '-9999px';
-      tempDiv.style.top = '-9999px';
-      tempDiv.style.direction = 'rtl';
+      // tempDiv.style.position = 'absolute';
+      // tempDiv.style.left = '-9999px';
+      // tempDiv.style.top = '-9999px';
+      // tempDiv.style.direction = 'rtl';
 
       document.body.appendChild(tempDiv);
 
@@ -86,7 +86,7 @@ export class PdfExportService {
         scale: options.scale || 2,
         useCORS: true,
         allowTaint: true,
-        backgroundColor: options.backgroundColor || '#ffffff'
+        // backgroundColor: options.backgroundColor || '#ffffff'
       });
 
       // حذف العنصر المؤقت

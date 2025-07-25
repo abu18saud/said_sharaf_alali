@@ -7,6 +7,7 @@
         "EDUCATION": "Education",
         "GALLERY": "Gallery",
         "ACHIEVEMENTS": "Achievements",
+        "FEATURED_ACHIEVEMENTS": "Featured Achievements",
         "ACHIEVEMENTS_AND_CERTIFICATES": "Achievements & Certificates",
         "PROJECTS": "Projects",
         "FEATURED_PROJECTS": "Featured Projects",
@@ -54,6 +55,8 @@
         "ENGLISH": "English (Proficient)"
     },
     "LABELS": {
+        "PROJECTS":"Projects",
+        "ACHIEVEMENTS":"Achievements",
         "SCAN_QR": "Scan the QR to learn more",
         "LANGUAGES": "Languages",
         "KEY_CONTRIBUTIONS": "Key Contributions",

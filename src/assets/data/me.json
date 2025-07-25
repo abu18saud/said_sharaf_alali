@@ -2,6 +2,7 @@
     "name_ar": "شرف بن أحمد محمد العلي",
     "name_en": "Sharaf Ahmed Al-Ali",
     "profile_picture": "assets/img/pic.jpeg",
+    "qr": "https://sharaf-al-ali.netlify.app/assets/img/qr.png",
     "online_profile_picture": "https://sharaf-al-ali.netlify.app/assets/img/pic.jpeg",
     "resume_file": "",
     "gender": "MALE",
@@ -65,18 +66,15 @@
         {
             "name_ar": "مدير العلاقات العامة والتواصل المؤسسي في جمعية سند",
             "name_en": "PR & Corporate Communications Manager at Sanad Association"
-        },
-        {
-            "name_ar": "إدارة العلاقات العامة بميدان فروسية الأحساء سابقاً",
-            "name_en": "Former PR Manager at Al-Ahsa Equestrian Club"
         }
     ],
     "achievements": [
         {
             "name_ar": "عضو العلاقات العامة بنادي الاتفاق",
             "name_en": "Public Relations Member, Al-Ettifaq Club",
-            "certified_ar": "",
-            "certified_en": "",
+            "is_featured": false,
+            "certified_ar": "نادي الإتفاق",
+            "certified_en": "Al-Ettifaq Club",
             "category": "FOOTBALL_PARTICIPATIONS",
             "dated": "03/27/2003",
             "start_date": "1424",
@@ -96,6 +94,7 @@
         {
             "name_ar": "رئيس اللجنة المنظمة لدورات سمو الأمير فيصل بن فهد رحمه الله لفرق الحواري بالأحساء",
             "name_en": "Head of the Organizing Committee for HRH Prince Faisal bin Fahd's Tournaments for Neighborhood Teams in Al-Ahsa",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -116,8 +115,9 @@
         {
             "name_ar": "رئيس اللجنة المنظمة لدورات نادي الاتفاق لفرق حواري الأحساء (حسانا أجمل)",
             "name_en": "Head of the Organizing Committee for Al-Ettifaq Club Tournaments for Al-Ahsa Neighborhood Teams (Hasana Ajmal)",
-            "certified_ar": "",
-            "certified_en": "",
+            "is_featured": false,
+            "certified_ar": "نادي الإتفاق",
+            "certified_en": "Al-Ettifaq Club",
             "category": "FOOTBALL_PARTICIPATIONS",
             "dated": "01/10/2011",
             "dated_hijri": "1433",
@@ -136,8 +136,9 @@
         {
             "name_ar": "عضو اللجنة التنظيمية بملعب مدينة الأمير عبدالله بن جلوي الرياضية بالأحساء - مشرف المقصورة الرئيسية",
             "name_en": "Member of the Organizing Committee at Prince Abdullah bin Jalawi Sports City Stadium in Al-Ahsa - Main Box Supervisor",
-            "certified_ar": "",
-            "certified_en": "",
+            "is_featured": false,
+            "certified_ar": "ملعب مدينة الأمير عبدالله بن جلوي الرياضية بالأحساء",
+            "certified_en": "Prince Abdullah bin Jalawi Sports City Stadium in Al-Ahsa",
             "category": "FOOTBALL_PARTICIPATIONS",
             "dated": "12/07/2010",
             "dated_hijri": "1432",
@@ -156,6 +157,7 @@
         {
             "name_ar": "عضو اللجنة التنظيمية بنادي الفتح في دوري أبطال آسيا بمدينة الأمير عبدالله بن جلوي الرياضية بالأحساء",
             "name_en": "Member of the Organizing Committee at Al-Fateh Club in the AFC Champions League at Prince Abdullah bin Jalawi Sports City in Al-Ahsa",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -177,6 +179,7 @@
         {
             "name_ar": "مشرف منظم في دوري عبداللطيف جميل في المنطقة الشرقية من قِبل (شركة 360 التجارية)",
             "name_en": "Organizing Supervisor in Abdul Latif Jameel League in the Eastern Province by (360 Commercial Company)",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -198,6 +201,7 @@
         {
             "name_ar": "مشرف إسناد الأمير محمد بن فهد بالدمام",
             "name_en": "Prince Mohammed bin Fahd Support Supervisor in Dammam",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -219,6 +223,7 @@
         {
             "name_ar": "مشرف في تنظيم المقصورة الرئيسية بمدينة الأمير سعود بن جلوي الرياضية بالخبر",
             "name_en": "Supervisor in Organizing the Main Box at Prince Saud bin Jalawi Sports City in Khobar",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -240,6 +245,7 @@
         {
             "name_ar": "رئيس لجنة العلاقات العامة بالمجلس الاستشاري لرابطة فرق الأحياء بمحافظة الأحساء",
             "name_en": "Head of the Public Relations Committee at the Advisory Council of the Neighborhood Teams Association in Al-Ahsa Governorate",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -261,6 +267,7 @@
         {
             "name_ar": "المشرف العام على إقامة كرنفال بطولة فريق الأجيال الرمضانية بالمبرز والمقامة على أرض الحضارات (جبل القارة)",
             "name_en": "General Supervisor of the Al-Agyal Ramadan Team Tournament Carnival in Al-Mubarraz, held at the Land of Civilizations (Jabal Al-Qarah)",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -281,6 +288,7 @@
         {
             "name_ar": "التطوع في مجال إدارة وتنظيم الفعاليات الرياضية",
             "name_en": "Volunteering in Sports Event Management and Organization",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -301,6 +309,7 @@
         {
             "name_ar": "حضور لقاء إصابات كرة القدم وطرق إسعافها",
             "name_en": "Attended a meeting on Football Injuries and First Aid Methods",
+            "is_featured": false,
             "certified_ar": "أكاديمية التفوق الرياضبة بالشراكة مع حي المسفلة",
             "certified_en": "Al-Tafawuq Sports Academy in partnership with Al-Misfalah District",
             "category": "FOOTBALL_PARTICIPATIONS",
@@ -321,6 +330,7 @@
         {
             "name_ar": "رئيس لجنة العلاقات العامة والحكومية للاستثمار والدعم بميدان الفروسية بالأحساء",
             "name_en": "Head of Public and Governmental Relations Committee for Investment and Support at Al-Ahsa Equestrian Field",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "EQUESTRIAN_PARTICIPATIONS",
@@ -342,6 +352,7 @@
         {
             "name_ar": "عضو ممثل إدارة ميدان الفروسية بالأحساء في أثناء المشاركة في دورة كأس عز الخيل والمقامة بمنتجع ىنوفا بالرياض",
             "name_en": "Member Representing Al-Ahsa Equestrian Field Management during Participation in the Ez Al-Khail Cup الدوره held at Anova Resort in Riyadh",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "EQUESTRIAN_PARTICIPATIONS",
@@ -363,6 +374,7 @@
         {
             "name_ar": "مندوب إدارة ميدان الفروسية بالأحساء ضمن اللجنة المشكلة من إمارة محافظة الأحساء للوقوف على التعديات والمخالفات بميدان الفروسية بالأحساء",
             "name_en": "Representative of Al-Ahsa Equestrian Field Management within the Committee formed by Al-Ahsa Governorate Emirate to address encroachments and violations at Al-Ahsa Equestrian Field",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "EQUESTRIAN_PARTICIPATIONS",
@@ -383,6 +395,7 @@
         {
             "name_ar": "المساهمة في عملية استخراج صك ميدان الفروسية بالأحساء وكذلك عملية تصنيف الميدان للفئة (أ)",
             "name_en": "Contribution to the process of obtaining the title deed for Al-Ahsa Equestrian Field and the classification of the field to Category (A)",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "EQUESTRIAN_PARTICIPATIONS",
@@ -404,6 +417,7 @@
         {
             "name_ar": "ورشة التدريب (تطوير مهارات موظفي الاستقبال في الإيواء السياحي)",
             "name_en": "Training Workshop (Developing Reception Staff Skills in Tourist Accommodation)",
+            "is_featured": false,
             "certified_ar": "الهيئة العامة للسياحة والتراث الوطني",
             "certified_en": "Saudi Commission for Tourism and National Heritage",
             "category": "TOURISM_PARTICIPATIONS",
@@ -424,6 +438,7 @@
         {
             "name_ar": "دورة تدريب الأمن والسلامة في القطاع السياحي",
             "name_en": "Safety and Security Training Course in the Tourism Sector",
+            "is_featured": false,
             "certified_ar": "الهيئة العامة للسياحة والتراث الوطني",
             "certified_en": "Saudi Commission for Tourism and National Heritage",
             "category": "TOURISM_PARTICIPATIONS",
@@ -444,6 +459,7 @@
         {
             "name_ar": "دورة الأمن والسلامة في القطاع السياحي",
             "name_en": "Safety and Security Course in the Tourism Sector",
+            "is_featured": true,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -464,6 +480,7 @@
         {
             "name_ar": "دورة تدريب في العلاقات العامة والمراسيم (البروتوكول) في القطاع السياحي",
             "name_en": "Training Course in Public Relations and Protocol in the Tourism Sector",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "TOURISM_PARTICIPATIONS",
@@ -484,6 +501,7 @@
         {
             "name_ar": "دورة تطوير قدرات ومهارات العاملين في التسويق السياحي",
             "name_en": "Course on Developing Capabilities and Skills of Tourism Marketing Workers",
+            "is_featured": true,
             "certified_ar": "",
             "certified_en": "",
             "category": "TOURISM_PARTICIPATIONS",
@@ -504,6 +522,7 @@
         {
             "name_ar": "دورة مفهوم وأهمية الجودة في الخدمات السياحية",
             "name_en": "Course on the Concept and Importance of Quality in Tourism Services",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -524,6 +543,7 @@
         {
             "name_ar": "دورة العلاقات العامة والمراسم البروتوكول",
             "name_en": "Public Relations and Protocol Course",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -544,6 +564,7 @@
         {
             "name_ar": "الضيافة السعودية لموظفي القطاعات الحكومية والخاصة في المطارات",
             "name_en": "Saudi Hospitality for Government and Private Sector Employees in Airports",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -564,6 +585,7 @@
         {
             "name_ar": "الضيافة السعودية لموظفي قطاعات وزارة الداخلية",
             "name_en": "Saudi Hospitality for Ministry of Interior Sector Employees",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -584,6 +606,7 @@
         {
             "name_ar": "الضيافة السعودية لموظفي المكاتب الأمامية في قطاع الإيواء السياحي",
             "name_en": "Saudi Hospitality for Front Office Staff in the Tourist Accommodation Sector",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -604,6 +627,7 @@
         {
             "name_ar": "دورة تنمية مهارات بائعي المنتجات السياحية",
             "name_en": "Course on Developing Skills of Tourism Product Salespeople",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -624,6 +648,7 @@
         {
             "name_ar": "دورة الإعلام السياحي",
             "name_en": "Tourism Media Course",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -644,6 +669,7 @@
         {
             "name_ar": "دورة تسويق الوجهات السياحية",
             "name_en": "Tourism Destination Marketing Course",
+            "is_featured": false,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -664,6 +690,7 @@
         {
             "name_ar": "البرنامج التدريبي إدارة الفعاليات",
             "name_en": "Events Management Training Program",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TOURISM_PARTICIPATIONS",
@@ -684,6 +711,7 @@
         {
             "name_ar": "دورة دور المنظم والمرشد في إثراء تجربة السياحية",
             "name_en": "Course on the Role of the Organizer and Guide in Enriching the Tourist Experience",
+            "is_featured": true,
             "certified_ar": "وزارة السياحة",
             "certified_en": "Ministry of Tourism",
             "category": "TOURISM_PARTICIPATIONS",
@@ -704,6 +732,7 @@
         {
             "name_ar": "وسام تحرير دولة الكويت من الدرجة الرابعة من أمير دولة الكويت",
             "name_en": "Kuwait Liberation Medal, Fourth Class, from the Amir of Kuwait",
+            "is_featured": false,
             "certified_ar": "أمير دولة الكويت",
             "certified_en": "Amir of Kuwait",
             "category": "AWARDS_AND_MEDALS",
@@ -724,6 +753,7 @@
         {
             "name_ar": "نوط الذكرى المئوية الأولى لتأسيس المملكة",
             "name_en": "Centennial Medal for the Establishment of the Kingdom",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -743,6 +773,7 @@
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الأولى",
             "name_en": "Military Service Medal, First Time",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -764,6 +795,7 @@
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الثانية",
             "name_en": "Military Service Medal, Second Time",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -785,6 +817,7 @@
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الثالثة",
             "name_en": "Military Service Medal, Third Time",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -806,6 +839,7 @@
         {
             "name_ar": "نوط الخدمة العسكرية للمرة الرابعة",
             "name_en": "Military Service Medal, Fourth Time",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -827,6 +861,7 @@
         {
             "name_ar": "نوط تمرين سيف عبدالله",
             "name_en": "Sword of Abdullah Exercise Medal",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -848,6 +883,7 @@
         {
             "name_ar": "نوط الإدارة العسكرية",
             "name_en": "Military Administration Medal",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -868,6 +904,7 @@
         {
             "name_ar": "نوط الإتقان",
             "name_en": "Excellence Medal",
+            "is_featured": false,
             "certified_ar": "وزارة الدفاع",
             "certified_en": "Ministry of Defense",
             "category": "AWARDS_AND_MEDALS",
@@ -888,6 +925,7 @@
         {
             "name_ar": "شهادة شكر وتقدير للمشاركة الفعالة في أنشطة المكتب الثقافية ومهرجان الطفل",
             "name_en": "Certificate of Appreciation for Active Participation in Cultural Office Activities and Children's Festival",
+            "is_featured": false,
             "certified_ar": "القسم الثقافي بمكتب الهيئة العامة للرياضة بالأحساء",
             "certified_en": "Cultural Department of the General Sports Authority Office in Al-Ahsa",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -908,6 +946,7 @@
         {
             "name_ar": "شهادة شكر من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
             "name_en": "Certificate of Thanks from His Excellency the Commander of the Seventh Engineering Support Group in the Eastern Province",
+            "is_featured": false,
             "certified_ar": "قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
             "certified_en": "Commander of the Seventh Engineering Support Group in the Eastern Province",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -928,6 +967,7 @@
         {
             "name_ar": "شهادة شكر من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
             "name_en": "Certificate of Thanks from His Excellency the Commander of the Seventh Engineering Support Group in the Eastern Province",
+            "is_featured": false,
             "certified_ar": "قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
             "certified_en": "Commander of the Seventh Engineering Support Group in the Eastern Province",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -948,6 +988,7 @@
         {
             "name_ar": "شهادة شكر وتقدير للمشاركة في لقاء الصفوة",
             "name_en": "Certificate of Appreciation for Participation in the Elite Meeting",
+            "is_featured": false,
             "certified_ar": "مدير الشؤون الصحية بمحافظة الأحساء",
             "certified_en": "Director of Health Affairs in Al-Ahsa Governorate",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -968,6 +1009,7 @@
         {
             "name_ar": "خطاب من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
             "name_en": "Letter from His Excellency the Commander of the Seventh Engineering Support Group in the Eastern Province",
+            "is_featured": false,
             "certified_ar": "قائد مجموعة الإسناد الهندسي السابعة بالشرقية",
             "certified_en": "Commander of the Seventh Engineering Support Group in the Eastern Province",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -988,6 +1030,7 @@
         {
             "name_ar": "شهادة شكر وتقدير للمشاركة في اللقاء المفتوح مع مسؤولي صحة الأحساء والشخصيات الفاعلة في المجتمع",
             "name_en": "Certificate of Appreciation for Participation in the Open Meeting with Al-Ahsa Health Officials and Active Community Figures",
+            "is_featured": false,
             "certified_ar": "مدير الشؤون الصحية بمحافظة الأحساء",
             "certified_en": "Director of Health Affairs in Al-Ahsa Governorate",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -1008,6 +1051,7 @@
         {
             "name_ar": "شهادة شكر من سعادة قائد مجموعة الإسناد الهندسي السابعة بالشرقية المكلف",
             "name_en": "Certificate of Thanks from His Excellency the Acting Commander of the Seventh Engineering Support Group in the Eastern Province",
+            "is_featured": false,
             "certified_ar": "قائد مجموعة الإسناد الهندسي السابعة بالشرقية المكلف",
             "certified_en": "Acting Commander of the Seventh Engineering Support Group in the Eastern Province",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -1028,6 +1072,7 @@
         {
             "name_ar": "خطاب شكر من سعادة قائد سرية القيادة بمجموعة الإسناد الهندسي السابعة بالشرقية",
             "name_en": "Letter of Thanks from His Excellency the Commander of the Command Company of the Seventh Engineering Support Group in the Eastern Province",
+            "is_featured": false,
             "certified_ar": "قائد سرية القيادة بمجموعة الإسناد الهندسي السابعة بالشرقية",
             "certified_en": "Commander of the Command Company of the Seventh Engineering Support Group in the Eastern Province",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -1048,6 +1093,7 @@
         {
             "name_ar": "شهادة شكر من المجلس البلدي للمشاركة في إقامة الفعاليات الرياضية",
             "name_en": "Certificate of Thanks from the Municipal Council for Participation in Organizing Sports Events",
+            "is_featured": false,
             "certified_ar": "المجلس البلدي",
             "certified_en": "Municipal Council",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -1068,6 +1114,7 @@
         {
             "name_ar": "نائب رئيس لجنة أصدقاء الصحة بمديرية الشؤون الصحية بالأحساء (مركز صحي الفضول)",
             "name_en": "Vice Chairman of the Friends of Health Committee at Al-Ahsa Health Affairs Directorate (Al-Fodhool Health Center)",
+            "is_featured": false,
             "certified_ar": "",
             "certified_en": "",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -1087,6 +1134,7 @@
         {
             "name_ar": "شهادة شكر وتقدير إعداد وتنسيق موقع الاحتفال الرئيسي لجامعة الدول العربية",
             "name_en": "Certificate of Appreciation for Preparing and Coordinating the Main Celebration Site for the Arab League",
+            "is_featured": false,
             "certified_ar": "المنظمة العربية للسياحة",
             "certified_en": "Arab Tourism Organization",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -1107,6 +1155,7 @@
         {
             "name_ar": "خطاب شكر للمشاركة في اللقاء السنوي السادس عشر للجهات الأهلية (غير الربحية) بالمنطقة الشرقية",
             "name_en": "Letter of Thanks for Participation in the Sixteenth Annual Meeting of Non-Profit Organizations in the Eastern Province",
+            "is_featured": false,
             "certified_ar": "جمعية البر بالمنطقة الشرقية",
             "certified_en": "Al-Birr Society in the Eastern Region",
             "category": "CERTIFICATES_OF_APPRECIATION",
@@ -1127,6 +1176,7 @@
         {
             "name_ar": "دورة برامج إسعافات أولية",
             "name_en": "First Aid Programs Course",
+            "is_featured": false,
             "certified_ar": "مستشفى الجفر العام بمديرية الشؤون الصحية بالأحساء",
             "certified_en": "Al-Jafr General Hospital, Al-Ahsa Health Affairs Directorate",
             "category": "TRAINING_AND_COURSES",
@@ -1147,6 +1197,7 @@
         {
             "name_ar": "دورة برامج إسعافات أولية وإنعاش القلب الرئوي (الكل مسعف)",
             "name_en": "First Aid and CPR Programs Course (Everyone is a Paramedic)",
+            "is_featured": false,
             "certified_ar": "مستشفى الموسى بمديرية الشؤون الصحية بالأحساء",
             "certified_en": "Al-Mousa Hospital, Al-Ahsa Health Affairs Directorate",
             "category": "TRAINING_AND_COURSES",
@@ -1167,6 +1218,7 @@
         {
             "name_ar": "دورة لغة إنجليزية، المستوى الأساسي",
             "name_en": "English Language Course, Basic Level",
+            "is_featured": false,
             "certified_ar": "معهد إشراقة النور لتعليم اللغة الإنجليزية",
             "certified_en": "Ishraqat Al-Noor Institute for English Language Education",
             "category": "TRAINING_AND_COURSES",
@@ -1188,6 +1240,7 @@
         {
             "name_ar": "شهادة حضور ملتقى الأنظمة العقارية",
             "name_en": "Certificate of Attendance, Real Estate Systems Forum",
+            "is_featured": false,
             "certified_ar": "الغرفة التجارية بالأحساء",
             "certified_en": "Al-Ahsa Chamber of Commerce",
             "category": "TRAINING_AND_COURSES",
@@ -1208,6 +1261,7 @@
         {
             "name_ar": "عضو اللجنة المنظمة لإقامة ورشة عمل بعنوان الأمراض المتعلقة بشؤون الخيل",
             "name_en": "Member of the Organizing Committee for a Workshop on Horse-Related Diseases",
+            "is_featured": false,
             "certified_ar": "قسم الثروة الحيوانية بمديرية الزراعة بالأحساء",
             "certified_en": "Animal Resources Department, Al-Ahsa Directorate of Agriculture",
             "category": "TRAINING_AND_COURSES",
@@ -1228,6 +1282,7 @@
         {
             "name_ar": "ورشة عمل للإدارة العامة للدفاع المدني بالأحساء بعنوان (التشغيل الجزئي لمعرض مراكز الدفاع المدني) من قبل المتطوعين",
             "name_en": "Workshop for the General Directorate of Civil Defense in Al-Ahsa titled (Partial Operation of Civil Defense Centers Exhibition) by Volunteers",
+            "is_featured": false,
             "certified_ar": "الإدارة العامة للدفاع المدني بالأحساء",
             "certified_en": "General Directorate of Civil Defense in Al-Ahsa",
             "category": "TRAINING_AND_COURSES",
@@ -1248,6 +1303,7 @@
         {
             "name_ar": "المشاركة في تنظيم فعاليات بيت المعرفة (قيادة آمنة- بيت السلامة المرورية) آرامكو السعودية",
             "name_en": "Participation in Organizing Knowledge House Events (Safe Driving - Traffic Safety House) Saudi Aramco",
+            "is_featured": false,
             "certified_ar": "آرامكو السعودية",
             "certified_en": "Saudi Aramco",
             "category": "TRAINING_AND_COURSES",
@@ -1269,6 +1325,7 @@
         {
             "name_ar": "المشاركة مع مديرية الزراعة بالأحساء في إنجاح فعالية أحساؤنا جميلة (2)",
             "name_en": "Participation with Al-Ahsa Directorate of Agriculture in the Success of Our Beautiful Al-Ahsa (2) Event",
+            "is_featured": false,
             "certified_ar": "مديرية الزراعة بالأحساء",
             "certified_en": "Al-Ahsa Directorate of Agriculture",
             "category": "TRAINING_AND_COURSES",
@@ -1289,6 +1346,7 @@
         {
             "name_ar": "البرنامج التدريبي (التطوع الصحي المجتمعي)",
             "name_en": "Training Program (Community Health Volunteering)",
+            "is_featured": false,
             "certified_ar": "الهيئة السعودية للتخصصات الصحية",
             "certified_en": "Saudi Commission for Health Specialties",
             "category": "TRAINING_AND_COURSES",
@@ -1309,6 +1367,7 @@
         {
             "name_ar": "دورة مهارات التعامل مع الرؤساء",
             "name_en": "Course on Skills for Dealing with Superiors",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TRAINING_AND_COURSES",
@@ -1329,6 +1388,7 @@
         {
             "name_ar": "البرنامج التدريبي الإشراف الإداري",
             "name_en": "Administrative Supervision Training Program",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TRAINING_AND_COURSES",
@@ -1349,6 +1409,7 @@
         {
             "name_ar": "البرنامج التدريبي إدارة التغيير",
             "name_en": "Change Management Training Program",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TRAINING_AND_COURSES",
@@ -1369,6 +1430,7 @@
         {
             "name_ar": "البرنامج التدريبي تخطيط الموارد البشرية",
             "name_en": "Human Resources Planning Training Program",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TRAINING_AND_COURSES",
@@ -1389,6 +1451,7 @@
         {
             "name_ar": "البرنامج التدريبي الجوانب القانونية في الموارد البشرية",
             "name_en": "Training Program: Legal Aspects in Human Resources",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TRAINING_AND_COURSES",
@@ -1409,6 +1472,7 @@
         {
             "name_ar": "البرنامج التدريبي مهارات بناء فرق العمل",
             "name_en": "Training Program: Team Building Skills",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TRAINING_AND_COURSES",
@@ -1429,6 +1493,7 @@
         {
             "name_ar": "البرنامج التدريبي جرائم المعلوماتية",
             "name_en": "Training Program: Cybercrimes",
+            "is_featured": false,
             "certified_ar": "معهد الإدارة العامة",
             "certified_en": "Institute of Public Administration",
             "category": "TRAINING_AND_COURSES",
@@ -1449,6 +1514,7 @@
         {
             "name_ar": "برنامج السلامة في البحث والإنقاذ",
             "name_en": "Safety Program in Search and Rescue",
+            "is_featured": false,
             "certified_ar": "جمعية العمل التطوعي",
             "certified_en": "Voluntary Work Association",
             "category": "TRAINING_AND_COURSES",
@@ -1469,6 +1535,7 @@
         {
             "name_ar": "حضور لقاء دور العلاقات العامة في إدارة الأزمة",
             "name_en": "Attended a meeting on the Role of Public Relations in Crisis Management",
+            "is_featured": false,
             "certified_ar": "مؤسسة عريب",
             "certified_en": "Areeb",
             "category": "TRAINING_AND_COURSES",
@@ -1489,6 +1556,7 @@
         {
             "name_ar": "وثيقة العمل الحر - الفنون والترفيه",
             "name_en": "Freelance Document - Arts and Entertainment",
+            "is_featured": false,
             "certified_ar": "وزارة العمل والتنمية الاجتماعية",
             "certified_en": "**Ministry of Labor and Social Development**",
             "category": "GENERAL_ACHIEVEMENTS",
@@ -1509,6 +1577,7 @@
         {
             "name_ar": "تكليفي مديراً للعلاقات العمة والحكومية لرابطة فرق الأحساء",
             "name_en": "Appointed Director of Public and Governmental Relations for Al-Ahsa Teams Association",
+            "is_featured": false,
             "certified_ar": "رابطة فرق الأحياء لكرة القدم",
             "certified_en": "NLF",
             "category": "GENERAL_ACHIEVEMENTS",

@@ -7,6 +7,7 @@
         "EDUCATION": "التعليم",
         "GALLERY": "معرض الوسائط",
         "ACHIEVEMENTS": "الإنجازات",
+        "FEATURED_ACHIEVEMENTS": "أبرز الإنجازات",
         "ACHIEVEMENTS_AND_CERTIFICATES": "الإنجازات والشهادات",
         "PROJECTS": "المشاريع",
         "FEATURED_PROJECTS": "المشاريع البارزة",
@@ -54,7 +55,9 @@
         "ENGLISH": "الإنجليزية (أجيد)"
     },
     "LABELS": {
-        "SCAN_QR":"للتعرّف عليّ بشكل أوسع، يُرجى مسح رمز QR",
+        "PROJECTS": "من المشاريع",
+        "ACHIEVEMENTS": "من الإنجازات",
+        "SCAN_QR": "للتعرّف عليّ بشكل أوسع، يُرجى مسح رمز QR",
         "LANGUAGES": "اللغات",
         "KEY_CONTRIBUTIONS": "أبرز المساهمات",
         "PROFESSIONAL_PROFILE": "ملف شخصي",

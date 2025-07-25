@@ -74,6 +74,17 @@ export class _PrintService {
             });
         }, 500);
 
+        let featuredAchievements = '';
+        setTimeout(() => {
+            data.achievements.filter((item: any) => item.is_featured === true).forEach((element: any) => {
+                featuredAchievements += `
+                <div class='project-item'>
+                    <h4>${this.lang === 'ar' ? element.name_ar : element.name_en}</h4>
+                    <p>${element.dated} - ${element.dated_hijri}</p>
+                </div>`;
+            });
+        }, 500);
+
 
         setTimeout(async () => {
             let printDate = new Date();
@@ -99,6 +110,7 @@ export class _PrintService {
             background: #f5f5f5;
             color: #333;
             line-height: 1.4;
+            direction:'${this.lang === 'ar' ? 'rtl' : 'ltr'}' !important;
         }
 
         .container {
@@ -328,15 +340,15 @@ export class _PrintService {
 
         .education-item {
             position: relative;
-            padding-right: 20px;
+            ${this.lang === 'ar' ? 'padding-right' : 'padding-left'}: 20px;
             margin-bottom: 15px;
-            border-right: 2px solid #ddd;
+            ${this.lang === 'ar' ? 'border-right' : 'border-left'}: 2px solid #ddd;
         }
 
         .education-item::before {
             content: '';
             position: absolute;
-            right: -5px;
+            ${this.lang === 'ar' ? 'right' : 'left'}: -5px;
             top: 5px;
             width: 8px;
             height: 8px;
@@ -485,8 +497,19 @@ export class _PrintService {
             display: flex;
             align-items: center;
             justify-content: center;
-            background-image: url('data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' fill='white'/><g fill='%23000'><rect x='10' y='10' width='30' height='30'/><rect x='60' y='10' width='30' height='30'/><rect x='10' y='60' width='30' height='30'/><rect x='15' y='15' width='20' height='20' fill='white'/><rect x='65' y='15' width='20' height='20' fill='white'/><rect x='15' y='65' width='20' height='20' fill='white'/><rect x='20' y='20' width='10' height='10'/><rect x='70' y='20' width='10' height='10'/><rect x='20' y='70' width='10' height='10'/><rect x='50' y='20' width='5' height='5'/><rect x='50' y='30' width='5' height='5'/><rect x='50' y='40' width='5' height='5'/><rect x='50' y='50' width='5' height='5'/><rect x='60' y='50' width='5' height='5'/><rect x='70' y='50' width='5' height='5'/><rect x='80' y='50' width='5' height='5'/><rect x='50' y='60' width='5' height='5'/><rect x='60' y='60' width='5' height='5'/><rect x='80' y='60' width='5' height='5'/><rect x='50' y='70' width='5' height='5'/><rect x='70' y='70' width='5' height='5'/><rect x='50' y='80' width='5' height='5'/><rect x='60' y='80' width='5' height='5'/><rect x='70' y='80' width='5' height='5'/><rect x='80' y='80' width='5' height='5'/></g></svg>');
-            background-size: contain;
+            overflow: hidden;
+            /* مهم جدًا لضمان تقطيع الزوائد */
+            position: relative;
+        }
+
+        .qr-code img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            /* لتعبئة الدائرة بدون تشويه */
+            border-radius: 2%;
+            /* اختياري إذا أردت مزيدًا من التأكيد */
+            display: block;
         }
 
         .qr-text {
@@ -523,7 +546,7 @@ export class _PrintService {
 </head>
 
 <body>
-    <div class='container'>
+    <div dir=${this.lang === 'ar' ? 'rtl' : 'ltr'} class='container'>
         <div class='left-section'>
             <div class='profile-photo'>
             <img src='${data.online_profile_picture}' />
@@ -535,15 +558,15 @@ export class _PrintService {
                 <h3>${this.translateService.instant('LABELS.PROFESSIONAL_PROFILE')}</h3>
                 <div class='contact-item'>
                     <div class='contact-icon'>📱</div>
-                    <span>${data.mobiles[0]}</span>
+                    <span dir='ltr'>${data.mobiles[0]}</span>
                 </div>
                 <div class='contact-item'>
                     <div class='contact-icon'>📞</div>
-                    <span>${data.phones[0]}</span>
+                    <span dir='ltr'>${data.phones[0]}</span>
                 </div>                
                 <div class='contact-item'>
                     <div class='contact-icon'>📧</div>
-                    <span>${data?.emails[0]}</span>
+                    <span dir='ltr'>${data?.emails[0]}</span>
                 </div>
                 <div class='contact-item'>
                     <div class='contact-icon'>📍</div>
@@ -579,7 +602,9 @@ export class _PrintService {
             <div class='text-white text-center' style='font-size: 12px; text-align: center; margin: 5px 0 5px 0;'>
             ${this.translateService.instant('LABELS.SCAN_QR')}
             </div>
-            <div class='qr-code'></div>
+            <div class='qr-code'>
+            <img src='${data.qr}' />
+            </div>
         </div>
 
         <div class='right-section'>
@@ -594,8 +619,8 @@ export class _PrintService {
             </div>
 
             <div class='projects-section'>
-                <h2>${this.translateService.instant('MAIN_MENU.FEATURED_PROJECTS')}</h2>
-                ${featuredProjects}
+                <h2>${this.translateService.instant('MAIN_MENU.FEATURED_ACHIEVEMENTS')}</h2>
+                ${featuredAchievements}
             </div>
 
             <div class='stats-section'>
@@ -603,17 +628,17 @@ export class _PrintService {
                 <div class='stats-grid'>
                     <div class='stat-item'>
                         <div class='stat-icon'>🚀</div>
-                        <div class='stat-number'>${data.projects?.length? data.projects?.length:'0'}</div>
-                        <div class='stat-label'>مشروعاً</div>
+                        <div class='stat-number'>${data.projects?.length ? data.projects?.length : '0'}</div>
+                        <div class='stat-label'>${this.translateService.instant('LABELS.PROJECTS')}</div>
                     </div>
                     <div class='stat-item'>
                         <div class='stat-icon'>🏆</div>
-                        <div class='stat-number'>${data.achievements?.length? data.achievements?.length:'0'}</div>
-                        <div class='stat-label'>إنجازاً</div>
+                        <div class='stat-number'>${data.achievements?.length ? data.achievements?.length : '0'}</div>
+                        <div class='stat-label'>${this.translateService.instant('LABELS.ACHIEVEMENTS')}</div>
                     </div>
                 </div>
             </div>
-            <div class='designer-credit'>تصميم : عبدالله السالم</div>
+            <div class='designer-credit'>${this.translateService.instant('LABELS.DEVELOPED_BY') + ': ' + this.translateService.instant('LABELS.DEVELOPER_NAME')}</div>
             <!-- <div class='qr-section'>
                 <div class='qr-code'></div>
                 <div class='qr-text'>يرجى زيارة موقع الويب الخاص بي لمعرفة</div>
@@ -623,14 +648,10 @@ export class _PrintService {
         </div>
     </div>
 </body>
-
 </html>
-
 `;
             this.createAndReplaceIframe(newContent2);
             // await this.pdfExportService.exportHtmlToPdf(newContent2, 'filename.pdf');
-
-
         }, 1000);
 
     }
