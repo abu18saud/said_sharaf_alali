@@ -63,6 +63,17 @@ export class _PrintService {
             });
         }, 500);
 
+        let featuredProjects = '';
+        setTimeout(() => {
+            data.projects.filter((item: any) => item.is_featured === true).forEach((element: any) => {
+                featuredProjects += `
+                <div class='project-item'>
+                    <h4>${this.lang === 'ar' ? element.name_ar : element.name_en}</h4>
+                    <p>${element.year_gregorian} - ${element.year_hijri}</p>
+                </div>`;
+            });
+        }, 500);
+
 
         setTimeout(async () => {
             let printDate = new Date();
@@ -432,7 +443,7 @@ export class _PrintService {
 
         .stat-item {
             text-align: center;
-            padding: 15px;
+            padding: 5px;
             background: #f8f9fa;
             border-radius: 8px;
             flex: 1;
@@ -583,32 +594,21 @@ export class _PrintService {
             </div>
 
             <div class='projects-section'>
-                <h2>المشاريع البارزة</h2>
-                <div class='project-item'>
-                    <h4>المساهمة في دوكمة ميدان فروسية الأحساء</h4>
-                    <p>وزيادة الدعم من 150 ألف إلى 750 ألف ريال لعام 1438هـ.</p>
-                </div>
-                <div class='project-item'>
-                    <h4>مشروع إنهاء إجراءات جميع التصاريح الرسمية</h4>
-                    <p>لمتنزه الشيباني (المشفر السياحي) لعام 1444هـ</p>
-                </div>
-                <div class='project-item'>
-                    <h4>المساهمة في عملية إنجاز بحيرة المشفر الصناعية</h4>
-                    <p>بمساحة 26 ألف متر مربع لعام 1447هـ</p>
-                </div>
+                <h2>${this.translateService.instant('MAIN_MENU.FEATURED_PROJECTS')}</h2>
+                ${featuredProjects}
             </div>
 
             <div class='stats-section'>
-                <h2>الإحصائيات</h2>
+                <h2>${this.translateService.instant('MAIN_MENU.RESUME_STATISTICS')}</h2>
                 <div class='stats-grid'>
                     <div class='stat-item'>
                         <div class='stat-icon'>🚀</div>
-                        <div class='stat-number'>15</div>
+                        <div class='stat-number'>${data.projects?.length? data.projects?.length:'0'}</div>
                         <div class='stat-label'>مشروعاً</div>
                     </div>
                     <div class='stat-item'>
                         <div class='stat-icon'>🏆</div>
-                        <div class='stat-number'>42</div>
+                        <div class='stat-number'>${data.achievements?.length? data.achievements?.length:'0'}</div>
                         <div class='stat-label'>إنجازاً</div>
                     </div>
                 </div>
