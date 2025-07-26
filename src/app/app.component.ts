@@ -21,6 +21,7 @@ export class AppComponent {
   activeFilter = 'ALL';
   _loading: boolean = false;
   loadingPage: boolean = true;
+  openMenu: boolean = false;
 
   constructor(private appService: AppService,
     private translateService: TranslateService,
@@ -35,6 +36,16 @@ export class AppComponent {
       this.me = res;
       this.featureds = res.projects.filter((item: any) => item.is_featured === true);
     });
+  }
+
+  toggleMenu(delay: boolean = false) {
+    if (delay) {
+      setTimeout(() => {
+        this.openMenu = !this.openMenu;
+      }, 500);
+    } else {
+      this.openMenu = !this.openMenu;
+    }
   }
 
   filteredItems() {

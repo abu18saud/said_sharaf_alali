@@ -24,20 +24,29 @@
                 <a href="#hobbies" class="nav-link hover:text-blue-600">{{'MAIN_MENU.HOBBIES' | translate}}</a>
                 <a href="#contact" class="nav-link hover:text-blue-600">{{'MAIN_MENU.CONTACT' | translate}}</a>
             </nav>
-            <button class="md:hidden text-blue-600" id="menu-toggle">
+            <button (click)="toggleMenu()" class="md:hidden text-blue-600" id="menu-toggle">
                 <i class="fas fa-bars text-2xl"></i>
             </button>
         </div>
         <!-- Mobile Menu -->
-        <div class="md:hidden hidden bg-white w-full py-2 px-4 shadow-lg" id="mobile-menu">
-            <a href="#about" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.ABOUT' | translate}}</a>
-            <a href="#experience" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.EXPERIENCE' | translate}}</a>
-            <a href="#education" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.EDUCATION' | translate}}</a>
-            <a href="#gallery" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.GALLERY' | translate}}</a>
-            <a href="#achievements" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.ACHIEVEMENTS' | translate}}</a>
-            <a href="#projects" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.PROJECTS' | translate}}</a>
-            <a href="#hobbies" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.HOBBIES' | translate}}</a>
-            <a href="#contact" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.CONTACT' | translate}}</a>
+        <div [class]="openMenu ? 'md:hidden bg-white w-full py-2 px-4 shadow-lg': 'md:hidden hidden bg-white w-full py-2 px-4 shadow-lg'"
+            id="mobile-menu">
+            <a (click)="toggleMenu(true)" href="#about" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.ABOUT' |
+                translate}}</a>
+            <a (click)="toggleMenu(true)" href="#experience"
+                class="block py-2 hover:text-blue-600">{{'MAIN_MENU.EXPERIENCE' | translate}}</a>
+            <a (click)="toggleMenu(true)" href="#education"
+                class="block py-2 hover:text-blue-600">{{'MAIN_MENU.EDUCATION' | translate}}</a>
+            <a (click)="toggleMenu(true)" href="#gallery" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.GALLERY' |
+                translate}}</a>
+            <a (click)="toggleMenu(true)" href="#achievements"
+                class="block py-2 hover:text-blue-600">{{'MAIN_MENU.ACHIEVEMENTS' | translate}}</a>
+            <a (click)="toggleMenu(true)" href="#projects" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.PROJECTS'
+                | translate}}</a>
+            <a (click)="toggleMenu(true)" href="#hobbies" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.HOBBIES' |
+                translate}}</a>
+            <a (click)="toggleMenu(true)" href="#contact" class="block py-2 hover:text-blue-600">{{'MAIN_MENU.CONTACT' |
+                translate}}</a>
         </div>
     </header>
 
@@ -307,11 +316,13 @@
                                 <i [class]="lang === 'ar'? 'fas fa-layer-group ml-1' :'fas fa-layer-group mr-1'"></i>
                                 {{'ACHIEVEMENTS_FILTER.' + item.category | translate}}
                             </span>
-                            <span *ngIf="item.certified_ar" class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
+                            <span *ngIf="item.certified_ar"
+                                class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
                                 <i [class]="lang === 'ar'? 'fas fa-building ml-1' :'fas fa-building mr-1'"></i>
                                 {{lang === 'ar'? item.certified_ar : item.certified_en}}
                             </span>
-                            <span *ngIf="item.id" class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
+                            <span *ngIf="item.id"
+                                class="bg-blue-500 bg-opacity-30 px-3 py-1 rounded-full text-sm flex items-center">
                                 <i [class]="lang === 'ar'? 'fas fa-hashtag ml-1' :'fas fa-hashtag mr-1'"></i>
                                 {{item.id}}
                             </span>
