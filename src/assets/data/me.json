@@ -70,6 +70,28 @@
     ],
     "achievements": [
         {
+            "name_ar": "شهادة مدير العلاقات العامة والتواصل المؤسسي",
+            "name_en": "PR & Corporate Communications Manager Certificate",
+            "is_featured": false,
+            "certified_ar": "الهيئة العامة لتنظيم الإعلام",
+            "certified_en": "General Authority of Media Regulation",
+            "category": "GENERAL_ACHIEVEMENTS",
+            "dated": "08/17/2025",
+            "start_date": "23/02/1447",
+            "start_date_hijri": "1447",
+            "issue_date": "",
+            "expiry_date": "",
+            "expiry_date_hijri": "",
+            "id": "945289",
+            "file": "assets/certificates/32.pdf",
+            "url": "",
+            "certificate_url": "",
+            "code_url": "",
+            "video_url": "",
+            "certified_url": "",
+            "icon": "fas fa-id-badge text-5xl text-indigo-600"
+        },
+        {
             "name_ar": "عضو العلاقات العامة بنادي الاتفاق",
             "name_en": "Public Relations Member, Al-Ettifaq Club",
             "is_featured": false,
@@ -89,7 +111,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-futbol text-5xl text-green-600"
+            "icon": "fas fa-futbol text-5xl text-indigo-600"
         },
         {
             "name_ar": "رئيس اللجنة المنظمة لدورات سمو الأمير فيصل بن فهد رحمه الله لفرق الحواري بالأحساء",
@@ -110,7 +132,7 @@
             "code_url": "",
             "video_url": "",
             "certified_url": "",
-            "icon": "fas fa-clipboard-list text-5xl text-green-600"
+            "icon": "fas fa-clipboard-list text-5xl text-indigo-600"
         },
         {
             "name_ar": "رئيس اللجنة المنظمة لدورات نادي الاتفاق لفرق حواري الأحساء (حسانا أجمل)",
