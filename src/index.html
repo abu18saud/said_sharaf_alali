@@ -78,12 +78,98 @@
         ]
     }
     </script>
+  <style>
+    @keyframes pulse {
+
+      0%,
+      100% {
+        transform: scale(1);
+      }
+
+      50% {
+        transform: scale(1.05);
+      }
+    }
+
+    .dialog-animation {
+      animation: pulse 2s infinite;
+    }
+  </style>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 </head>
 
 <body class="bg-gray-50 text-gray-800">
+  <!-- Main Content -->
+  <div dir="rtl" css style="position: absolute; left: 50%; transform: translateX(-50%);"
+    class="min-h-screen flex items-center justify-center p-4">
+    <div class="max-w-2xl w-full">
+      <!-- Dialog -->
+      <div id="expiryDialog" class="bg-white rounded-xl shadow-2xl overflow-hidden dialog-animation" data-aos="zoom-in">
+        <!-- Header -->
+        <div class="bg-red-600 p-4 flex items-center">
+          <i data-feather="alert-triangle" class="text-white mr-2"></i>
+          <h2 class="text-white text-xl font-bold">تنبيه مهم</h2>
+        </div>
+
+        <!-- Body -->
+        <div class="p-6">
+          <div class="flex items-start mb-4">
+            <i data-feather="calendar" class="text-red-600 mr-3 mt-1"></i>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800">انتهاء الاستضافة المجانية</h3>
+              <p class="text-gray-600 mt-1">الاستضافة المجانية لهذا الموقع ستنتهي في تاريخ <span
+                  class="font-bold text-red-600">13 سبتمبر 2025</span> من قبل شركة Netlify</p>
+            </div>
+          </div>
+
+          <div class="flex items-start">
+            <i data-feather="alert-circle" class="text-yellow-600 mr-3 mt-1"></i>
+            <div>
+              <h3 class="text-lg font-semibold text-gray-800">إجراء عاجل مطلوب</h3>
+              <p class="text-gray-600 mt-1">يرجى سرعة السداد لتجنب إيقاف الخدمة وفقدان البيانات</p>
+            </div>
+          </div>
+
+          <div class="mt-6 bg-yellow-50 border-l-4 border-yellow-400 p-4">
+            <div class="flex">
+              <i data-feather="info" class="text-yellow-600 mr-3"></i>
+              <p class="text-yellow-700">للاستفسار أو المساعدة، يرجى التواصل مع الدعم الفني</p>
+            </div>
+          </div>
+        </div>
+
+        <!-- Footer -->
+        <div class="bg-gray-50 px-6 py-4 flex flex-col sm:flex-row justify-between items-center">
+          <button onclick="closeDialog()"
+            class="px-6 py-2 bg-gray-300 text-gray-700 rounded-lg hover:bg-gray-400 transition mb-2 sm:mb-0 w-full sm:w-auto">
+            إغلاق
+          </button>
+          <a href="https://www.netlify.com/support/" target="_blank"
+            class="px-6 py-2 bg-red-600 text-white rounded-lg hover:bg-red-700 transition w-full sm:w-auto">
+            التواصل مع الدعم <i data-feather="send" class="mr-2"></i>
+        </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+    feather.replace();
+
+    function closeDialog() {
+      document.getElementById('expiryDialog').classList.add('hidden');
+    }
+
+    function contactSupport() {
+      alert('سيتم توجيهك إلى صفحة الدعم الفني');
+      // window.location.href = '/contact';
+    }
+  </script>
+
+
+
   <app-root></app-root>
 
   <script>
